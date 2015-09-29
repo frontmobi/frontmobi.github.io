@@ -1,0 +1,177 @@
+.scrollToTop {
+    background-color: #ed7d31;
+}
+
+.scrollToTop:hover,
+.scrollToTop:focus {
+    background-color: #fff;
+    color: #ed7d31;
+    border: 1px solid #ed7d31;
+}
+
+.navbar-brand > span {
+    color: #ed7d31;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ed7d31;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ed7d31;
+}
+
+.slider_btn:hover,
+.slider_btn:focus {
+    border-color: #ed7d31;
+    color: #ed7d31;
+}
+
+.slides-pagination a {
+    border: 2px solid #ed7d31;
+}
+
+.heading h2 {
+    border-bottom: 11px solid #ed7d31;
+}
+
+.panel-title a:hover {
+    color: #ed7d31;
+}
+
+.panel-title a span {
+    color: #ed7d31;
+}
+
+.service_icon {
+    background-color: #ed7d31;
+}
+
+.single_service:hover .service_icon {
+    color: #ed7d31;
+    border: 2px solid #ed7d31;
+    background-color: #fff;
+}
+
+.single_service:hover .service_title {
+    color: #ed7d31;
+}
+
+.single_service > .service_title:after {
+    background-color: #ed7d31;
+}
+
+.heading h3 {
+    border-bottom: 5px solid #ed7d31;
+}
+
+.fa-2x {
+    color: #ed7d31;
+}
+
+.single_team span {
+    color: #ed7d31;
+}
+
+.team_social a:hover,
+.team_social a:focus {
+    background-color: #ed7d31;
+}
+
+.slick-prev,
+.slick-next {
+    background-color: #ed7d31;
+}
+
+.single_price .price {
+    background-color: #ed7d31;
+}
+
+.price_btn {
+    background-color: #ed7d31;
+    border: 1px solid #ed7d31;
+}
+
+.price_btn:hover {
+    color: #ed7d31 !important;
+}
+
+.business_price {
+    background-color: #ed7d31 !important;
+}
+
+.business_price .price_btn {
+    color: #ed7d31 !important;
+}
+
+.post_commentbox a:hover,
+.post_commentbox span:hover {
+    color: #ed7d31;
+}
+
+.read_more {
+    color: #ed7d31;
+}
+
+.read_more:hover,
+.read_more:focus {
+    border-bottom: 2px solid #ed7d31;
+}
+
+.testi_media .media-body span {
+    color: #ed7d31;
+}
+
+.testimonial_slider .slick-dots li.slick-active button {
+    background: none repeat scroll 0 0 #ed7d31;
+}
+
+.submit_btn {
+    background-color: #ed7d31;
+}
+
+.submit_btn:hover {
+    color: #ed7d31;
+    border-color: #ed7d31;
+}
+
+.form-control:focus {
+    border-color: #ed7d31;
+}
+
+.wagwep-container ul#portfolio-filter a:hover {
+    background-color: #ed7d31;
+}
+
+.wagwep-container ul#portfolio-filter li.current a {
+    background: #ed7d31;
+}
+
+.single_contact_feaured > i {
+    color: #ed7d31;
+}
+
+.subscr_btn {
+    background-color: #ed7d31;
+}
+
+.footer_left > p a {
+    color: #ed7d31;
+    font-weight: bold;
+}
+
+.social_nav li a:hover {
+    color: #ed7d31;
+    border-color: #ed7d31;
+}
+
+.panel-default .in {
+    border-color: #ed7d31;
+    border-left: 5px solid #ed7d31;
+}
+
+.about_slider .slick-dots li.slick-active button:before {
+    color: #ed7d31;
+}
