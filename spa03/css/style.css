@@ -589,6 +589,11 @@ h1.navbar-brand a {
     color: #fff;
 }
 
+.work-item img {
+    width: 200px;
+    height: 150px;
+}
+
 .owl-buttons {
     border: 2px solid #fff;
     display: inline-block;

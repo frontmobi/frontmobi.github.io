@@ -11,8 +11,23 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <style type="text/css">
 		body, html, input, button, select, textarea { font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft JhengHei", sans-serif; }
+        body { background-color: #ffefe0; }
 		.jumbotron h1 { font-size: 36px;}
 		.spa-item { padding: 20px; }
+        .jumbotron { background-color: #262626; }
+        .jumbotron h1, .jumbotron h3 { color:#fff; }
+        .text-front { color: #ed7e32; font-weight: bold; }
+        .text-mobi { color: #262626; font-weight: bold; }
+        .img-header { border: solid 1px #fff; }
+        .img-fmspa { border: solid 1px #999; }
+        .fixed-padding { padding: 0px 15px; }
+        ul { list-style: none; }
+        ul li { color: #ccc; }
+        footer p { color: #363636; font-weight: bold; }
+
+        @media (max-width: 767px) {
+            .jumbotron h1 { font-size: 32px;} 
+        }
     </style>
 </head>
 
@@ -20,51 +35,64 @@
 
     <div class="container">
         <div class="header clearfix">
-            <h3 class="text-muted">front mobi</h3>
+            <h2><span class="text-front">front</span> <span class="text-mobi">mobi</span></h2>
         </div>
 
         <div class="jumbotron">
             <div class="row">
 	            <div class="col-md-6">
-	            	<h1>FM專案標準版</h1>
-	            	<p class="lead"></p>
-	            	<p><a class="btn btn-lg btn-success" href="http://www.frontmobi.com/" target="_blank" role="button">FM 官網</a></p>	
+	            	<h1 class="fixed-padding">行動前台－標準版</h1>
+                    <h3 class="fixed-padding">流量免費方案</h3>
+                    <div>
+                        <ul>
+                            <li>依需要建置內容計費</li>
+                            <li>提供多種樣版選用</li>
+                            <li>真的免流量費</li>
+                        </ul>
+                    </div>
+                    <hr class="invisible">
+                    <div class="fixed-padding text-center">
+                        <a class="btn btn-lg btn-default text-front" href="http://www.frontmobi.com/" target="_blank" role="button">行動前台官方網站 &raquo;</a>    
+                        <br /><br />
+                    </div>
 	            </div>
 	            <div class="col-md-6">
-	            	<img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=32&bg=275177&txtclr=ffffff&txt=樣版展示&w=600&h=200">
+                    <div class="fixed-padding">
+	            	  <img class="img-responsive img-header" src="images/fmheader.jpg">
+                    </div>
 	            </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="spa-item col-md-2 col-xs-6">
+            <div class="spa-item col-md-2 col-xs-12">
             	<a href="spa01/" target="_blank">
-            		<img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=64&bg=ED7D31&txtclr=ffffff&txt=SPA01&w=400&h=300">
+            		<img class="img-responsive img-fmspa" src="images/fmspa01.jpg">
             	</a>
             </div>
-            <div class="spa-item col-md-2 col-xs-6">
+            <div class="spa-item col-md-2 col-xs-12">
             	<a href="spa02/" target="_blank">
-            		<img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=64&bg=ED7D31&txtclr=ffffff&txt=SPA02&w=400&h=300">
+            		<img class="img-responsive img-fmspa" src="images/fmspa02.jpg">
             	</a>
             </div>
-            <div class="spa-item col-md-2 col-xs-6">
+            <div class="spa-item col-md-2 col-xs-12">
             	<a href="spa03/" target="_blank">
-            		<img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=64&bg=ED7D31&txtclr=ffffff&txt=SPA03&w=400&h=300">
+            		<img class="img-responsive img-fmspa" src="images/fmspa03.jpg">
             	</a>
             </div>
-            <div class="spa-item col-md-2 col-xs-6">
+            <div class="spa-item col-md-2 col-xs-12">
             	<a href="spa04/" target="_blank">
-            		<img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=64&bg=ED7D31&txtclr=ffffff&txt=SPA04&w=400&h=300">
+            		<img class="img-responsive img-fmspa" src="images/fmspa04.jpg">
             	</a>
             </div>
-            <div class="spa-item col-md-2 col-xs-6">
+            <div class="spa-item col-md-2 col-xs-12">
             	<a href="spa05/" target="_blank">
-            		<img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=64&bg=ED7D31&txtclr=ffffff&txt=SPA05&w=400&h=300">
+            		<img class="img-responsive img-fmspa" src="images/fmspa05.jpg">
             	</a>
             </div>
-            <div class="spa-item col-md-2 col-xs-6">
+            <div class="spa-item col-md-2 col-xs-12">
             	<a href="spa06/" target="_blank">
-            		<img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=64&bg=ED7D31&txtclr=ffffff&txt=SPA06&w=400&h=300">
+            		<img class="img-responsive img-fmspa" src="images/fmspa06.jpg">
             	</a>
             </div>
         </div>
