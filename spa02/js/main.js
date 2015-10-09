@@ -86,7 +86,7 @@ $(function() {
                 }, 500, "easeOutQuad");
             }, function() {
                 $(this).find(".label").stop().animate({
-                    bottom: -40
+                    bottom: -60
                 }, 200, "easeInQuad");
                 $(this).find("img").stop().animate({
                     top: 0

@@ -3,15 +3,15 @@ $("#elastic_grid_demo").elastic_grid({
 	'hoverDirection': true,
 	'hoverDelay': 0,
 	'hoverInverse': false,
-	'expandingSpeed': 500,
+	'expandingSpeed': 1000,
 	'expandingHeight': 500,
 	'items' :
 		[
 			{
 			'title' : '客戶1',
 			'description'   : '客戶專案說明',
-			'thumbnail' : ['http://placehold.it/250x250/F0C080/333', 'http://placehold.it/250x250/F0C060/333', 'http://placehold.it/250x250/F0C040/333', 'http://placehold.it/250x250/F0C020/333', 'http://placehold.it/250x250/F0C000/333'],
-			'large' : ['http://placehold.it/550x500/F0C080/333', 'http://placehold.it/550x500/F0C060/333', 'http://placehold.it/550x500/F0C040/333', 'http://placehold.it/550x500/F0C020/333', 'http://placehold.it/550x500/F0C000/333'],
+			'thumbnail' : ['http://placehold.it/250x250/F0C080/333', 'http://placehold.it/250x250/F0C060/333', 'http://placehold.it/250x250/F0C040/333', 'http://placehold.it/250x250/F0C020/333', 'http://placehold.it/250x250/F0C000/333','http://placehold.it/250x250/F0C080/333', 'http://placehold.it/250x250/F0C060/333', 'http://placehold.it/250x250/F0C040/333', 'http://placehold.it/250x250/F0C020/333', 'http://placehold.it/250x250/F0C000/333'],
+			'large' : ['http://placehold.it/550x500/F0C080/333', 'http://placehold.it/550x500/F0C060/333', 'http://placehold.it/550x500/F0C040/333', 'http://placehold.it/550x500/F0C020/333', 'http://placehold.it/550x500/F0C000/333','http://placehold.it/550x500/F0C080/333', 'http://placehold.it/550x500/F0C060/333', 'http://placehold.it/550x500/F0C040/333', 'http://placehold.it/550x500/F0C020/333', 'http://placehold.it/550x500/F0C000/333'],
 			'button_list'   :
 			[
 			{ 'title':'客戶網站', 'url' : 'http://#' },
@@ -178,6 +178,18 @@ $("#elastic_grid_demo").elastic_grid({
 
 			{
 			'title' : '客戶14',
+			'description'   : '客戶專案說明',
+			'thumbnail' : ['http://placehold.it/250x250/D6D6D6/333','http://placehold.it/250x250/D6D6D6/333', 'http://placehold.it/250x250/D6D6D6/333', 'http://placehold.it/250x250/D6D6D6/333'],
+			'large' : ['http://placehold.it/550x500/D6D6D6/333','http://placehold.it/550x500/D6D6D6/333', 'http://placehold.it/550x500/D6D6D6/333', 'http://placehold.it/550x500/D6D6D6/333'],
+			'button_list'   :
+			[
+			{ 'title':'客戶網站', 'url' : 'http://#' },
+			{ 'title':'粉絲專頁', 'url':'http://#'}
+			],
+			'tags'  : ['餐飲業']
+			},
+			{
+			'title' : '客戶15',
 			'description'   : '客戶專案說明',
 			'thumbnail' : ['http://placehold.it/250x250/D6D6D6/333','http://placehold.it/250x250/D6D6D6/333', 'http://placehold.it/250x250/D6D6D6/333', 'http://placehold.it/250x250/D6D6D6/333'],
 			'large' : ['http://placehold.it/550x500/D6D6D6/333','http://placehold.it/550x500/D6D6D6/333', 'http://placehold.it/550x500/D6D6D6/333', 'http://placehold.it/550x500/D6D6D6/333'],

@@ -113,13 +113,13 @@ img {
 /*scrol to top*/
 
 .scrollToTop {
-    bottom: 30px;
+    bottom: 5px;
     display: none;
     font-size: 32px;
     font-weight: bold;
     height: 50px;
     position: fixed;
-    right: 30px;
+    right: 5px;
     text-align: center;
     text-decoration: none;
     width: 50px;
