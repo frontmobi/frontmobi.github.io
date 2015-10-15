@@ -1,0 +1,144 @@
+body, html, input, button, select, textarea {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
+}
+
+body {
+    background-color: #ffefe0;
+}
+
+.jumbotron h1 {
+    font-size: 36px;
+}
+
+.spa-item {
+    padding: 20px;
+}
+
+.jumbotron {
+    background-color: #262626;
+}
+
+.jumbotron h1,
+.jumbotron h3 {
+    color: #fff;
+}
+
+.text-front {
+    color: #ed7e32;
+    font-weight: bold;
+}
+
+.text-mobi {
+    color: #262626;
+    font-weight: bold;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-cpright {
+    padding-top: 5px;
+}
+
+.img-header {
+    border: solid 1px #fff;
+}
+
+.img-fmspa {
+    border: solid 1px #999;
+}
+
+.fixed-padding {
+    padding: 0px 15px;
+}
+
+.no-radius,
+.no-radius .btn {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.no-radius .btn {
+    border: solid 1px #999;
+}
+
+.btn-open {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    color: #ccc;
+}
+
+footer p {
+    color: #363636;
+    font-weight: bold;
+}
+
+.service-item li {
+    color: #FFCE43;
+    font-size: 15px;
+}
+
+.img-center .img-responsive {
+    margin: 0 auto;
+}
+
+/* custom modal */
+
+.modal-main .modal-header,
+.modal-main .modal-body,
+.modal-main .modal-footer {
+    background-color: #ffffee;
+}
+
+.modal-main .modal-header {
+    color: #f9df66;
+    padding: 9px 15px;
+    background-color: #262626;
+}
+
+.modal-main .modal-footer {
+    /*border: 1px solid transparent;*/
+}
+
+.modal-main .close {
+    float: right;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #fff;
+    text-shadow: 0 0 0 transparent;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.modal-main .close:hover,
+.modal-main .close:focus {
+    color: #f9df66;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.line-divider {
+    padding: 15px 0;
+}
+
+@media (max-width: 767px) {
+    .jumbotron h1 {
+        font-size: 32px;
+    }
+
+    .btn-open {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

@@ -5,32 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>行動前台標準版 - 範例網站</title>
+    <title>行動前台標準版 - 範例展示網站</title>
     <meta name="description" content="">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <style type="text/css">
-		body, html, input, button, select, textarea { font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft JhengHei", sans-serif; }
-        body { background-color: #ffefe0; }
-		.jumbotron h1 { font-size: 36px;}
-		.spa-item { padding: 20px; }
-        .jumbotron { background-color: #262626; }
-        .jumbotron h1, .jumbotron h3 { color:#fff; }
-        .text-front { color: #ed7e32; font-weight: bold; }
-        .text-mobi { color: #262626; font-weight: bold; }
-        .img-header { border: solid 1px #fff; }
-        .img-fmspa { border: solid 1px #999; }
-        .fixed-padding { padding: 0px 15px; }
-        .btn {-webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; border: solid 1px #999;}
-        ul { list-style: none; }
-        ul li { color: #ccc; }
-        footer p { color: #363636; font-weight: bold; }
-
-        @media (max-width: 767px) {
-            .jumbotron h1 { font-size: 32px;} 
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
@@ -46,17 +26,26 @@
 	            	<h1 class="fixed-padding">行動前台 - 標準版</h1>
                     <h3 class="fixed-padding">流量免費方案</h3>
                     <div>
-                        <ul>
-                            <li>依需要建置內容計費</li>
+                        <ul class="service-item">
+                            <li>手機優先設計</li>
+                            <li>依需要內容計費</li>
                             <li>提供多種樣版選用</li>
+                            <li>可調整版面配置</li>
+                            <li>年維護費彈性低廉</li>
                             <li>真的免流量費</li>
                         </ul>
                     </div>
                     <hr class="invisible">
-                    <div class="fixed-padding text-center">
-                        <a class="btn btn-lg btn-default text-front" href="http://www.frontmobi.com/" target="_blank" role="button">行動前台官方網站 &raquo;</a>    
-                        <br /><br />
+                    <div class="fixed-padding text-center hidden-xs">
+                        <a class="btn btn-lg btn-default text-front" href="http://www.frontmobi.com/" target="_blank" role="button">行動前台官網</a>
                     </div>
+                    <div class="fixed-padding text-center visible-xs">
+                        <a class="btn btn-default text-front" href="http://www.frontmobi.com/" target="_blank" role="button">行動前台官網</a>
+                        <a class="btn btn-default text-front" href="#demo-sites" role="button">範例網站連結</a>
+                    </div>
+
+                    <div class="line-divider"></div>
+
 	            </div>
 	            <div class="col-md-6">
                     <div class="fixed-padding">
@@ -66,53 +55,89 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="spa-item col-md-2 col-xs-12">
+        <div id="demo-sites" class="row no-radius">
+            <div class="spa-item col-md-2 col-xs-6">
             	<a href="spa01/" target="_blank">
             		<img class="img-responsive img-fmspa" src="images/fmspa01.jpg">
             	</a>
-                <a href="spa01/" target="_blank" class="btn btn-block btn-default text-front">點選進入範例網站</a>
+                <a href="spa01/" target="_blank" class="btn btn-open btn-block btn-default text-front">開啟瀏覽</a>
             </div>
-            <div class="spa-item col-md-2 col-xs-12">
+            <div class="spa-item col-md-2 col-xs-6">
             	<a href="spa02/" target="_blank">
             		<img class="img-responsive img-fmspa" src="images/fmspa02.jpg">
             	</a>
-                <a href="spa02/" target="_blank" class="btn btn-block btn-default text-front">點選進入範例網站</a>
+                <a href="spa02/" target="_blank" class="btn btn-open btn-block btn-default text-front">開啟瀏覽</a>
             </div>
-            <div class="spa-item col-md-2 col-xs-12">
+            <div class="spa-item col-md-2 col-xs-6">
             	<a href="spa03/" target="_blank">
             		<img class="img-responsive img-fmspa" src="images/fmspa03.jpg">
             	</a>
-                <a href="spa03/" target="_blank" class="btn btn-block btn-default text-front">點選進入範例網站</a>
+                <a href="spa03/" target="_blank" class="btn btn-open btn-block btn-default text-front">開啟瀏覽</a>
             </div>
-            <div class="spa-item col-md-2 col-xs-12">
+            <div class="spa-item col-md-2 col-xs-6">
             	<a href="spa04/" target="_blank">
             		<img class="img-responsive img-fmspa" src="images/fmspa04.jpg">
             	</a>
-                <a href="spa04/" target="_blank" class="btn btn-block btn-default text-front">點選進入範例網站</a>
+                <a href="spa04/" target="_blank" class="btn btn-open btn-block btn-default text-front">開啟瀏覽</a>
             </div>
-            <div class="spa-item col-md-2 col-xs-12">
+            <div class="spa-item col-md-2 col-xs-6">
             	<a href="spa05/" target="_blank">
             		<img class="img-responsive img-fmspa" src="images/fmspa05.jpg">
             	</a>
-                <a href="spa05/" target="_blank" class="btn btn-block btn-default text-front">點選進入範例網站</a>
+                <a href="spa05/" target="_blank" class="btn btn-open btn-block btn-default text-front">開啟瀏覽</a>
             </div>
-            <div class="spa-item col-md-2 col-xs-12">
+            <div class="spa-item col-md-2 col-xs-6">
             	<a href="spa06/" target="_blank">
             		<img class="img-responsive img-fmspa" src="images/fmspa06.jpg">
             	</a>
-                <a href="spa06/" target="_blank" class="btn btn-block btn-default text-front">點選進入範例網站</a>
+                <a href="spa06/" target="_blank" class="btn btn-open btn-block btn-default text-front">開啟瀏覽</a>
             </div>
         </div>
+        
+        <div class="line-divider"></div>
 
         <footer class="footer">
-        	<hr>
-            <p>&copy; 2013 易取行動科技有限公司 版權所有</p>
+            <div class="row">
+                <div class="col-sm-3 text-cpright">
+                    <p>&copy; 2013 易取行動科技有限公司 版權所有</p>        
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" data-toggle="modal" data-target="#myModal" class="btn btn-sm btn-default">
+                        <span class="glyphicon glyphicon-qrcode"></span> 本站 QR 碼
+                    </a>
+                </div>
+            </div>
         </footer>
+
+        <div class="line-divider"></div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-main" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">QR 碼</h4>
+              </div>
+              <div class="modal-body">
+                <div class="img-center">
+                    <img src="images/qrcode.png" class="img-responsive">
+                </div>
+              </div>
+              <div class="modal-footer">
+                <div class="text-center">
+                    <button type="button" class="btn btn-lg btn-warning" data-dismiss="modal">關閉</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
     </div>
     <!-- /container -->
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 
 </html>
