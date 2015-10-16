@@ -10,6 +10,10 @@ $(window).load(function() {
     });
 });
 
+function closeNav() {
+    $("#menu-close").click();
+}
+
 // Closes the sidebar menu
 $("#menu-close").click(function(e) {
     e.preventDefault();

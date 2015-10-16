@@ -101,9 +101,6 @@ ol {
 }
 
 
-/*============== Preloader ==============*/
-
-
 /* Preloader */
 
 #preloader {
@@ -147,9 +144,7 @@ ol {
     border-color: rgba(231, 231, 231, 0);
 }
 
-/* .navbar-collapse overflow-x problem */
 #tf-menu.navbar-default .navbar-collapse {
-    /*border: solid 1px #fff;*/
     overflow-x: hidden !important;
 }
 
@@ -258,6 +253,7 @@ a.fa.fa-angle-down:hover {
 /* About Section */
 
 #tf-about {
+    background-color: #eee;
     padding: 80px 0;
 }
 

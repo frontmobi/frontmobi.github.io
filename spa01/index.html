@@ -9,8 +9,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -27,28 +27,28 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a id="mn-top" href="#top" onclick=$("#menu-close").click();>front mobi</a>
+                <a id="mn-top" href="#top" onclick="closeNav();">front mobi</a>
             </li>
             <li>
-                <a id="mn-top" href="#top" onclick=$("#menu-close").click();>首頁</a>
+                <a id="mn-top" href="#top" onclick="closeNav();">首頁</a>
             </li>
             <li>
-                <a id="mn-about" href="#about" onclick=$("#menu-close").click();>關於我們</a>
+                <a id="mn-about" href="#about" onclick="closeNav();">關於我們</a>
             </li>
             <li>
-                <a id="mn-services" href="#services" onclick=$("#menu-close").click();>服務項目</a>
+                <a id="mn-services" href="#services" onclick="closeNav();">服務項目<i class="fa fa-pencil-square-o"></i></a>
             </li>
             <li>
-                <a id="mn-portfolio" href="#portfolio" onclick=$("#menu-close").click();>客戶案例</a>
+                <a id="mn-portfolio" href="#portfolio" onclick="closeNav();">客戶案例<i class="fa fa-pencil-square-o"></i></a>
             </li>
             <li>
-                <a id="mn-milestone" href="#milestone" onclick=$("#menu-close").click();>大事紀</a>
+                <a id="mn-milestone" href="#milestone" onclick="closeNav();">大事紀<i class="fa fa-pencil-square-o"></i></a>
             </li>
             <li>
-                <a id="mn-team" href="#team" onclick=$("#menu-close").click();>經營團隊</a>
+                <a id="mn-team" href="#team" onclick="closeNav();">經營團隊</a>
             </li>
             <li>
-                <a id="mn-contact" href="#contact" onclick=$("#menu-close").click();>聯絡我們</a>
+                <a id="mn-contact" href="#contact" onclick="closeNav();">聯絡我們</a>
             </li>
         </ul>
     </nav>
@@ -491,14 +491,9 @@
         </div>
     </footer>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/main.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script>
-    
-    </script>
 
 </body>
 
