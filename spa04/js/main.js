@@ -128,7 +128,12 @@ jQuery(function($) {
         }
     });
     //Initiat WOW JS
-    new WOW().init();
+    new WOW({
+        animateClass: "animated",
+        mobile:       false,
+        offset: 100
+    }).init();
+
     //smoothScroll
     smoothScroll.init();
     // portfolio filter

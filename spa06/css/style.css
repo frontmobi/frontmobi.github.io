@@ -12,6 +12,7 @@ html {
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     color: #5a5a5a;
+    overflow-x: hidden !important;
 }
 
 h1 {
@@ -146,8 +147,10 @@ ol {
     border-color: rgba(231, 231, 231, 0);
 }
 
+/* .navbar-collapse overflow-x problem */
 #tf-menu.navbar-default .navbar-collapse {
-    /*overflow-x: hidden;*/
+    /*border: solid 1px #fff;*/
+    overflow-x: hidden !important;
 }
 
 #tf-menu a.navbar-brand {
@@ -160,12 +163,11 @@ ol {
 #tf-menu.navbar-default .navbar-nav > li > a {
     text-transform: uppercase;
     color: #FFF;
-    font-size: 14px;
-    letter-spacing: 1px;
+    font-size: 15px;
 }
 
 .on {
-    background-color: #222222 !important;
+    background-color: #222 !important;
     padding: 0 !important;
 }
 
@@ -460,6 +462,9 @@ img.img-circle.team-img {
     text-align: center;
 }
 
+#clients .item img {
+    width: 120px;
+}
 
 /* Gallery Section 
 ==============================*/

@@ -56,6 +56,10 @@ hr {
     border-bottom: 1px solid #fff;
 }
 
+.line-divider {
+    padding: 0 0;
+}
+
 .gradiant {
     background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
     background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
@@ -679,6 +683,10 @@ ul.nostyle i {
     margin-top: 10px;
 }
 
+#testimonial .img-testimonial {
+    width: 150px;
+}
+
 #about {
     padding: 100px 0;
 }
@@ -1109,6 +1117,10 @@ ul.nostyle i {
 
     #get-in-touch a {
         color: #fff;
+    }
+
+    .line-divider {
+        padding: 15px 0;
     }
 }
 

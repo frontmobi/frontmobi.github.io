@@ -13,9 +13,8 @@ $(window).load(function() {
 function main() {
     (function() {
         "use strict";
-        /* ==============================================
-    Testimonial Slider
-    =============================================== */
+        
+        // Testimonial Slider
         $("a.page-scroll").click(function() {
             if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname) {
                 var target = $(this.hash);
@@ -28,9 +27,8 @@ function main() {
                 }
             }
         });
-        /*====================================
-    Show Menu on Book
-    ======================================*/
+
+        // Show Menu on Book
         $(window).bind("scroll", function() {
             var navHeight = $(window).height() - 100;
             if ($(window).scrollTop() > navHeight) {
