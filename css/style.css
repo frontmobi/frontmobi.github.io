@@ -38,7 +38,12 @@ body {
 }
 
 .text-cpright {
+    text-align: left;
     padding-top: 5px;
+}
+
+.text-qrcode {
+    text-align: right;
 }
 
 .img-header {
@@ -141,5 +146,13 @@ footer p {
     .btn-open {
         font-size: 18px;
         font-weight: bold;
+    }
+
+    .text-cpright {
+        text-align: center;
+    }
+
+    .text-qrcode {
+        text-align: center;
     }
 }
