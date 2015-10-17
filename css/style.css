@@ -23,6 +23,10 @@ body {
     color: #fff;
 }
 
+.text-header {
+    text-align: left;
+}
+
 .text-front {
     color: #ed7e32;
     font-weight: bold;
@@ -44,6 +48,14 @@ body {
 
 .text-qrcode {
     text-align: right;
+}
+
+.solution-b {
+    color: #94CEFF;
+}
+
+.solution-c {
+    color: #AEFAAE;        
 }
 
 .img-header {
@@ -89,7 +101,7 @@ footer p {
 
 .service-item li {
     color: #FFCE43;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .img-center .img-responsive {
@@ -143,9 +155,17 @@ footer p {
         font-size: 32px;
     }
 
+    .service-item li {
+        font-size: 15px;
+    }
+
     .btn-open {
         font-size: 18px;
         font-weight: bold;
+    }
+
+    .text-header {
+        text-align: center;
     }
 
     .text-cpright {
