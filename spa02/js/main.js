@@ -35,7 +35,7 @@ $(".main_header li a").click(function() {
     }
 });
 
-// navigation scroll lijepo radi materem
+// navigation scroll
 $("nav a").click(function(event) {
     var id = $(this).attr("href");
     var offset = 70;

@@ -63,23 +63,67 @@ a:focus,
     outline: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
     color: #252525;
 }
 
 main > section {
     padding: 70px 0;
+}
+
+/* custom bg-img */
+.bg-img-1 {
+    background-image: url(../images/slider-01.jpg);
+    /*background-image: url('http://placehold.it/1600x900/2E3703/D1E27E');*/
+}
+
+.bg-img-2 {
+    /*background-image: url(../images/slider-02.jpg);*/
+    background-image: url('http://placehold.it/1600x900/522057/9957A0');
+}
+
+.bg-img-3 {
+    /*background-image: url(../images/slider-03.jpg);*/
+    background-image: url('http://placehold.it/1600x900/6A090C/DF8D90');
+}
+
+
+/* custom modal */
+.modal-service .modal-header,
+.modal-service .modal-body,
+.modal-service .modal-footer {
+    background-color: #ffffee;
+}
+
+.modal-service .modal-header {
+    color: #000;
+    padding:9px 15px;
+    background-color: #f9df66;
+}
+
+.modal-service .modal-footer {
+    border: 1px solid transparent;
+}
+
+.modal-service .close {
+    float: right;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #e16063;
+    text-shadow: 0 0 0 transparent;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.modal-service .close:hover,
+.modal-service .close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=100);
+    opacity: 1;
 }
 
 .btn {
@@ -218,6 +262,14 @@ main > section {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.text-contact *{
+    color: #333;
+}
+
+.text-white *{
+    color: #fff;
 }
 
 
@@ -554,32 +606,32 @@ h1.navbar-brand a {
 
 
 /*=================================================================
-    About
+    News
 ==================================================================*/
 
-#about {
+#news {
     background-color: #017BB0;
     color: #fff;
 }
 
-#about h3 {
+#news h3 {
     color: #fff;
     margin: 0 0 35px;
     text-transform: uppercase;
 }
 
-#about .welcome-block h3 {
+#news .welcome-block h3 {
     margin: 0 0 65px;
 }
 
-#about .welcome-block img {
+#news .welcome-block img {
     border: 3px solid #fff;
     border-radius: 50%;
     margin-right: 35px;
     max-width: 100px;
 }
 
-#about .message-body {
+#news .message-body {
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 70px;
@@ -684,6 +736,10 @@ h1.navbar-brand a {
     display: inline-block;
 }
 
+#portfolio {
+    background-color: #eee;
+}
+
 .portfolio-item {
     cursor: pointer;
     margin: 0 1% 1% 0;
@@ -783,7 +839,7 @@ ul.external li a:hover {
 ==================================================================*/
 
 #testimonials {
-    background-image: url(../images/testimonial.jpg);
+    /*background-image: url(../images/testimonial.jpg);*/
     padding: 0;
     color: #fff;
 }
@@ -794,7 +850,8 @@ ul.external li a:hover {
 
 #testimonials .overlay {
     /*background-color: rgba(15, 155, 224, 0.78);*/
-    background-color: rgba(0, 0, 0, 0.65);
+    /*background-color: rgba(0, 0, 0, 0.65);*/
+    background-color: #017bb0;
     padding: 70px 0 40px;
 }
 
@@ -809,7 +866,7 @@ ul.external li a:hover {
     border-radius: 50%;
     display: inline-block;
     height: auto;
-    max-width: 100px;
+    max-width: 160px;
 }
 
 .testimonial-item > div {
@@ -818,7 +875,7 @@ ul.external li a:hover {
 }
 
 .testimonial-item > div:before {
-    background-image: url(../images/icons/quotes.png);
+    /*background-image: url(../images/icons/quotes.png);*/
     background-repeat: no-repeat;
     bottom: 127px;
     height: 33px;
@@ -828,7 +885,7 @@ ul.external li a:hover {
 }
 
 .testimonial-item > div:after {
-    background-image: url(../images/icons/quotes.png);
+    /*background-image: url(../images/icons/quotes.png);*/
     background-position: -58px 0;
     background-repeat: no-repeat;
     bottom: -50px;
@@ -859,6 +916,10 @@ ul.external li a:hover {
 #testimonials .owl-next:hover {
     color: #fff;
 }
+
+/*=================================================================
+    Price
+==================================================================*/
 
 .price-table {
     border: 1px solid #e3e3e3;
@@ -923,7 +984,7 @@ ul.external li a:hover {
 .price-table ul li {
     border-top: 1px solid #e3e3e3;
     display: block;
-    padding: 25px 0;
+    padding: 15px 0;
     font-size: 20px;
     -webkit-transition: all 0.7s ease 0s;
     -moz-transition: all 0.7s ease 0s;
@@ -951,60 +1012,12 @@ ul.external li a:hover {
     color: #fff;
 }
 
-
-/*=================================================================
-    Price
-==================================================================*/
-
-#social {
-    /*background-image: url(../images/banner.jpg);*/
-    background-image: url('http://placehold.it/1920x600/A7DEFA/094D6C');
-    padding: 0;
-}
-
-#social .overlay {
-    background: url(../images/social-bg.png) repeat scroll 0 0 transparent;
-    padding: 100px 0 120px;
-}
-
-.social-button {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-}
-
-.social-button li {
-    display: inline-block;
-}
-
-.social-button li:nth-child(2) {
-    margin: 0 75px;
-}
-
-.social-button li a {
-    border: 2px solid #fff;
-    border-radius: 50%;
-    color: #fff;
-    display: block;
-    height: 90px;
-    line-height: 96px;
-    width: 90px;
-    -webkit-transition: all 0.2s ease 0s;
-    -moz-transition: all 0.2s ease 0s;
-    -ms-transition: all 0.2s ease 0s;
-    -o-transition: all 0.2s ease 0s;
-    transition: all 0.2s ease 0s;
-}
-
-.social-button li a:hover {
-    color: #008ECC;
-    border: 2px solid #008ECC;
-}
-
 /*============================================================
     Footer
 ==============================================================*/
+#contact {
+    background-color: #eee;
+}
 
 #footer {
     background-color: #2E2E2E;
@@ -1081,8 +1094,8 @@ ul.external li a:hover {
 ==============================================================*/
 
 @media (min-width: 980px) and (max-width: 1150px) {
-    /*about*/
-    #about .welcome-block img {
+    /*news*/
+    #news .welcome-block img {
         margin-bottom: 30px;
     }
     /* portfolio */
@@ -1110,7 +1123,7 @@ ul.external li a:hover {
     .caption-content strong {
         font-size: 45px;
     }
-    /* about */
+    /* news */
     .recent-works {
         margin-bottom: 50px;
     }
@@ -1183,21 +1196,21 @@ ul.external li a:hover {
     .caption-content strong {
         font-size: 22px;
     }
-    /* about */
+    /* news */
     .recent-works {
         margin-bottom: 85px;
     }
-    #about h3 {
+    #news h3 {
         font-size: 18px;
         margin: 0 0 35px !important;
     }
-    #about .owl-buttons {
+    #news .owl-buttons {
         margin-top: 20px;
     }
-    #about .message-body {
+    #news .message-body {
         margin-bottom: 45px;
     }
-    #about .welcome-block img {
+    #news .welcome-block img {
         margin: 0 25px 15px 0;
     }
     /* service */
@@ -1253,6 +1266,10 @@ ul.external li a:hover {
     .footer-social ul li {
         margin: 0 7px;
     }
+    .modal-service .close {
+        font-size: 30px;
+        line-height: 24px;
+    }
 }
 
 
@@ -1274,8 +1291,8 @@ ul.external li a:hover {
     .caption-content strong {
         font-size: 35px;
     }
-    /*about*/
-    #about .welcome-block h3 {
+    /*news*/
+    #news .welcome-block h3 {
         margin: 0 0 35px;
     }
     /* service */
@@ -1314,41 +1331,8 @@ ul.external li a:hover {
     .footer-content {
         width: 380px;
     }
-}
-
-/* custom modal */
-.modal-service .modal-header,
-.modal-service .modal-body,
-.modal-service .modal-footer {
-    background-color: #ffffee;
-}
-
-.modal-service .modal-header {
-    color: #000;
-    padding:9px 15px;
-    background-color: #f9df66;
-}
-
-.modal-service .modal-footer {
-    border: 1px solid transparent;
-}
-
-.modal-service .close {
-    float: right;
-    font-size: 36px;
-    font-weight: bold;
-    line-height: 1;
-    color: #e16063;
-    text-shadow: 0 0 0 transparent;
-    filter: alpha(opacity=100);
-    opacity: 1;
-}
-
-.modal-service .close:hover,
-.modal-service .close:focus {
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
-    filter: alpha(opacity=100);
-    opacity: 1;
+    .modal-service .close {
+        font-size: 30px;
+        line-height: 24px;
+    }
 }

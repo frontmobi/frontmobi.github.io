@@ -14,19 +14,19 @@ function closeNav() {
     $("#menu-close").click();
 }
 
-// Closes the sidebar menu
+// closes the sidebar menu
 $("#menu-close").click(function(e) {
     e.preventDefault();
     $("#sidebar-wrapper").toggleClass("active");
 });
 
-// Opens the sidebar menu
+// opens the sidebar menu
 $("#menu-toggle").click(function(e) {
     e.preventDefault();
     $("#sidebar-wrapper").toggleClass("active");
 });
 
-// Scrolls to the selected menu item on the page
+// scrolls to the selected menu item on the page
 $(function() {
     $('a[id^="mn-"][href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
@@ -38,6 +38,24 @@ $(function() {
                     scrollTop: target.offset().top
                 }, 1000);
                 return false;
+            }
+        }
+    });
+
+    // activate owl-carousel
+    $('#services-list').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive:{
+            0:{
+                items:1,
+                nav:false,
+                autoplay: true
+            },
+            767:{
+                items:4,
+                nav:false
             }
         }
     });

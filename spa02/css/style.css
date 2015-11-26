@@ -604,85 +604,13 @@ nav ul a {
 }
 
 .single_service p {
-    text-align: left;
+    text-align: center;
 }
 
 .single_service img {
     width: 120px;
     height: 120px
 }
-
-/* ===========work style===========*/
-
-.work_area {
-    background-color: #f8f8f8;
-}
-
-.work_section {
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-.work_section h1,
-.service_section h1 {
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-.work_section h1 span,
-.service_section h1 span {
-    color: #ed7d31;
-}
-
-.bs-example {
-    margin-top: 30px;
-    margin-bottom: 65px;
-}
-
-.bs-example .nav-tabs i {
-    font-size: 50px;
-    width: 80px;
-    text-align: center;
-}
-
-.bs-example .nav-tabs li.active i {
-    color: #ed7d31;
-}
-
-.bs-example .nav-tabs li i {
-    color: #363636;
-}
-
-@media only screen and (min-width: 765px) {
-    .bs-example .nav-tabs i {
-        width: 57px;
-    }
-}
-
-@media (max-width: 764px) {
-    .bs-example .nav-tabs i {
-        font-size: 34px;
-        width: 56px;
-    }
-}
-
-@media (max-width: 750px) {
-    .bs-example .nav-tabs i {
-        font-size: 20px;
-        width: 15px;
-    }
-}
-
-.nav-tabs {
-    border-bottom: none;
-}
-
-.tab-pane {
-    border: 1px solid #ddd;
-    padding: 42px;
-    background-color: #ffffff;
-}
-
 
 /* ===========getit style===========*/
 
@@ -982,6 +910,7 @@ nav ul a {
     border-bottom: solid 1px #ddd;
     line-height: 40px;
     background: #fff;
+    font-size: 16px;
 }
 
 .pricing-box li.plan-title {
@@ -1017,7 +946,7 @@ nav ul a {
     position: absolute;
     left: 50%;
     bottom: -22.5px;
-    margin-left: -79px;
+    margin-left: -86px;
     background: #fff;
     line-height: 45px !important;
 }
@@ -1028,6 +957,7 @@ nav ul a {
     padding: 11px 53px;
     line-height: 42px;
     border: solid 1px #ddd;
+    font-size: 16px;
 }
 
 .pricing-box li.sing-up a:hover {
@@ -1088,32 +1018,11 @@ nav ul a {
 }
 
 
-/*============== testimonial style ==============*/
-
-.testimonial_area {
-    margin-bottom: 60px;
-    margin-top: 60px;
-}
-
-.testimonial_section h1 {
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-.testimonial_section h1 span {
-    color: #ed7d31;
-}
-
-.testimonial_section img {
-    width: 90px;
-    height: 90px
-}
-
-
 /*============== Contact style ==============*/
 
 .contact_area {
-    background: url(../images/photography.png);
+    /*background: url(../images/photography.png);*/
+    background-color: #fff;
 }
 
 .contact_section {
