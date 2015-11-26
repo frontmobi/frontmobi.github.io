@@ -60,13 +60,17 @@ hr {
 .modal-service .modal-header,
 .modal-service .modal-body,
 .modal-service .modal-footer {
-    background-color: #ffffee;
+    background-color: #fff;
 }
 
 .modal-service .modal-header {
     color: #000;
     padding:9px 15px;
-    background-color: #f9df66;
+    background-color: #eee;
+}
+
+.modal-service .modal-header .modal-title {
+    color: #000;
 }
 
 .modal-service .modal-footer {
@@ -78,7 +82,7 @@ hr {
     font-size: 36px;
     font-weight: bold;
     line-height: 30px;
-    color: #e16063;
+    color: #666;
     text-shadow: 0 0 0 transparent;
     filter: alpha(opacity=100);
     opacity: 1;
@@ -86,7 +90,7 @@ hr {
 
 .modal-service .close:hover,
 .modal-service .close:focus {
-    color: #fff;
+    color: #333;
     text-decoration: none;
     cursor: pointer;
     filter: alpha(opacity=100);

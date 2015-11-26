@@ -271,6 +271,19 @@ Image credits: unsplash.com
     font-size: 20px;
 }
 
+.btn-close {
+    color: #fff;
+    background-color: #5b5b5b;
+    border-color: #5b5b5b;
+}
+.btn-close:hover,
+.btn-close:focus,
+.btn-close:active,
+.btn-close.active {
+    color: #fff;
+    background-color: #4e4e4e;
+    border-color: #424242;
+}
 
 /********************************/
 
@@ -1133,16 +1146,23 @@ blockquote p {
     text-align: left;
 }
 
-.modal-service .modal-header,
-.modal-service .modal-body,
+.modal-service .modal-body {
+    background-color: #fff;
+}
+
 .modal-service .modal-footer {
-    background-color: #ffffee;
+    background-color: #eee;
 }
 
 .modal-service .modal-header {
-    color: #000;
-    padding:9px 15px;
-    background-color: #f9df66;
+    color: #fff;
+    padding: 9px 15px;
+    background-color: #ed7d31;
+}
+
+.modal-service .modal-header .modal-title {
+    font-weight: bold;
+    color: #fff;
 }
 
 .modal-service .modal-footer {
@@ -1154,7 +1174,7 @@ blockquote p {
     font-size: 36px;
     font-weight: bold;
     line-height: 30px;
-    color: #e16063;
+    color: #fff;
     text-shadow: 0 0 0 transparent;
     filter: alpha(opacity=100);
     opacity: 1;

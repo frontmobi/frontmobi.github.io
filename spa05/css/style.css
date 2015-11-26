@@ -139,13 +139,17 @@ img {
 .modal-service .modal-header,
 .modal-service .modal-body,
 .modal-service .modal-footer {
-    background-color: #ffffee;
+    background-color: #fff;
 }
 
 .modal-service .modal-header {
-    color: #000;
+    color: #fff;
     padding:9px 15px;
-    background-color: #f9df66;
+    background-color: #333;
+}
+
+.modal-service .modal-header .title {
+    color: #fff;
 }
 
 .modal-service .modal-footer {
@@ -157,7 +161,7 @@ img {
     font-size: 36px;
     font-weight: bold;
     line-height: 30px;
-    color: #e16063;
+    color: #eee;
     text-shadow: 0 0 0 transparent;
     filter: alpha(opacity=100);
     opacity: 1;
@@ -170,6 +174,20 @@ img {
     cursor: pointer;
     filter: alpha(opacity=100);
     opacity: 1;
+}
+
+.btn-close {
+    color: #fff;
+    background-color: #5b5b5b;
+    border-color: #5b5b5b;
+}
+.btn-close:hover,
+.btn-close:focus,
+.btn-close:active,
+.btn-close.active {
+    color: #fff;
+    background-color: #4e4e4e;
+    border-color: #424242;
 }
 
 /* header */
@@ -551,7 +569,8 @@ div[data-dimension] {
     content: "";
     height: 3px;
     left: 40%;
-    position: absolute;
+    /*position: absolute;*/
+    position: relative;
     width: 100px;
 }
 
@@ -721,7 +740,8 @@ div[data-dimension] {
     text-transform: uppercase;
 }
 
-.price_btn {
+.price_btn,
+.more_btn {
     color: #fff !important;
     display: inline-block;
     font-size: 15px;
@@ -735,7 +755,8 @@ div[data-dimension] {
     transition: all 0.5s;
 }
 
-.price_btn:hover {
+.price_btn:hover,
+.more_btn:hover {
     text-decoration: none;
     outline: none;
     background-color: #fff;
@@ -1263,7 +1284,8 @@ div[data-dimension] {
         font-size: 13px;
         line-height: 15px;
     }
-    .price_btn {
+    .price_btn,
+    .more_btn {
         font-size: 13px;
         padding: 10px 15px;
     }
@@ -1372,7 +1394,8 @@ div[data-dimension] {
         font-size: 15px;
         line-height: 18px;
     }
-    .price_btn {
+    .price_btn,
+    .more_btn {
         font-size: 15px;
         padding: 10px 20px;
     }
@@ -1709,12 +1732,14 @@ div[data-dimension] {
     background-color: #ed7d31;
 }
 
-.price_btn {
+.price_btn,
+.more_btn {
     background-color: #ed7d31;
     border: 1px solid #ed7d31;
 }
 
-.price_btn:hover {
+.price_btn:hover,
+.more_btn:hover {
     color: #ed7d31 !important;
 }
 

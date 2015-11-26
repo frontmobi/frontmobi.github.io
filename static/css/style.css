@@ -3,7 +3,8 @@ body, html, input, button, select, textarea {
 }
 
 body {
-    background-color: #ffefe0;
+    /*background-color: #ffefe0;*/
+    background-color: #fff;
 }
 
 .jumbotron h1 {

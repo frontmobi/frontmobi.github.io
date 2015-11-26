@@ -64,13 +64,17 @@ a:focus {
 .modal-portfolio .modal-header,
 .modal-portfolio .modal-body,
 .modal-portfolio .modal-footer {
-    background-color: #ffffee;
+    background-color: #fff;
 }
 
 .modal-portfolio .modal-header {
-    color: #000;
+    color: #333;
     padding:9px 15px;
-    background-color: #f9df66;
+    background-color: #333;
+}
+
+.modal-portfolio .modal-header .modal-title {
+    color: #fff;
 }
 
 .modal-portfolio .modal-footer {
@@ -82,7 +86,7 @@ a:focus {
     font-size: 36px;
     font-weight: bold;
     line-height: 1;
-    color: #e16063;
+    color: #eee;
     text-shadow: 0 0 0 transparent;
     filter: alpha(opacity=100);
     opacity: 1;
