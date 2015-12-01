@@ -152,6 +152,11 @@ footer p {
 }
 
 @media (max-width: 767px) {
+    .modal-main .close {
+        font-size: 32px;
+        line-height: 24px;
+    }
+
     .jumbotron h1 {
         font-size: 32px;
     }
