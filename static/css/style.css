@@ -114,7 +114,7 @@ footer p {
 .modal-main .modal-header,
 .modal-main .modal-body,
 .modal-main .modal-footer {
-    background-color: #ffffee;
+    background-color: #fff;
 }
 
 .modal-main .modal-header {
@@ -157,7 +157,7 @@ footer p {
     }
 
     .service-item li {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .btn-open {
