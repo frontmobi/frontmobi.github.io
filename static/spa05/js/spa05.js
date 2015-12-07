@@ -244,7 +244,7 @@ jQuery(function($) {
     $(".testimonial_slider").slick({
         dots: true,
         infinite: true,
-        speed: 800,
+        speed: 600,
         arrows: false,
         slidesToShow: 1,
         slide: "li",

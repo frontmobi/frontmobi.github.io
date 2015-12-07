@@ -164,7 +164,7 @@ ol {
     /* centers the loading animation horizontally one the screen */
     top: 50%;
     /* centers the loading animation vertically one the screen */
-    background-image: url(../images/preloader.gif);
+    background-image: url(/static/images/preloader.gif);
     /* path to your loading animation */
     background-repeat: no-repeat;
     background-position: center;
@@ -233,14 +233,13 @@ ol {
 /* Home Style */
 
 #tf-home {
-    background: url(../images/cover.jpg);
-    /*background: url('http://placehold.it/1600x900/1A2A3A/EEE');*/
+/*    background: url(images/cover.jpg);
+    background: url('http://placehold.it/1600x900/1A2A3A/EEE');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    color: #cfcfcf;
-}
+*/}
 
 #tf-home .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
@@ -270,8 +269,12 @@ ol {
     padding: 20% 0 0;
 }
 
-.color {
+.site-title {
     color: #fcac45;
+}
+
+.white {
+    color: #fff;
 }
 
 a.fa.fa-angle-down {
@@ -293,9 +296,9 @@ a.fa.fa-angle-down:hover {
 
 /* About Section */
 
-#tf-about {
+.tf-about {
     background-color: #eee;
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 ul.about-list {
@@ -315,7 +318,7 @@ ul.about-list li span {
 
 /* Team Section */
 
-#tf-team {
+.tf-team {
     /*background: url(../images/team.jpg);*/
     background: url(http://placehold.it/1300x800/2A2A2A/EEE);
     background-size: cover;
@@ -325,7 +328,7 @@ ul.about-list li span {
     color: #ffffff;
 }
 
-#tf-team .overlay {
+.tf-team .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
     /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), color-stop(100%, rgba(0, 0, 0, 0.4)));
@@ -383,6 +386,10 @@ ul.about-list li span {
     text-align: center;
 }
 
+.item-desc {
+    font-size: 16px;
+}
+
 img.img-circle.team-img {
     width: 120px;
     height: 120px;
@@ -390,16 +397,16 @@ img.img-circle.team-img {
     transition: all 0.5s;
 }
 
-#tf-team .item .thumbnail:hover>img.img-circle.team-img {
+.tf-team .item .thumbnail:hover>img.img-circle.team-img {
     border: 4px solid #ed7d31;
 }
 
-#tf-team .thumbnail {
+.tf-team .thumbnail {
     background: transparent;
     border: 0;
 }
 
-#tf-team .thumbnail .caption {
+.tf-team .thumbnail .caption {
     padding: 9px;
     color: #F2F2F2;
 }
@@ -432,15 +439,19 @@ img.img-circle.team-img {
 
 /* Services Section */
 
-#tf-services {
+.tf-services {
     padding: 80px 0;
+}
+
+.service-item p {
+    font-size: 16px;
 }
 
 .space {
     margin-top: 40px;
 }
 
-#tf-services i.fa {
+.tf-services i.fa {
     font-size: 40px;
     border: 4px solid #ed7d31;
     width: 100px;
@@ -451,29 +462,35 @@ img.img-circle.team-img {
     transition: all 0.5s;
 }
 
-#tf-services i.fa.fa-mobile {
+/*.tf-services i.fa.fa-mobile {
     font-size: 50px;
     padding: 20px 25px;
 }
+*/
 
-#tf-services .service:hover>i.fa {
+.tf-services .service i.fa {
+    /*background: #ed7d31;*/
+    color: #666;
+}
+
+.tf-services .service:hover i.fa {
     background: #ed7d31;
-    color: #ffffff;
+    color: #fff;
 }
 
 
 /* Clients Section */
 
-#tf-clients {
-    background: url(../images/clients.jpg);
+.tf-clients {
+    /*background: url(../images/clients.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    color: #ffffff;
+    color: #ffffff;*/
 }
 
-#tf-clients .overlay {
+.tf-clients .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
     /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), color-stop(100%, rgba(0, 0, 0, 0.4)));
@@ -506,7 +523,7 @@ img.img-circle.team-img {
 /* Gallery Section 
 ==============================*/
 
-#tf-works {
+.tf-works {
     padding: 80px 0;
 }
 
@@ -523,13 +540,14 @@ ul.cat li {
     display: inline-block;
 }
 
-#tf-works li.pull-right {
+.tf-works li.pull-right {
     margin-top: 10px;
 }
 
 ol.type li {
     display: inline-block;
     margin-left: 20px;
+    font-size: 16px;
 }
 
 ol.type li:after {
@@ -547,7 +565,7 @@ ol.type li a {
 
 ol.type li a.active {
     font-weight: 700;
-    color: #990000;
+    color: #ed7d31;
 }
 
 .isotope-item {
@@ -643,7 +661,7 @@ ol.type li a.active {
     opacity: 1;
 }
 
-#tf-works i.fa {
+.tf-works i.fa {
     height: 30px;
     width: 30px;
     border: 1px solid #ed7d31;
@@ -656,16 +674,16 @@ ol.type li a.active {
 
 /* Testimonials Section */
 
-#tf-testimonials {
-    background: url(../images/testimonials.jpg);
+.tf-testimonials {
+    /*background: url(../images/testimonials.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    color: #ffffff;
+    color: #ffffff;*/
 }
 
-#tf-testimonials .overlay {
+.tf-testimonials .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
     /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), color-stop(100%, rgba(0, 0, 0, 0.4)));
@@ -695,20 +713,31 @@ ol.type li a.active {
 }
 
 #testimonial .item h5 {
-	font-size: 16px;
+    color: #fff;
+	font-size: 20px;
 }
 
 #testimonial .item p {
-    font-weight: 400;
-    margin: 30px 0;
-    color: #d1d1d1;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+#testimonial .item img {
+    width: 150px;
+    padding: 0px 20px;
 }
 
 
 /* Contact Section */
 
-#tf-contact {
+.tf-contact {
     padding: 80px 0;
+}
+
+.contact-info {
+    font-size: 16px;
 }
 
 label {
@@ -765,7 +794,7 @@ ul.footer-social li {
 }
 
 nav#footer p {
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 10px;
 }
 
@@ -797,8 +826,8 @@ nav#footer p {
     #tf-menu.navbar-default {
         background-color: rgba(0, 0, 0, 0.79);
     }
-    #tf-works li.pull-right,
-    #tf-works li.pull-left {
+    .tf-works li.pull-right,
+    .tf-works li.pull-left {
         margin-top: 10px;
         float: none !important;
         text-align: center;
@@ -834,8 +863,8 @@ nav#footer p {
         font-size: 26px;
     }
 
-    #tf-contact p,
-    #tf-contact a {
+    .tf-contact p,
+    .tf-contact a {
         color: #333;
     }
 

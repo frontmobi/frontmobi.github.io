@@ -8,19 +8,16 @@
     <meta name="description" content="FMSPA標準版03">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	
 	<link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/css/font-awesome.min.css">
     <link rel="stylesheet" href="/static/spa03/css/jquery.fancybox.css">
     <link rel="stylesheet" href="/static/spa03/css/owl.carousel.css">
     <link rel="stylesheet" href="/static/spa03/css/slit-slider.css">
-    <link rel="stylesheet" href="css/style.min.css">
-
+    <link rel="stylesheet" href="/static/spa03/css/spa03.min.css">
     <script src="/static/spa03/js/modernizr-2.6.2.min.js"></script>
 </head>
 
 <body id="body">
-
 	<div id="preloader">
         <div class="loder-box">
         	<div class="battery"></div>
@@ -64,7 +61,7 @@
 				<div class="sl-slider">
 				
 					<div class="sl-slide" data-orientation="horizontal">
-						<div class="bg-img bg-img-1"></div>
+						<div class="bg-img bg-img-1" style="background-image: url(images/slider-01.jpg);"></div>
 						<div class="slide-caption">
 	                        <div class="caption-content">
 	                            <h2>品牌意涵</h2>
@@ -75,7 +72,7 @@
 					</div>
 					
 					<div class="sl-slide" data-orientation="vertical">
-						<div class="bg-img bg-img-1"></div>
+						<div class="bg-img bg-img-2" style="background-image: url(images/slider-01.jpg);"></div>
 						<div class="slide-caption">
 	                        <div class="caption-content">
 	                            <h2>經營理念</h2>
@@ -86,7 +83,7 @@
 					</div>
 					
 					<div class="sl-slide" data-orientation="horizontal">
-						<div class="bg-img bg-img-3"></div>
+						<div class="bg-img bg-img-3" style="background-image: url('http://placehold.it/1600x900/6A090C/DF8D90');"></div>
 						<div class="slide-caption">
 	                        <div class="caption-content">
 	                            <h2>發展願景</h2>
@@ -117,7 +114,7 @@
 			</div>
 		</section>
 		
-		<section id="news">
+		<section id="news" class="news-area">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
@@ -149,24 +146,25 @@
 								<img src="https://placeholdit.imgix.net/~text?txtsize=42&bg=cccccc&txtclr=000000&txt=易取行動%0A280%C3%97280&w=280&h=280" alt="" class="pull-left img-responsive" />
 					       		<p>可敘述發展起源、品牌意涵、經營理念、企業願景或使命、服務或商品特色…等</p>
 					     	 </div>
-					       	<a href="#" class="btn btn-border btn-effect pull-right">聯絡我們</a>
+					       	<a href="#contact" class="btn btn-border btn-effect pull-right">聯絡我們</a>
 					    </div>
 					</div>
 				</div>
 			</div>
 		</section>
 		
-		<section id="service">
+		<section id="service" class="service-area">
 			<div class="container">
 				<div class="row">
 				
 					<div class="sec-title text-center">
 						<h2>服務項目</h2>
+						<p>格式一</p>
 					</div>
 					
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
 						<div class="service-item">
-							<a href="#somelink" data-toggle="modal" data-target="#myModal">
+							<a href="#somelink" data-toggle="modal" data-target="#myModal1">
 								<div class="service-icon">
 									<i class="fa fa-home fa-3x"></i>
 								</div>
@@ -178,7 +176,7 @@
 				
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
 						<div class="service-item">
-							<a href="#somelink" data-toggle="modal" data-target="#myModal">
+							<a href="#somelink" data-toggle="modal" data-target="#myModal1">
 								<div class="service-icon">
 									<i class="fa fa-tasks fa-3x"></i>
 								</div>
@@ -190,7 +188,7 @@
 				
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
 						<div class="service-item">
-							<a href="#somelink" data-toggle="modal" data-target="#myModal">
+							<a href="#somelink" data-toggle="modal" data-target="#myModal1">
 								<div class="service-icon">
 									<i class="fa fa-clock-o fa-3x"></i>
 								</div>
@@ -202,7 +200,7 @@
 				
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
 						<div class="service-item">
-							<a href="#somelink" data-toggle="modal" data-target="#myModal">
+							<a href="#somelink" data-toggle="modal" data-target="#myModal1">
 								<div class="service-icon">
 									<i class="fa fa-heart fa-3x"></i>
 								</div>
@@ -211,31 +209,103 @@
 							<p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>					
 						</div>
 					</div>
+
+				</div>
+			</div>
+
+			<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModal1Label">
+		      <div class="modal-dialog modal-service" role="document">
+		        <div class="modal-content">
+		          <div class="modal-header">
+		            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		            <h4 class="modal-title" id="myModal1Label">標題</h4>
+		          </div>
+		          <div class="modal-body">
+		            <p class="lead">
+		            更多的內容，可彈性配置
+		            </p>
+		          </div>
+		          <div class="modal-footer">
+		            <button type="button" class="btn btn-lg btn-primary" data-dismiss="modal">關閉</button>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		</section>
+
+		<section id="service2" class="service-area">
+			<div class="container">
+				<div class="row">
+				
+					<div class="sec-title text-center">
+						<h2>服務項目</h2>
+						<p>格式二</p>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="service-item">
+							<a href="#somelink" data-toggle="modal" data-target="#myModal2">
+								<img src="https://placeholdit.imgix.net/~text?txtsize=36&bg=d3c1a9&txtclr=000000&txt=服務項目%0A200%C3%97200&w=200&h=200" alt="">
+							</a>
+							<h3>服務項目 (商品)</h3>
+							<p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
+						</div>
+					</div>
+				
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="service-item">
+							<a href="#somelink" data-toggle="modal" data-target="#myModal2">
+								<img src="https://placeholdit.imgix.net/~text?txtsize=36&bg=d3c1a9&txtclr=000000&txt=服務項目%0A200%C3%97200&w=200&h=200" alt="">
+							</a>
+							<h3>服務項目 (商品)</h3>
+							<p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="service-item">
+							<a href="#somelink" data-toggle="modal" data-target="#myModal2">
+								<img src="https://placeholdit.imgix.net/~text?txtsize=36&bg=d3c1a9&txtclr=000000&txt=服務項目%0A200%C3%97200&w=200&h=200" alt="">
+							</a>
+							<h3>服務項目 (商品)</h3>
+							<p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="service-item">
+							<a href="#somelink" data-toggle="modal" data-target="#myModal2">
+								<img src="https://placeholdit.imgix.net/~text?txtsize=36&bg=d3c1a9&txtclr=000000&txt=服務項目%0A200%C3%97200&w=200&h=200" alt="">
+							</a>
+							<h3>服務項目 (商品)</h3>
+							<p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
+						</div>
+					</div>
 					
 				</div>
 			</div>
+
+			<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModal2Label">
+		      <div class="modal-dialog modal-service" role="document">
+		        <div class="modal-content">
+		          <div class="modal-header">
+		            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		            <h4 class="modal-title" id="myModal2Label">標題</h4>
+		          </div>
+		          <div class="modal-body">
+		            <p class="lead">
+		            更多的內容，可彈性配置
+		            </p>
+		          </div>
+		          <div class="modal-footer">
+		            <button type="button" class="btn btn-lg btn-primary" data-dismiss="modal">關閉</button>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
 		</section>
 
-	    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	      <div class="modal-dialog modal-service" role="document">
-	        <div class="modal-content">
-	          <div class="modal-header">
-	            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	            <h4 class="modal-title" id="myModalLabel">標題</h4>
-	          </div>
-	          <div class="modal-body">
-	            <p class="lead">
-	            更多的內容，可彈性配置
-	            </p>
-	          </div>
-	          <div class="modal-footer">
-	            <button type="button" class="btn btn-lg btn-primary" data-dismiss="modal">關閉</button>
-	          </div>
-	        </div>
-	      </div>
-	    </div>
-		
-		<section id="portfolio">
+		<section id="portfolio" class="portfolio-area">
 			<div class="container">
 				<div class="row">
 				
@@ -252,7 +322,7 @@
 							</figcaption>
 							<ul class="external">
 								<li><a class="fancybox" title="專案客戶" data-fancybox-group="works" href="images/portfolio-1.png"><i class="fa fa-search"></i></a></li>
-								<li><a href="#somelink"><i class="fa fa-link"></i></a></li>
+								<li><a href="#somelink" data-toggle="modal" data-target="#myModalPortfolio"><i class="fa fa-link"></i></a></li>
 							</ul>
 						</li>
 						
@@ -264,7 +334,7 @@
 							</figcaption>
 							<ul class="external">
 								<li><a class="fancybox" title="專案客戶" data-fancybox-group="works"  href="images/portfolio-2.png"><i class="fa fa-search"></i></a></li>
-								<li><a href="#somelink"><i class="fa fa-link"></i></a></li>
+								<li><a href="#somelink" data-toggle="modal" data-target="#myModalPortfolio"><i class="fa fa-link"></i></a></li>
 							</ul>
 						</li>
 						
@@ -276,7 +346,7 @@
 							</figcaption>
 							<ul class="external">
 								<li><a class="fancybox" title="專案客戶" data-fancybox-group="works" href="images/portfolio-3.png"><i class="fa fa-search"></i></a></li>
-								<li><a href="#somelink"><i class="fa fa-link"></i></a></li>
+								<li><a href="#somelink" data-toggle="modal" data-target="#myModalPortfolio"><i class="fa fa-link"></i></a></li>
 							</ul>
 						</li>
 						
@@ -288,7 +358,7 @@
 							</figcaption>
 							<ul class="external">
 								<li><a class="fancybox" title="專案客戶" data-fancybox-group="works" href="images/portfolio-4.png"><i class="fa fa-search"></i></a></li>
-								<li><a href="#somelink"><i class="fa fa-link"></i></a></li>
+								<li><a href="#somelink" data-toggle="modal" data-target="#myModalPortfolio"><i class="fa fa-link"></i></a></li>
 							</ul>
 						</li>
 						
@@ -300,7 +370,7 @@
 							</figcaption>
 							<ul class="external">
 								<li><a class="fancybox" title="專案客戶" data-fancybox-group="works" href="images/portfolio-5.png"><i class="fa fa-search"></i></a></li>
-								<li><a href="#somelink"><i class="fa fa-link"></i></a></li>
+								<li><a href="#somelink" data-toggle="modal" data-target="#myModalPortfolio"><i class="fa fa-link"></i></a></li>
 							</ul>
 						</li>
 						
@@ -312,16 +382,35 @@
 							</figcaption>
 							<ul class="external">
 								<li><a class="fancybox" title="專案客戶" data-fancybox-group="works" href="images/portfolio-6.png"><i class="fa fa-search"></i></a></li>
-								<li><a href="#somelink"><i class="fa fa-link"></i></a></li>
+								<li><a href="#somelink" data-toggle="modal" data-target="#myModalPortfolio"><i class="fa fa-link"></i></a></li>
 							</ul>
 						</li>
 					</ul>
-					
 				</div>
 			</div>
+
+			<div class="modal fade" id="myModalPortfolio" tabindex="-1" role="dialog" aria-labelledby="myModalPortfolioLabel">
+		      <div class="modal-dialog modal-service" role="document">
+		        <div class="modal-content">
+		          <div class="modal-header">
+		            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		            <h4 class="modal-title" id="myModalPortfolioLabel">標題</h4>
+		          </div>
+		          <div class="modal-body">
+		            <p class="lead">
+		            更多的內容，可彈性配置
+		            </p>
+		          </div>
+		          <div class="modal-footer">
+		            <button type="button" class="btn btn-lg btn-primary" data-dismiss="modal">關閉</button>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+
 		</section>
 		
-		<section id="testimonials" class="parallax">
+		<section id="testimonials" class="testimonials-area">
 			<div class="overlay">
 				<div class="container">
 					<div class="row">
@@ -439,9 +528,10 @@
 					<div class="col-md-5">
 						<address class="contact-details text-contact">
 							<h3>聯絡資訊</h3>						
-							<p><i class="fa fa-map-marker"></i> 地址：高雄市苓雅區自強三路3號</p>
-							<p><i class="fa fa-phone"></i> 專線：0988-235-612</p>
-							<p><i class="fa fa-envelope"></i> Email：contact@frontmobi.com</p>
+							<p>802 高雄市苓雅區自強三路3號30樓之1 (高雄85大樓)</p>
+							<p><i class="fa fa-map-marker"></i> <a href="https://www.google.com.tw/maps/place/802高雄市苓雅區自強三路3號30樓之1/@22.6117755,120.3002614,18z" target="_blank">檢視地圖</a></p>
+							<p><i class="fa fa-phone"></i> <a href="tel:0988235612">0988-235-612</a></p>
+							<p><i class="fa fa-envelope"></i> <a href="mailto:contact@frontmobi.com">contact@frontmobi.com</a></p>
 						</address>
 					</div>
 				</div>
@@ -461,7 +551,7 @@
 							<li><a href="#somelink"><i class="fa fa-youtube fa-3x"></i></a></li>
 						</ul>
 					</div>
-					<p>©2013 <a href="#somelink">EachMobi</a>. All rights reserved.</p>
+					<p>&copy; 2015 <a href="#somelink">易取行動科技</a> 版權所有</p>
 				</div>
 			</div>
 		</div>

@@ -64,7 +64,7 @@ a:hover {
     /* centers the loading animation horizontally one the screen */
     top: 50%;
     /* centers the loading animation vertically one the screen */
-    background-image: url(../images/preloader.gif);
+    background-image: url(/static/images/preloader.gif);
     /* path to your loading animation */
     background-repeat: no-repeat;
     background-position: center;
@@ -86,11 +86,11 @@ a:hover {
     height: 51px;
     border: none;
     text-indent: 100%;
-    background: url(../images/ui.totop.png) no-repeat left top;
+    /*background: url(../images/ui.totop.png) no-repeat left top;*/
 }
 
 #toTopHover {
-    background: url(../images/ui.totop.png) no-repeat left -51px;
+    /*background: url(../images/ui.totop.png) no-repeat left -51px;*/
     width: 51px;
     height: 51px;
     display: block;
@@ -303,7 +303,7 @@ Image credits: unsplash.com
 }
 
 .fade-carousel .slides .slide-1 {
-    background-image: url(../images/slider-01.jpg);
+    /*background-image: url(../images/slider-01.jpg);*/
     /*background-image: url('http://placehold.it/1920x1280/9957A0/522057');*/
 }
 
@@ -618,6 +618,7 @@ nav ul a {
 
 .single_service p {
     text-align: center;
+    font-size: 16px;
 }
 
 .single_service img {
@@ -627,11 +628,11 @@ nav ul a {
 
 /* ===========getit style===========*/
 
-.getit_area {
+.getit-area {
     background: #ed7d31;
 }
 
-.getit_area h1 {
+.getit-area h1 {
     color: #ffffff;
 }
 
@@ -643,7 +644,7 @@ nav ul a {
 
 /* ===========Portfolio style===========*/
 
-.portfolio_area {
+.portfolio-area {
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -698,6 +699,7 @@ nav ul a {
 }
 
 #filters li {
+    font-size: 16px;
     float: left;
 }
 
@@ -777,33 +779,33 @@ nav ul a {
     background-color: #f8f8f8;
 }
 
-/*============== Blog style ==============*/
+/*============== News style ==============*/
 
-.blog_area {
+.news-area {
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.blog_section {}
+.news_section {}
 
-.blog_section h1 {
+.news_section h1 {
     text-transform: uppercase;
     font-weight: 600;
 }
 
-.blog_section h1 span {
+.news_section h1 span {
     color: #ed7d31;
 }
 
-.single_blog {
+.single_news {
     margin-top: 30px;
 }
 
-.single_blog a {
+.single_news a {
     text-decoration: none;
 }
 
-.single_blog a:hover {
+.single_news a:hover {
     color: #282a2e;
 }
 
@@ -844,6 +846,15 @@ nav ul a {
     transition: all .5s ease-in-out;
 }
 
+.slider-content .slider-text h3 {
+    font-weight: bold;
+}
+
+.slider-content .slider-text p {
+    font-size: 15px;
+    color: #333;
+}
+
 .slider-content:hover .slider-text {
     background: #ed7d31;
 }
@@ -877,7 +888,7 @@ nav ul a {
 
 /*============== Price style ==============*/
 
-.price_area {
+.price-area {
     background: #f8f8f8;
 }
 
@@ -1033,7 +1044,7 @@ nav ul a {
 
 /*============== Contact style ==============*/
 
-.contact_area {
+.contact-area {
     /*background: url(../images/photography.png);*/
     background-color: #fff;
 }
@@ -1089,6 +1100,14 @@ nav ul a {
     margin-bottom: 10px;
 }
 
+.contact_info li {
+    font-size: 15px;
+}
+
+.contact_info a {
+    color: #ed7d31;
+}
+
 .contact_social {
     margin-top: 5px;
 }
@@ -1100,6 +1119,10 @@ nav ul a {
 
 .contact_social a {
     color: #363636;
+}
+
+.cpright-link {
+    color: #ed7d31;
 }
 
 .fb:hover {
@@ -1235,7 +1258,7 @@ blockquote p {
         font-size: 18px;
     }
 
-    .getit_area h1 {
+    .getit-area h1 {
         font-size: 20px;
     }
 

@@ -74,18 +74,15 @@ main > section {
 
 /* custom bg-img */
 .bg-img-1 {
-    background-image: url(../images/slider-01.jpg);
-    /*background-image: url('http://placehold.it/1600x900/2E3703/D1E27E');*/
+    /*background-image: url(/static/spa03/images/slider-01.jpg);*/
 }
 
 .bg-img-2 {
-    /*background-image: url(../images/slider-02.jpg);*/
-    background-image: url('http://placehold.it/1600x900/522057/9957A0');
+    /*background-image: url(/static/spa03/images/slider-02.jpg);*/
 }
 
 .bg-img-3 {
-    /*background-image: url(../images/slider-03.jpg);*/
-    background-image: url('http://placehold.it/1600x900/6A090C/DF8D90');
+    /*background-image: url(/static/spa03/images/slider-03.jpg);*/
 }
 
 
@@ -159,6 +156,7 @@ main > section {
 
 .btn-effect {
     vertical-align: middle;
+    font-size: 16px;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
     display: inline-block;
@@ -261,7 +259,7 @@ main > section {
     border-bottom: 1px solid #fff;
 }
 
-.parallax {
+.testimonials-area {
     background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
@@ -587,7 +585,7 @@ h1.navbar-brand a {
 /* Project laughtbox setup */
 
 .fancybox-item.fancybox-close {
-    background: url(../images/icons/close.png) no-repeat scroll 0 0 transparent;
+    background: url(/static/spa03/images/close.png) no-repeat scroll 0 0 transparent;
     height: 50px;
     right: 0;
     top: 0;
@@ -595,14 +593,14 @@ h1.navbar-brand a {
 }
 
 .fancybox-next span {
-    background: url(../images/right.png) no-repeat scroll center center #009ee3;
+    background: url(/static/spa03/images/right.png) no-repeat scroll center center #009ee3;
     height: 50px;
     width: 50px;
     right: 0;
 }
 
 .fancybox-prev span {
-    background: url(../images/left.png) no-repeat scroll center center #009ee3;
+    background: url(/static/spa03/images/left.png) no-repeat scroll center center #009ee3;
     height: 50px;
     width: 50px;
     left: 0;
@@ -613,29 +611,29 @@ h1.navbar-brand a {
     News
 ==================================================================*/
 
-#news {
+.news-area {
     background-color: #017BB0;
     color: #fff;
 }
 
-#news h3 {
+.news-area h3 {
     color: #fff;
     margin: 0 0 35px;
     text-transform: uppercase;
 }
 
-#news .welcome-block h3 {
+.news-area .welcome-block h3 {
     margin: 0 0 65px;
 }
 
-#news .welcome-block img {
+.news-area .welcome-block img {
     border: 3px solid #fff;
     border-radius: 50%;
     margin-right: 35px;
     max-width: 100px;
 }
 
-#news .message-body {
+.news-area .message-body {
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 70px;
@@ -721,7 +719,13 @@ h1.navbar-brand a {
 }
 
 .service-item p {
+    font-size: 16px;
     text-align: left;
+}
+
+.service-item img {
+    height: 100px;
+    width: 100px;
 }
 
 
@@ -740,7 +744,7 @@ h1.navbar-brand a {
     display: inline-block;
 }
 
-#portfolio {
+.portfolio-area {
     background-color: #eee;
 }
 
@@ -843,7 +847,7 @@ ul.external li a:hover {
 ==================================================================*/
 
 #testimonials {
-    /*background-image: url(../images/testimonial.jpg);*/
+    /*background-image: url(/static/spa03/images/testimonial.jpg);*/
     padding: 0;
     color: #fff;
 }
@@ -879,7 +883,7 @@ ul.external li a:hover {
 }
 
 .testimonial-item > div:before {
-    /*background-image: url(../images/icons/quotes.png);*/
+    /*background-image: url(/static/spa03/images/quotes.png);*/
     background-repeat: no-repeat;
     bottom: 127px;
     height: 33px;
@@ -889,7 +893,7 @@ ul.external li a:hover {
 }
 
 .testimonial-item > div:after {
-    /*background-image: url(../images/icons/quotes.png);*/
+    /*background-image: url(/static/spa03/images/quotes.png);*/
     background-position: -58px 0;
     background-repeat: no-repeat;
     bottom: -50px;
@@ -1023,6 +1027,18 @@ ul.external li a:hover {
     background-color: #eee;
 }
 
+.contact-details a {
+    color: #333;
+}
+
+.contact-details a:hover {
+    color: #ed7d31;
+}
+
+.contact-details p {
+    font-size: 16px;
+}
+
 #footer {
     background-color: #2E2E2E;
     padding: 70px 0;
@@ -1035,7 +1051,7 @@ ul.external li a:hover {
 }
 
 #footer p > a {
-    color: #ED7D31;
+    color: #ed7d31;
 }
 
 .footer-content {
@@ -1099,7 +1115,7 @@ ul.external li a:hover {
 
 @media (min-width: 980px) and (max-width: 1150px) {
     /*news*/
-    #news .welcome-block img {
+    .news-area .welcome-block img {
         margin-bottom: 30px;
     }
     /* portfolio */
@@ -1163,8 +1179,8 @@ ul.external li a:hover {
     body {
         font-size: 14px;
     }
-    .parallax {
-        background-position: centet tip !important;
+    .testimonials-area {
+        background-position: center top !important;
     }
     .sec-title h2 {
         font-size: 25px;
@@ -1204,17 +1220,17 @@ ul.external li a:hover {
     .recent-works {
         margin-bottom: 85px;
     }
-    #news h3 {
+    .news-area h3 {
         font-size: 18px;
         margin: 0 0 35px !important;
     }
-    #news .owl-buttons {
+    .news-area .owl-buttons {
         margin-top: 20px;
     }
-    #news .message-body {
+    .news-area .message-body {
         margin-bottom: 45px;
     }
-    #news .welcome-block img {
+    .news-area .welcome-block img {
         margin: 0 25px 15px 0;
     }
     /* service */
@@ -1296,7 +1312,7 @@ ul.external li a:hover {
         font-size: 35px;
     }
     /*news*/
-    #news .welcome-block h3 {
+    .news-area .welcome-block h3 {
         margin: 0 0 35px;
     }
     /* service */
