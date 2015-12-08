@@ -166,6 +166,7 @@ ol {
     /* centers the loading animation vertically one the screen */
     background-image: url(/static/images/preloader.gif);
     /* path to your loading animation */
+    background-size: 32px 32px;
     background-repeat: no-repeat;
     background-position: center;
     margin: -100px 0 0 -100px;
