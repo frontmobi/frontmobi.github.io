@@ -67,6 +67,11 @@ body {
     border: solid 1px #999;
 }
 
+.img-qrcode {
+	width: 300px;
+	height: 300px;
+}
+
 .fixed-padding {
     padding: 0px 15px;
 }
@@ -181,4 +186,9 @@ footer p {
     .text-qrcode {
         text-align: center;
     }
+
+    .img-qrcode {
+		width: 150px;
+		height: 150px;
+	}
 }
