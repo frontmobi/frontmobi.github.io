@@ -97,15 +97,17 @@ hr {
 }
 
 .gradiant {
-    background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    /*background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
     background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-    background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);*/
+    background-color: #017BB0;
 }
 
 .gradiant-horizontal {
-    background-image: -moz-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
+    /*background-image: -moz-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
     background-image: -webkit-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
-    background-image: -ms-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
+    background-image: -ms-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);*/
+    background-color: #017BB0;
 }
 
 .section-header {
@@ -131,7 +133,7 @@ hr {
 
 .btn {
     border-width: 0;
-    border-bottom-width: 3px;
+/*    border-bottom-width: 3px;*/
     border-radius: 3px;
 }
 
@@ -262,6 +264,10 @@ ul.nostyle i {
 .navbar.navbar-default .navbar-brand img {
     width: 160px;
     height: 40px;
+}
+
+#main-menu.navbar-default .navbar-nav > li > a {
+    font-size: 15px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -460,6 +466,10 @@ ul.nostyle i {
     margin: 25px 0;
 }
 
+.media.service-box p {
+    font-size: 16px;
+}
+
 .media.service-box .pull-left {
     margin-right: 20px;
 }
@@ -472,8 +482,8 @@ ul.nostyle i {
     width: 64px;
     border-radius: 100%;
     color: #ed7d31;
-    box-shadow: inset 0 0 0 1px #d7d7d7;
-    -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
+    box-shadow: inset 0 0 0 1px #ccc;
+    -webkit-box-shadow: inset 0 0 0 1px #ccc;
     transition: background-color 400ms, background-color 400ms;
     position: relative;
 }
@@ -492,12 +502,15 @@ ul.nostyle i {
 }
 
 .media.service-box:hover .pull-left > i {
-    background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    /*background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
     background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
     background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-    color: #fff;
     box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);
-    -webkit-box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);*/
+    box-shadow: inset 0 0 0 0px #ccc;
+    -webkit-box-shadow: inset 0 0 0 0px #ccc;
+    color: #fff;
+    background-color: #017BB0;
 }
 
 .portfolio-area {
@@ -518,19 +531,21 @@ ul.nostyle i {
 }
 
 .portfolio-area .portfolio-filter > li a {
+    font-size: 16px;
     display: block;
     padding: 7px 15px;
     background: #e5e5e5;
     color: #64686d;
     position: relative;
+    border: 1px solid #ccc;
 }
 
 .portfolio-area .portfolio-filter > li a:hover,
 .portfolio-area .portfolio-filter > li a.active {
     background: #ed7d31;
     color: #fff;
-    box-shadow: 0 -3px 0 0 #cf5400 inset;
-    -webkit-box-shadow: 0 -3px 0 0 #cf5400 inset;
+    box-shadow: 0 -3px 0 0 #ed7d31 inset;
+    -webkit-box-shadow: 0 -3px 0 0 #ed7d31 inset;
 }
 
 .portfolio-area .portfolio-filter > li a.active:after {
@@ -541,7 +556,7 @@ ul.nostyle i {
     margin-left: -10px;
     border-width: 10px;
     border-style: solid;
-    border-color: #cf5400 transparent transparent transparent;
+    border-color: #ed7d31 transparent transparent transparent;
 }
 
 .portfolio-area .portfolio-filter > li:first-child a {
@@ -596,13 +611,14 @@ ul.nostyle i {
     top: -18px;
     right: 12px;
     border-radius: 50%;
-    background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    /*background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
     background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-    background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);*/
     width: 36px;
     height: 36px;
     line-height: 36px;
     text-align: center;
+    background-color: #017BB0;
     color: #fff;
     box-shadow: 0 0 0 2px #fff;
     -webkit-box-shadow: 0 0 0 2px #fff;
@@ -819,12 +835,13 @@ ul.nostyle i {
 }
 
 .panel-default > .panel-heading .panel-title {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: normal;
 }
 
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
     border-top-color: #eee;
+    font-size: 16px;
 }
 
 #animated-number {
@@ -893,10 +910,11 @@ ul.nostyle i {
     display: inline-block;
     width: 116px;
     height: 116px;
-    background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    /*background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
     background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-    background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);*/
     color: #fff;
+    background-color: #017BB0;
     border-radius: 100px;
     border: 5px solid #f6f6f6;
 }
@@ -932,9 +950,10 @@ ul.nostyle i {
 }
 
 #pricing ul.pricing.featured li.plan-header {
-    background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    /*background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
     background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-    background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);*/
+    background-color: #017BB0;
 }
 
 #pricing ul.pricing.featured li.plan-header .plan-name {
@@ -942,11 +961,12 @@ ul.nostyle i {
 }
 
 .contact-area {
-    padding: 100px 0 50px;
-    background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    /*background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
     background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-    background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);*/
+    padding: 100px 0 50px;
     color: #fff;
+    background-color: #017BB0;
 }
 
 .contact-area p {
@@ -1144,7 +1164,7 @@ a.contact-link:focus {
         background-repeat: no-repeat;
     }
 
-    /* mobiel font size */
+    /* mobile font size */
     #main-menu.navbar-default .navbar-nav > li > a {
         font-size: 18px;
     }
