@@ -1197,4 +1197,9 @@ a.contact-link:focus {
         font-size: 30px;
         line-height: 24px;
     }
+
+    .portfolio-area .portfolio-filter > li a {
+        padding: 7px 12px;
+        font-size: 15px;
+    }
 }
