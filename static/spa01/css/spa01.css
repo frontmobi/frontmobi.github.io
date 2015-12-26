@@ -75,6 +75,11 @@ a:hover {
     background-color: #ed7d31;
 }
 
+.bg-secondary {
+    color: #fff;
+    background-color: #2f75b5;
+}
+
 .text-primary {
     color: #ed7d31;
 }
@@ -127,6 +132,19 @@ a:hover {
     background-color: rgba(255,255,255,0.8);
 }
 
+.btn-cta {
+    border-radius: 0;
+    color: #2f75b5;
+    background-color: rgb(255,255,255);
+}
+
+.btn-cta:hover,
+.btn-cta:focus,
+.btn-cta:active {
+    color: #2f75b5;
+    background-color: rgba(255,255,255,0.8);
+}
+
 /* Custom Horizontal Rule */
 
 hr.small {
@@ -144,7 +162,7 @@ hr.small {
     margin-right: -250px;
     overflow-y: auto;
     /* side menu background color */
-    background: #873803;
+    background: #333;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -220,6 +238,10 @@ hr.small {
 
 .toggle {
     margin: 5px 5px 0 0;
+}
+
+.menu-icon {
+    font-size: 24px;
 }
 
 /* Header */
@@ -340,7 +362,7 @@ footer {
 .modal-service .modal-header {
     color: #fff;
     padding:9px 15px;
-    background-color: #333;
+    background-color: #ed7d31;
 }
 
 .modal-service .modal-footer {
@@ -425,7 +447,7 @@ footer {
 }
 
 
-/*owl-theme*/
+/* owl-theme */
 .owl-theme .owl-controls {
     margin-top: 10px;
     text-align: center;
@@ -446,7 +468,7 @@ footer {
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
-    background: #ED7D31;;
+    background: #ed7d31;
     color: #fff;
     text-decoration: none
 }

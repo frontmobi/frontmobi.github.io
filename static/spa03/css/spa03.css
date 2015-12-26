@@ -96,7 +96,7 @@ main > section {
 .modal-service .modal-header {
     color: #fff;
     padding:9px 15px;
-    background-color: #017bb0;
+    background-color: #2f75b5;
 }
 
 .modal-service .modal-header .modal-title {
@@ -148,7 +148,7 @@ main > section {
 }
 
 .bg-blue {
-    background-color: #ED7D31;
+    background-color: #ed7d31;
 }
 
 
@@ -213,7 +213,7 @@ main > section {
 .btn-effect:hover,
 .btn-effect:focus,
 .btn-effect:active {
-    color: #ED7D31;
+    color: #ed7d31;
 }
 
 .btn-effect:hover:before,
@@ -246,7 +246,7 @@ main > section {
 }
 
 .sec-title h2:after {
-    border-bottom: 1px solid #009ee3;
+    border-bottom: 1px solid #2f75b5;
     content: "";
     display: block;
     left: 45%;
@@ -266,14 +266,23 @@ main > section {
     background-size: cover;
 }
 
-.text-contact *{
+.text-contact * {
     color: #333;
 }
 
-.text-white *{
+.text-white * {
     color: #fff;
 }
 
+.text-white p a {
+    color: #fff;
+}
+
+.text-white p a:hover,
+.text-white p a:active {
+    color: #fff;
+    text-decoration: underline;
+}
 
 /**
 /*  Preloader
@@ -584,8 +593,15 @@ h1.navbar-brand a {
 
 /* Project laughtbox setup */
 
+#nav-arrows > a.sl-prev:hover,
+#nav-arrows > a.sl-next:hover {
+    background-color: #2f75b5;
+    border-color: #2f75b5;
+    color: #fff;
+}
+
 .fancybox-item.fancybox-close {
-    background: url(/static/spa03/images/close.png) no-repeat scroll 0 0 transparent;
+    background: url(/static/spa03/images/close.png) no-repeat scroll center center #333;
     height: 50px;
     right: 0;
     top: 0;
@@ -593,14 +609,14 @@ h1.navbar-brand a {
 }
 
 .fancybox-next span {
-    background: url(/static/spa03/images/right.png) no-repeat scroll center center #009ee3;
+    background: url(/static/spa03/images/right.png) no-repeat scroll center center #2f75b5;
     height: 50px;
     width: 50px;
     right: 0;
 }
 
 .fancybox-prev span {
-    background: url(/static/spa03/images/left.png) no-repeat scroll center center #009ee3;
+    background: url(/static/spa03/images/left.png) no-repeat scroll center center #2f75b5;
     height: 50px;
     width: 50px;
     left: 0;
@@ -612,7 +628,7 @@ h1.navbar-brand a {
 ==================================================================*/
 
 .news-area {
-    background-color: #017BB0;
+    background-color: #2f75b5;
     color: #fff;
 }
 
@@ -700,9 +716,9 @@ h1.navbar-brand a {
 }
 
 .service-item:hover .service-icon {
-    border: 3px solid #ED7D31;
+    border: 3px solid #ed7d31;
     margin-bottom: 20px;
-    color: #ED7D31;
+    color: #ed7d31;
 }
 
 .service-icon i {
@@ -811,7 +827,7 @@ ul.external li a {
 }
 
 ul.external li a:hover {
-    background-color: #ED7D31;
+    background-color: #ed7d31;
     color: #fff;
 }
 
@@ -859,7 +875,7 @@ ul.external li a:hover {
 #testimonials .overlay {
     /*background-color: rgba(15, 155, 224, 0.78);*/
     /*background-color: rgba(0, 0, 0, 0.65);*/
-    background-color: #017bb0;
+    background-color: #2f75b5;
     padding: 70px 0 40px;
 }
 
@@ -959,7 +975,7 @@ ul.external li a:hover {
 }
 
 .price-table.featured .value {
-    background-color: #ED4731;
+    background-color: #2f75b5;
     color: #fff;
 }
 
@@ -1004,15 +1020,15 @@ ul.external li a:hover {
 .price-table ul li a {
     display: block;
     text-transform: uppercase;
-    color: #ED7D31;
+    color: #ed7d31;
 }
 
 .price-table.featured ul li:last-child {
-    background-color: #ED4731;
+    background-color: #2f75b5;
 }
 
 .price-table ul li:last-child:hover {
-    background-color: #ED7D31;
+    background-color: #ed7d31;
 }
 
 .price-table.featured ul li:last-child a,
@@ -1024,7 +1040,7 @@ ul.external li a:hover {
     Footer
 ==============================================================*/
 #contact {
-    background-color: #eee;
+    background-color: #2f75b5;
 }
 
 .contact-details a {
@@ -1095,7 +1111,7 @@ ul.external li a:hover {
 }
 
 .footer-social ul li a:hover {
-    color: #ED7D31;
+    color: #ed7d31;
 }
 
 .footer-content > p {

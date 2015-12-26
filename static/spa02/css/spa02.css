@@ -566,6 +566,15 @@ nav ul a {
 
 /*============== Service style ==============*/
 
+.service_section h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.service_section h1 span {
+    color: #ed7d31;
+}
+
 .single_service {
     margin-top: 80px;
     margin-bottom: 80px;
@@ -630,7 +639,7 @@ nav ul a {
 /* ===========getit style===========*/
 
 .getit-area {
-    background: #ed7d31;
+    background: #2f75b5;
 }
 
 .getit-area h1 {
@@ -777,7 +786,16 @@ nav ul a {
 /*============== Q&A style ==============*/
 
 .questions {
-    background-color: #f8f8f8;
+    background-color: #eee;
+}
+
+.questions h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.questions h1 span {
+    color: #ed7d31;
 }
 
 /*============== News style ==============*/
@@ -922,7 +940,7 @@ nav ul a {
 }
 
 .pricing-box ul:hover .subscription-price {
-    background: #ed7d31;
+    background: #2f75b5;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -998,7 +1016,7 @@ nav ul a {
 }
 
 .pricing-box.featured ul {
-    border: solid 2px #ed7d31;
+    border: solid 2px #2f75b5;
     z-index: 2;
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, .11);
 }
@@ -1012,7 +1030,7 @@ nav ul a {
 }
 
 .pricing-box.featured li.subscription-price {
-    background: #ed7d31;
+    background: #2f75b5;
 }
 
 .pricing-box.featured li.subscription-price .price {
@@ -1031,14 +1049,14 @@ nav ul a {
 }
 
 .pricing-box.featured li.sing-up a {
-    background: #ed7d31;
+    background: #2f75b5;
     color: #fff;
-    border: solid 1px #ed7d31;
+    border: solid 1px #2f75b5;
 }
 
 .pricing-box.featured li.sing-up a:hover {
-    background: #CE2112;
-    border: solid 1px #CE2112;
+    background: #ed7d31;
+    border: solid 1px #ed7d31;
     color: #fff;
 }
 
@@ -1148,6 +1166,21 @@ nav ul a {
 
 .map-panel-heading {
     background-color: #bdc3c7;
+}
+
+.panel-default .panel-heading {
+    background-color: #484848;        
+}
+
+.panel-default .panel-title {
+    
+    color: #fff;
+    font-size: 20px;
+}
+
+.panel-default .panel-body {
+    text-align: left;
+    font-size: 16px;
 }
 
 .copyright_section {
