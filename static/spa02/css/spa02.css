@@ -878,6 +878,10 @@ nav ul a {
     background: #ed7d31;
 }
 
+.slider-content .slider-text p.slider-date {
+    color: #2f75b5;
+}
+
 .slider-content:hover .slider-text p {
     color: #fff;
     -webkit-transition: all .5s ease-in-out;
