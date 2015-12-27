@@ -7,16 +7,17 @@ body {
     background-color: #fff;
 }
 
-.jumbotron h1 {
-    font-size: 36px;
-}
-
 .spa-item {
     padding: 20px;
 }
 
 .jumbotron {
+    /*color: #2f75b5;*/
     background-color: #262626;
+}
+
+.jumbotron h1 {
+    font-size: 36px;
 }
 
 .jumbotron h1,
@@ -101,12 +102,12 @@ ul li {
 }
 
 footer p {
-    color: #363636;
+    color: #262626;
     font-weight: bold;
 }
 
 .service-item li {
-    color: #FFCE43;
+    color: #eee;
     font-size: 16px;
 }
 
