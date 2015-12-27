@@ -7,10 +7,6 @@ body {
     background-color: #fff;
 }
 
-.spa-item {
-    padding: 20px;
-}
-
 .jumbotron {
     /*color: #2f75b5;*/
     background-color: #262626;
@@ -23,6 +19,10 @@ body {
 .jumbotron h1,
 .jumbotron h3 {
     color: #fff;
+}
+
+.spa-item {
+    padding: 20px;
 }
 
 .text-header {
@@ -93,6 +93,19 @@ body {
     border-top: solid 0px #999 !important;
 }
 
+.item-area {
+	text-align: left;
+}
+
+.service-item li {
+    color: #ffd058;
+    font-size: 16px;
+}
+
+.img-center .img-responsive {
+    margin: 0 auto;
+}
+
 ul {
     list-style: none;
 }
@@ -104,15 +117,6 @@ ul li {
 footer p {
     color: #262626;
     font-weight: bold;
-}
-
-.service-item li {
-    color: #fddd84;
-    font-size: 16px;
-}
-
-.img-center .img-responsive {
-    margin: 0 auto;
 }
 
 /* custom modal */
