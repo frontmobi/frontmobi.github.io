@@ -7,26 +7,39 @@ body {
     background-color: #fff;
 }
 
-.jumbotron {
+.home {
     /*color: #2f75b5;*/
+    background-image: url(/static/images/fmheader.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #262626;
+    padding: 0px;
+    height: 360px;
+    border-radius: 5px;
 }
 
-.jumbotron h1 {
+.home h1 {
+    padding: 20px 0px;
     font-size: 36px;
 }
 
-.jumbotron h1,
-.jumbotron h3 {
+.home h1,
+.home h3 {
     color: #fff;
 }
 
-.spa-item {
-    padding: 20px;
+.overlay {
+    background-color: #333;
+    opacity: 0.8;
+    height: 360px;
+    border-radius: 5px;
 }
 
 .text-header {
-    text-align: left;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1 1 0px #aaa;
 }
 
 .text-front {
@@ -37,6 +50,18 @@ body {
 .text-mobi {
     color: #262626;
     font-weight: bold;
+}
+
+.service-item p {
+    padding: 0px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    text-shadow: 1 1 0px #aaa;
+}
+
+.spa-item {
+    padding: 20px;
 }
 
 .text-white {
@@ -61,6 +86,7 @@ body {
 }
 
 .img-header {
+    width: 80%;
     border: solid 1px #fff;
 }
 
@@ -91,15 +117,6 @@ body {
     font-size: 16px;
     font-weight: normal;
     border-top: solid 0px #999 !important;
-}
-
-.item-area {
-	text-align: left;
-}
-
-.service-item li {
-    color: #ffd058;
-    font-size: 16px;
 }
 
 .img-center .img-responsive {
@@ -167,21 +184,17 @@ footer p {
         line-height: 24px;
     }
 
-    .jumbotron h1 {
+    .home h1 {
         font-size: 32px;
     }
 
-    .service-item li {
+    .service-item p {
         font-size: 18px;
     }
 
     .btn-open {
         font-size: 18px;
         font-weight: bold;
-    }
-
-    .text-header {
-        text-align: center;
     }
 
     .text-cpright {
