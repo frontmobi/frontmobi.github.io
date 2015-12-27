@@ -395,6 +395,11 @@ Image credits: unsplash.com
     margin-bottom: 10px;
 }
 
+a.logo:hover,
+a.logo:active{
+    color: #ed7d31;
+}
+
 .main_menu li a:hover {
     color: #ed7d31;
 }
@@ -500,7 +505,7 @@ nav ul a {
     height: 3px;
     margin-bottom: 4px;
     border-radius: 1000px;
-    background: #8f8f8f;
+    background: #ed7d31;
     display: block;
 }
 

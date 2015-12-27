@@ -259,6 +259,10 @@ ul.nostyle i {
     margin-top: 32px;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333;
+}
+
 .navbar.navbar-default .navbar-brand {
     height: auto;
     padding: 22px 15px 21px;
