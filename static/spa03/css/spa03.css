@@ -1211,7 +1211,9 @@ ul.external li a:hover {
 
     /*navigation*/
     .navbar-inverse .navbar-toggle {
+        float: left;
         border-color: #fff;
+        margin-left: 10px;
     }
     .navbar-inverse .navbar-toggle:hover,
     .navbar-inverse .navbar-toggle:focus {

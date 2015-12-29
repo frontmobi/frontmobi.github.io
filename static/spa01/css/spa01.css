@@ -109,7 +109,7 @@ a:hover {
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.7);
 }
 
 .btn-dark:hover,
@@ -237,7 +237,7 @@ hr.small {
 }
 
 .toggle {
-    margin: 5px 5px 0 0;
+    margin: 0px;
 }
 
 .menu-icon {

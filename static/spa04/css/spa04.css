@@ -256,7 +256,9 @@ ul.nostyle i {
 }
 
 .navbar.navbar-default .navbar-toggle {
-    margin-top: 32px;
+    margin-top: 26px;
+    float: left;
+    margin-left: 10px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {

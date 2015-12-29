@@ -218,6 +218,8 @@ ol {
 
 .navbar-toggle {
     border-radius: 0;
+    float: left;
+    margin-left: 10px;
 }
 
 .navbar-default .navbar-toggle:hover,

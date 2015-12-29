@@ -245,7 +245,6 @@ img {
 .navbar-default .navbar-nav > li > a {
     color: #fff;
     font-size: 15px;
-    font-weight: 600;
     text-transform: uppercase;
 }
 
@@ -1372,6 +1371,8 @@ div[data-dimension] {
     .navbar-default .navbar-toggle {
         /*menu button*/
         margin-right: 2em;
+        float: left;
+        margin-left: 10px;
     }
 
     .navbar-default .navbar-toggle:hover,
