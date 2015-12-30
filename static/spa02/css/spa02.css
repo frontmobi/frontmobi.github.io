@@ -790,16 +790,16 @@ nav ul a {
 
 /*============== Q&A style ==============*/
 
-.questions {
+.questions-area {
     background-color: #eee;
 }
 
-.questions h1 {
+.questions-area h1 {
     text-transform: uppercase;
     font-weight: 600;
 }
 
-.questions h1 span {
+.questions-area h1 span {
     color: #ed7d31;
 }
 
@@ -916,7 +916,7 @@ nav ul a {
 
 /*============== Price style ==============*/
 
-.price-area {
+.pricing-area {
     background: #f8f8f8;
 }
 
