@@ -235,7 +235,7 @@ ol {
 
 /* Home Style */
 
-#home {
+#tf-home {
 /*    background: url(images/cover.jpg);
     background: url('http://placehold.it/1600x900/1A2A3A/EEE');
     background-size: cover;
@@ -244,7 +244,7 @@ ol {
     background-repeat: no-repeat;
 */}
 
-#home .overlay {
+#tf-home .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
     /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), color-stop(100%, rgba(0, 0, 0, 0.4)));
@@ -263,7 +263,7 @@ ol {
     background-attachment: fixed;
 }
 
-#home p.lead {
+#tf-home p.lead {
     color: #e3e3e3;
 }
 
@@ -299,7 +299,7 @@ a.fa.fa-angle-down:hover {
 
 /* About Section */
 
-.about-area {
+.tf-about {
     background-color: #fff;
     padding: 100px 0;
 }
@@ -321,7 +321,7 @@ ul.about-list li span {
 
 /* Team Section */
 
-.team-area {
+.tf-team {
     /*background: url(http://placehold.it/1300x800/2A2A2A/EEE);
     background-size: cover;
     background-position: center;
@@ -358,11 +358,11 @@ ul.about-list li span {
     left: 17%;
 }
 
-#team-list {
+#team {
     margin: 0 auto
 }
 
-#team-list .item {
+#team .item {
     padding: 0;
     margin: 15px;
     color: #333;
@@ -380,16 +380,16 @@ img.img-circle.team-img {
     transition: all 0.5s;
 }
 
-.team-area .item .thumbnail:hover>img.img-circle.team-img {
+.tf-team .item .thumbnail:hover>img.img-circle.team-img {
     border: 4px solid #ed7d31;
 }
 
-.team-area .thumbnail {
+.tf-team .thumbnail {
     background: transparent;
     border: 0;
 }
 
-.team-area .thumbnail .caption {
+.tf-team .thumbnail .caption {
     padding: 9px;
     color: #222;
 }
@@ -422,7 +422,7 @@ img.img-circle.team-img {
 
 /* Services Section */
 
-.services-area {
+.tf-services {
     padding: 80px 0;
 }
 
@@ -434,7 +434,7 @@ img.img-circle.team-img {
     margin-top: 40px;
 }
 
-.services-area i.fa {
+.tf-services i.fa {
     font-size: 40px;
     border: 4px solid #ed7d31;
     width: 100px;
@@ -445,18 +445,18 @@ img.img-circle.team-img {
     transition: all 0.5s;
 }
 
-/*.services-area i.fa.fa-mobile {
+/*.tf-services i.fa.fa-mobile {
     font-size: 50px;
     padding: 20px 25px;
 }
 */
 
-.services-area .service i.fa {
+.tf-services .service i.fa {
     /*background: #ed7d31;*/
     color: #666;
 }
 
-.services-area .service:hover i.fa {
+.tf-services .service:hover i.fa {
     background: #ed7d31;
     color: #fff;
 }
@@ -464,7 +464,7 @@ img.img-circle.team-img {
 
 /* Clients Section */
 
-.clients-area {
+.tf-clients {
     /*background: url(../images/clients.jpg);
     background-size: cover;
     background-position: center;
@@ -473,21 +473,21 @@ img.img-circle.team-img {
     background-color: #eee;
 }
 
-#client-list .item {
+#clients .item {
     padding: 0;
     margin: 35px;
     color: #FFF;
     text-align: center;
 }
 
-#client-list .item img {
+#clients .item img {
     width: 120px;
 }
 
 /* Gallery Section 
 ==============================*/
 
-.portfolio-area {
+.tf-works {
     padding: 80px 0;
 }
 
@@ -504,7 +504,7 @@ ul.cat li {
     display: inline-block;
 }
 
-.portfolio-area li.pull-right {
+.tf-works li.pull-right {
     margin-top: 10px;
 }
 
@@ -625,7 +625,7 @@ ol.type li a.active {
     opacity: 1;
 }
 
-.portfolio-area i.fa {
+.tf-works i.fa {
     height: 30px;
     width: 30px;
     border: 1px solid #ed7d31;
@@ -638,7 +638,7 @@ ol.type li a.active {
 
 /* Testimonials Section */
 
-.testimonials-area {
+.tf-testimonials {
     /*background: url(../images/testimonials.jpg);
     background-size: cover;
     background-position: center;
@@ -647,29 +647,29 @@ ol.type li a.active {
     background-color: #eee;
 }
 
-#testimonial-list {
+#testimonial {
     padding: 30px 0;
 }
 
-#testimonial-list .item {
+#testimonial .item {
     display: block;
     width: 100%;
     height: auto;
 }
 
-#testimonial-list .item h5 {
+#testimonial .item h5 {
     color: #333;
 	font-size: 20px;
 }
 
-#testimonial-list .item p {
+#testimonial .item p {
     font-weight: normal;
     font-size: 16px;
     margin: 10px 0;
     color: #333;
 }
 
-#testimonial-list .item img {
+#testimonial .item img {
     width: 150px;
     padding: 0px 20px;
 }
@@ -677,7 +677,7 @@ ol.type li a.active {
 
 /* Contact Section */
 
-.contact-area {
+.tf-contact {
     padding: 80px 0;
 }
 
@@ -771,8 +771,8 @@ nav#footer p {
     #tf-menu.navbar-default {
         background-color: rgba(0, 0, 0, 0.79);
     }
-    .portfolio-area li.pull-right,
-    .portfolio-area li.pull-left {
+    .tf-works li.pull-right,
+    .tf-works li.pull-left {
         margin-top: 10px;
         float: none !important;
         text-align: center;
@@ -804,12 +804,12 @@ nav#footer p {
         background-repeat: no-repeat;
     }
 
-    #home h1 {
+    #tf-home h1 {
         font-size: 26px;
     }
 
-    .contact-area p,
-    .contact-area a {
+    .tf-contact p,
+    .tf-contact a {
         color: #333;
     }
 

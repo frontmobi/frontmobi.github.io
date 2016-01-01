@@ -47,7 +47,7 @@ function main() {
                 $('.navbar-toggle').click() //bootstrap 3.x by Richard
             });
                     
-            $("#team-list").owlCarousel({
+            $("#team").owlCarousel({
                 navigation: false,
                 // Show next and prev buttons
                 slideSpeed: 300,
@@ -55,7 +55,7 @@ function main() {
                 autoHeight: true,
                 itemsCustom: [ [ 0, 1 ], [ 450, 2 ], [ 600, 2 ], [ 700, 2 ], [ 1e3, 4 ], [ 1200, 4 ], [ 1400, 4 ], [ 1600, 4 ] ]
             });
-            $("#client-list").owlCarousel({
+            $("#clients").owlCarousel({
                 navigation: false,
                 // Show next and prev buttons
                 slideSpeed: 300,
@@ -63,7 +63,7 @@ function main() {
                 autoHeight: true,
                 itemsCustom: [ [ 0, 1 ], [ 450, 2 ], [ 600, 2 ], [ 700, 2 ], [ 1e3, 4 ], [ 1200, 5 ], [ 1400, 5 ], [ 1600, 5 ] ]
             });
-            $("#testimonial-list").owlCarousel({
+            $("#testimonial").owlCarousel({
                 navigation: false,
                 // Show next and prev buttons
                 slideSpeed: 300,

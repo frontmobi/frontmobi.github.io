@@ -261,7 +261,7 @@ img {
 
 /*--------/menu-area-------- */
 
-.slider_list {
+.slider_area {
     float: left;
     display: inline;
     width: 100%;
@@ -330,7 +330,7 @@ img {
 /* ABOUT SECTION      */
 /*--------------------*/
 
-.about-area {
+.about-section {
     background-color: #eee;
     display: inline;
     float: left;
@@ -338,11 +338,11 @@ img {
     padding: 80px 0px;
 }
 
-.about-area .heading h2 {
+.about-section .heading h2 {
     border-bottom: 11px solid #ed7d31;
 }
 
-.about_list {
+.about_area {
     float: left;
     display: inline;
     width: 100%;
@@ -516,7 +516,7 @@ div[data-dimension] {
 /* SERVICE SECTION    */
 /*--------------------*/
 
-.services-area {
+.service-section {
     background-color: #eee;
     display: inline;
     float: left;
@@ -524,7 +524,7 @@ div[data-dimension] {
     width: 100%;
 }
 
-.service_list {
+.service_area {
     float: left;
     display: inline;
     width: 100%;
@@ -602,14 +602,14 @@ div[data-dimension] {
 /* TEAM SECTION       */
 /*--------------------*/
 
-.team-area {
+.team-section {
     float: left;
     display: inline;
     width: 100%;
     padding: 80px 0px;
 }
 
-.team_list {
+.team_area {
     float: left;
     display: inline;
     width: 100%;
@@ -697,7 +697,7 @@ div[data-dimension] {
 /* PRICING SECTION    */
 /*--------------------*/
 
-.pricing-area {
+.pricing-section {
     background: none repeat scroll 0 0 #f8f8f8;
     display: inline;
     float: left;
@@ -707,7 +707,7 @@ div[data-dimension] {
     border-bottom: 1px solid #eee;
 }
 
-.pricing_list {
+.pricing_area {
     display: inline;
     float: left;
     margin-top: 30px;
@@ -805,7 +805,7 @@ div[data-dimension] {
 /* BLOG SECTION       */
 /*--------------------*/
 
-.news-area {
+.news-section {
     float: left;
     display: inline;
     width: 100%;
@@ -935,7 +935,7 @@ div[data-dimension] {
 /* TESTIMONIAL SECTION */
 /*---------------------*/
 
-.testimonials-area {
+.testimonial-section {
     background: none repeat scroll 0 0 #eee;
     display: inline;
     float: left;
@@ -945,7 +945,7 @@ div[data-dimension] {
     border-bottom: 1px solid #eee;
 }
 
-.testimonials-area .heading {
+.testimonial-section .heading {
     margin-top: 20px;
 }
 
@@ -1050,21 +1050,21 @@ div[data-dimension] {
 /* CLIENTS SECTION    */
 /*--------------------*/
 
-.portfolio-area {
+.clients-section {
     display: inline;
     float: left;
     padding: 80px 0 150px;
     width: 100%;
 }
 
-.portfolio_content {
+.clients_content {
     float: left;
     display: inline;
     width: 100%;
     margin-top: 30px;
 }
 
-.portfolio_slider {
+.clients_slider {
     float: left;
     display: inline;
     width: 100%;
@@ -1085,7 +1085,7 @@ div[data-dimension] {
     height: 80px;
 }
 
-.portfolio_slider .slick-prev {
+.clients_slider .slick-prev {
     border-radius: 5px 0 0 5px;
     color: #fff;
     height: 40px;
@@ -1093,7 +1093,7 @@ div[data-dimension] {
     top: 160%;
 }
 
-.portfolio_slider .slick-next {
+.clients_slider .slick-next {
     border-radius: 0 5px 5px 0;
     color: #fff;
     right: 46.5%;
@@ -1106,7 +1106,7 @@ div[data-dimension] {
 /* CONTACT US SECTION */
 /*--------------------*/
 
-.contact-area {
+.contact-section {
     background: none repeat scroll 0 0 #fff;
     display: inline;
     float: left;
@@ -1116,7 +1116,7 @@ div[data-dimension] {
     border-bottom: 1px solid #eee;
 }
 
-.contact-area .heading h2 {
+.contact-section .heading h2 {
     border-bottom: 11px solid #2f75b5;
 }
 
@@ -1294,7 +1294,7 @@ div[data-dimension] {
     .slider_caption > p {
         font-size: 18px;
     }
-    .about_list {
+    .about_area {
         padding-bottom: 80px;
     }
     .about_slider {
@@ -1335,10 +1335,10 @@ div[data-dimension] {
     .testi_content {
         width: 100%;
     }
-    .portfolio_slider .slick-prev {
+    .clients_slider .slick-prev {
         left: 45%;
     }
-    .portfolio_slider .slick-next {
+    .clients_slider .slick-next {
         right: 45%;
     }
     .subscr_btn {
@@ -1399,7 +1399,7 @@ div[data-dimension] {
         font-size: 30px;
         line-height: 30px;
     }
-    .skills_list {
+    .skills_area {
         background-size: cover;
     }
     .single_skill {
@@ -1413,7 +1413,7 @@ div[data-dimension] {
     .counter_section {
         background-size: cover;
     }
-    .portfolio_list {
+    .portfolio_area {
         padding: 60px 15px 0;
     }
     .wagwep-container ul#portfolio-filter a {
@@ -1476,22 +1476,22 @@ div[data-dimension] {
     .og-close {
         z-index: 999;
     }
-    .about-area {
+    .about-section {
         padding: 50px 0;
     }
-    .services-area {
+    .service-section {
         padding: 50px 0 50px;
     }
-    .team-area {
+    .team-section {
         padding: 50px 0;
     }
-    .pricing-area {
+    .pricing-section {
         padding: 50px 0;
     }
-    .news-area {
+    .news-section {
         padding: 50px 0;
     }
-    .testimonials-area {
+    .testimonial-section {
         padding: 50px 0;
     }
 .   #cli-sectionents {
@@ -1562,10 +1562,10 @@ div[data-dimension] {
     .news_slider .slick-prev {
         left: 81.5%;
     }
-    .portfolio_slider .slick-prev {
+    .clients_slider .slick-prev {
         left: 43%;
     }
-    .portfolio_slider .slick-next {
+    .clients_slider .slick-next {
         right: 43%;
     }
     .subscribe_form {
@@ -1609,7 +1609,7 @@ div[data-dimension] {
     .panel-title {
         font-size: 17px;
     }
-    .aboutStaticPath {
+    .about_area {
         padding-bottom: 0px;
     }
     .about_slider {
@@ -1631,10 +1631,10 @@ div[data-dimension] {
     .news_slider .slick-prev {
         left: 75.5%;
     }
-    .portfolio_slider .slick-prev {
+    .clients_slider .slick-prev {
         left: 40%;
     }
-    .portfolio_slider .slick-next {
+    .clients_slider .slick-next {
         right: 40%;
     }
     .subscribe_mail {

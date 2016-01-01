@@ -77,7 +77,7 @@ a:hover {
 
 .bg-secondary {
     color: #fff;
-    background-color: #2f75b5;
+    background-color: #ce4d80;
 }
 
 .text-primary {
@@ -134,14 +134,14 @@ a:hover {
 
 .btn-cta {
     border-radius: 0;
-    color: #2f75b5;
+    color: #ce4d80;
     background-color: rgb(255,255,255);
 }
 
 .btn-cta:hover,
 .btn-cta:focus,
 .btn-cta:active {
-    color: #2f75b5;
+    color: #ce4d80;
     background-color: rgba(255,255,255,0.8);
 }
 
@@ -260,15 +260,15 @@ hr.small {
 
 /* About */
 
-.about-area {
+.about {
     padding: 50px 0;
 }
 
 /* Services */
 
-.services-area,
-.team-area,
-.news-area {
+.services,
+.team,
+.events {
     padding: 50px 0;
 }
 
@@ -315,7 +315,7 @@ hr.small {
 
 /* Portfolio */
 
-.portfolio-area {
+.portfolio {
     padding: 50px 0;
 }
 
