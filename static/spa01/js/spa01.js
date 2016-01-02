@@ -50,8 +50,7 @@ $(function() {
         responsive:{
             0:{
                 items:1,
-                nav:false,
-                autoplay: true
+                nav:false
             },
             767:{
                 items:4,
