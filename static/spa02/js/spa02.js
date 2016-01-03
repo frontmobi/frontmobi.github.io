@@ -110,8 +110,8 @@ $(document).ready(function() {
 });
 
 // Up to top js
-$(document).ready(function() {
-    $().UItoTop({
-        easingType: "easeOutQuart"
-    });
-});
+// $(document).ready(function() {
+//     $().UItoTop({
+//         easingType: "easeOutQuart"
+//     });
+// });
