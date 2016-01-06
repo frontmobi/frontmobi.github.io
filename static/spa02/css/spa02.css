@@ -790,16 +790,16 @@ nav ul a {
 
 /*============== Q&A style ==============*/
 
-.questions {
+.questions-area {
     background-color: #eee;
 }
 
-.questions h1 {
+.questions-area h1 {
     text-transform: uppercase;
     font-weight: 600;
 }
 
-.questions h1 span {
+.questions-area h1 span {
     color: #ed7d31;
 }
 
@@ -916,7 +916,7 @@ nav ul a {
 
 /*============== Price style ==============*/
 
-.price-area {
+.pricing-area {
     background: #f8f8f8;
 }
 
@@ -1106,7 +1106,7 @@ nav ul a {
 }
 
 .contact_text {
-    text-align: right;
+    text-align: left;
     margin-top: 48px;
 }
 
@@ -1119,6 +1119,10 @@ nav ul a {
     text-transform: uppercase;
     font-size: 25px;
     font-weight: bold;
+}
+
+.contact_text ul {
+    margin-left: -30px;
 }
 
 .contact_info {}
@@ -1207,35 +1211,35 @@ blockquote p {
 }
 
 /* custom modal */
-.modal-service, .modal-header,
-.modal-service .modal-body {
+.modal-custom, .modal-header,
+.modal-custom .modal-body {
     text-align: left;
 }
 
-.modal-service .modal-body {
+.modal-custom .modal-body {
     background-color: #fff;
 }
 
-.modal-service .modal-footer {
+.modal-custom .modal-footer {
     background-color: #eee;
 }
 
-.modal-service .modal-header {
+.modal-custom .modal-header {
     color: #fff;
     padding: 9px 15px;
     background-color: #ed7d31;
 }
 
-.modal-service .modal-header .modal-title {
+.modal-custom .modal-header .modal-title {
     font-weight: bold;
     color: #fff;
 }
 
-.modal-service .modal-footer {
+.modal-custom .modal-footer {
     /*border: 1px solid transparent;*/
 }
 
-.modal-service .close {
+.modal-custom .close {
     float: right;
     font-size: 36px;
     font-weight: bold;
@@ -1246,8 +1250,8 @@ blockquote p {
     opacity: 1;
 }
 
-.modal-service .close:hover,
-.modal-service .close:focus {
+.modal-custom .close:hover,
+.modal-custom .close:focus {
     color: #fff;
     text-decoration: none;
     cursor: pointer;
@@ -1309,7 +1313,7 @@ blockquote p {
         font-size: 16px;
     }
 
-    .modal-service .close {
+    .modal-custom .close {
         font-size: 30px;
         line-height: 24px;
     }

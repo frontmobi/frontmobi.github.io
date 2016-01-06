@@ -28,7 +28,7 @@
                 <nav>
                     <ul class="main_menu">
                         <li><a href="#home">首頁</a></li>
-                        <li><a href="#service">服務項目</a></li>
+                        <li><a href="#services">服務項目</a></li>
                         <li><a href="#news">最新消息</a></li>
                         <li><a href="#pricing">優惠專案</a></li>
                         <li><a href="#portfolio">客戶案例</a></li>
@@ -83,7 +83,7 @@
         </div>
     </div>
 
-    <div class="service-area" id="service">
+    <div class="services-area" id="services">
         <div class="container">
             <div class="row ">
                 <div class="service_section">
@@ -174,11 +174,11 @@
     </div>
 
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog modal-service" role="document">
+      <div class="modal-dialog modal-custom" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">標題</h4>
+            <h4 class="modal-title" id="myModalLabel">服務項目標題</h4>
           </div>
           <div class="modal-body">
             <p class="lead">
@@ -210,7 +210,7 @@
                 <div class="news_section">
                     <h1><span>最新消息</span></h1>
                     <div class="single_news col-md-4 slider-content">
-                        <a href="#somelink">
+                        <a href="#somelink" data-toggle="modal" data-target="#myModalNews">
                             <img src="https://placeholdit.imgix.net/~text?txtsize=60&bg=e7d38c&txtclr=000000&txt=最新消息%0A640%C3%97400&w=640&h=400" alt="" />
                             <div class="slider-text">
                                 <h3>最新消息主題</h3>
@@ -220,7 +220,7 @@
                         </a>
                     </div>
                     <div class="single_news col-md-4 slider-content">
-                        <a href="#somelink">
+                        <a href="#somelink" data-toggle="modal" data-target="#myModalNews">
                             <img src="https://placeholdit.imgix.net/~text?txtsize=60&bg=BDB0A8&txtclr=000000&txt=夏日特賣%0A640%C3%97400&w=640&h=400" alt="" />
                             <div class="slider-text">
                                 <h3>最新消息主題</h3>
@@ -230,7 +230,7 @@
                         </a>
                     </div>
                     <div class="single_news col-md-4 slider-content">
-                        <a href="#somelink">
+                        <a href="#somelink" data-toggle="modal" data-target="#myModalNews">
                             <img src="https://placeholdit.imgix.net/~text?txtsize=60&bg=979F69&txtclr=000000&txt=新品上市%0A640%C3%97400&w=640&h=400" alt="" />
                             <div class="slider-text">
                                 <h3>最新消息主題</h3>
@@ -244,12 +244,12 @@
         </div>
     </div>
 
-    <div class="modal fade" id="myModalPortfolio" tabindex="-1" role="dialog" aria-labelledby="myModalPortfolioLabel">
-      <div class="modal-dialog modal-service" role="document">
+    <div class="modal fade" id="myModalNews" tabindex="-1" role="dialog" aria-labelledby="myModalNewsLabel">
+      <div class="modal-dialog modal-custom" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalPortfolioLabel">標題</h4>
+            <h4 class="modal-title" id="myModalNewsLabel">最新消息標題</h4>
           </div>
           <div class="modal-body">
             <p class="lead">
@@ -257,13 +257,15 @@
             </p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-lg btn-close" data-dismiss="modal">關閉</button>
+            <div class="text-center">
+                <button type="button" class="btn btn-lg btn-close" data-dismiss="modal">關閉</button>
+            </div>                
           </div>
         </div>
       </div>
     </div>
 
-        <div class="price-area" id="pricing">
+    <div class="pricing-area" id="pricing">
         <div class="container">
             <div class="row">
                 <div class="price_section">
@@ -292,7 +294,7 @@
                                         其他說明
                                     </li>
                                     <li class="sing-up">
-                                        <a href="#contact" class="animate">聯絡我們</a>
+                                        <a href="#somelink" data-toggle="modal" data-target="#myModalPricing" class="animate">詳細內容</a>
                                     </li>
                                 </ul>
                             </div>
@@ -318,7 +320,7 @@
                                         其他說明
                                     </li>
                                     <li class="sing-up">
-                                        <a href="#contact" class="animate">聯絡我們</a>
+                                        <a href="#somelink" data-toggle="modal" data-target="#myModalPricing" class="animate">詳細內容</a>
                                     </li>
                                 </ul>
                             </div>
@@ -344,7 +346,7 @@
                                         其他說明
                                     </li>
                                     <li class="sing-up">
-                                        <a href="#contact" class="animate">聯絡我們</a>
+                                        <a href="#somelink" data-toggle="modal" data-target="#myModalPricing" class="animate">詳細內容</a>
                                     </li>
                                 </ul>
                             </div>
@@ -353,6 +355,27 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="modal fade" id="myModalPricing" tabindex="-1" role="dialog" aria-labelledby="myModalPricingLabel">
+      <div class="modal-dialog modal-custom" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalPricingLabel">優惠專案標題</h4>
+          </div>
+          <div class="modal-body">
+            <p class="lead">
+            更多的內容，可彈性配置
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="text-center">
+                <button type="button" class="btn btn-lg btn-close" data-dismiss="modal">關閉</button>
+            </div>                
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="portfolio-area" id="portfolio">
@@ -690,7 +713,28 @@
         </div>
     </div>
 
-    <div id="questions" class="questions">
+    <div class="modal fade" id="myModalPortfolio" tabindex="-1" role="dialog" aria-labelledby="myModalPortfolioLabel">
+      <div class="modal-dialog modal-custom" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalPortfolioLabel">客戶案例標題</h4>
+          </div>
+          <div class="modal-body">
+            <p class="lead">
+            更多的內容，可彈性配置
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="text-center">
+                <button type="button" class="btn btn-lg btn-close" data-dismiss="modal">關閉</button>
+            </div>                
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="questions-area" id="questions">
         <div class="container">
             <div class="row">
                 <div class="work_section">
