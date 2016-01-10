@@ -60,6 +60,25 @@ $(document).ready(function() {
     });
 });
 
+$(function() {
+    // activate owl-carousel
+    $('#services-list').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive:{
+            0:{
+                items:1,
+                nav:false
+            },
+            767:{
+                items:4,
+                nav:false
+            }
+        }
+    });
+});
+
 // portfolio filter
 $(function() {
     var filterList = {
@@ -97,21 +116,3 @@ $(function() {
     // Run the show!
     filterList.init();
 });
-
-// Owl carousel
-$(document).ready(function() {
-    $("#testimonial_carosule").owlCarousel({
-        slideSpeed: 300,
-        paginationSpeed: 400,
-        singleItem: true,
-        autoPlay: true,
-        transitionStyle: "backSlide"
-    });
-});
-
-// Up to top js
-// $(document).ready(function() {
-//     $().UItoTop({
-//         easingType: "easeOutQuart"
-//     });
-// });

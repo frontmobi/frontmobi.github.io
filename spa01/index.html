@@ -10,7 +10,7 @@
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/static/spa01/css/owl.carousel.css">
+    <link rel="stylesheet" href="/static/css/owl.carousel.css">
     <link rel="stylesheet" href="/static/spa01/css/spa01.min.css">
 </head>
 
@@ -37,7 +37,7 @@
         </ul>
     </nav>
 
-    <header id="home" class="header" style="background: url(images/cover.jpg) no-repeat center center scroll;-webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover;">
+    <header id="home" class="header" style="background: url(images/cover.jpg) no-repeat center center scroll; background-size: cover;">
         <div class="text-vertical-center">
             <h1>Each Wedding</h1>
             <h3>依曲婚禮</h3>
@@ -155,7 +155,7 @@
         </div>
 
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog modal-service" role="document">
+          <div class="modal-dialog modal-custom" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -177,7 +177,7 @@
     </section>
 
     <section id="callout-1">
-        <aside class="callout-1" style="background: url(images/callout1.jpg) no-repeat center center scroll;-webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover;">
+        <aside class="callout-1" style="background: url(images/callout1.jpg) no-repeat center center scroll; background-size: cover;">
             <div class="text-vertical-center">
                 <h1>伊曲婚禮．讓您心想願成</h1>
             </div>
@@ -250,7 +250,7 @@
         </div>
 
         <div class="modal fade" id="myModalPortfolio" tabindex="-1" role="dialog" aria-labelledby="myModalPortfolioLabel">
-          <div class="modal-dialog modal-service" role="document">
+          <div class="modal-dialog modal-custom" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -272,7 +272,7 @@
     </section>
 
     <section id="callout-2">
-        <aside class="callout-2" style="background: url(images/callout2.jpg) no-repeat center center scroll;-webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover;">
+        <aside class="callout-2" style="background: url(images/callout2.jpg) no-repeat center center scroll; background-size: cover;">
             <div class="text-vertical-center">
                 <h1>誠摯滿意您的幸福喜悅</h1>
             </div>
@@ -348,8 +348,9 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
                             <div class="team-item">
-                                <img class="img-team img-circle" src="images/team-male.png" alt="">
-                            </span>
+                                <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
+                                    <img class="img-team img-circle" src="images/team-male.png" alt="">
+                                </a>
                                 <h4><strong>Bryan</strong></h4>
                                 <p>執行長</p>
                                 <p>綜理公司營運</p>
@@ -357,8 +358,9 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="team-item">
-                                <img class="img-team img-circle" src="images/team-female.png" alt="">
-                            </span>
+                                <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
+                                    <img class="img-team img-circle" src="images/team-female.png" alt="">
+                                </a>
                                 <h4><strong>Kate</strong></h4>
                                 <p>婚禮顧問</p>
                                 <p>婚禮整合顧問諮詢</p>
@@ -366,8 +368,9 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="team-item">
-                                <img class="img-team img-circle" src="images/team-female.png" alt="">
-                            </span>
+                                <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
+                                    <img class="img-team img-circle" src="images/team-female.png" alt="">
+                                </a>
                                 <h4><strong>Anne</strong></h4>
                                 <p>婚禮企劃師</p>
                                 <p>婚禮流程企劃</p>
@@ -375,8 +378,9 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <img class="img-team img-circle" src="images/team-male.png" alt="">
-                            </span>
+                                <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
+                                    <img class="img-team img-circle" src="images/team-male.png" alt="">
+                                </a>
                                 <h4><strong>Chris</strong></h4>
                                 <p>婚禮攝影師</p>
                                 <p>婚禮寫真攝影</p>
@@ -385,6 +389,27 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="modal fade" id="myModalTeam" tabindex="-1" role="dialog" aria-labelledby="myModalPortfolioLabel">
+          <div class="modal-dialog modal-custom" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalPortfolioLabel">標題</h4>
+              </div>
+              <div class="modal-body">
+                <p class="lead">
+                更多的內容，可彈性配置
+                </p>
+              </div>
+              <div class="modal-footer">
+                <div class="text-center">
+                    <button type="button" class="btn btn-lg btn-dark" data-dismiss="modal">關閉</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </section>
 
@@ -399,7 +424,7 @@
                         <ul class="list-unstyled">
                             <li><i class="fa fa-phone fa-fw"></i> <a href="tel:0920520520">0920-520-520</a></li>
                             <li><i class="fa fa-clock-o fa-fw"></i> 週一至週五 08:30 ~ 17:30</li>
-                            <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:eachwedding@email.com">eachwedding@email.com</a></li>
+                            <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:contact@eachwedding.com">contact@eachwedding.com</a></li>
                             <li><i class="fa fa-street-view fa-fw"></i> 802 高雄市苓雅區自強三路3號</li>
                             <li><i class="fa fa-map-marker fa-fw"></i> <a href="https://www.google.com.tw/maps/place/802高雄市苓雅區自強三路3號/@22.6117755,120.3002614,18z" target="_blank">檢視地圖</a></li>
                         </ul>
@@ -411,7 +436,7 @@
                         <li> <a href="#somelink"><i class="fa fa-google-plus fa-fw fa-2x"></i></a> </li>
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">&copy; 2015 <a href="#somelink">依曲婚禮</a> 版權所有</p>
+                    <p class="text-muted">&copy; 2016 <a href="#somelink">依曲婚禮</a> 版權所有</p>
                 </div>
             </div>
         </div>
@@ -419,7 +444,7 @@
 
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
-    <script src="/static/spa01/js/owl.carousel.min.js"></script>
+    <script src="/static/js/owl.carousel.min.js"></script>
     <script src="/static/spa01/js/spa01.min.js"></script>
 
 </body>

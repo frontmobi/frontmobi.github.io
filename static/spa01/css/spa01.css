@@ -282,10 +282,17 @@ hr.small {
     height: 128px;
 }
 
+/* remove border from image link */
+a:focus {
+    outline:0; 
+    text-decoration: none;
+}
+
 .img-team {
     width: 128px;
     height: 128px;
 }
+
 
 /* Callout */
 
@@ -349,27 +356,27 @@ footer {
 
 
 /* custom modal */
-.modal-service .modal-header,
-.modal-service .modal-body,
-.modal-service .modal-footer {
+.modal-custom .modal-header,
+.modal-custom .modal-body,
+.modal-custom .modal-footer {
     background-color: #fff;
 }
 
-.modal-service .modal-body {
+.modal-custom .modal-body {
     color: #333;
 }
 
-.modal-service .modal-header {
+.modal-custom .modal-header {
     color: #fff;
     padding:9px 15px;
     background-color: #ed7d31;
 }
 
-.modal-service .modal-footer {
+.modal-custom .modal-footer {
     /*border: 1px solid transparent;*/
 }
 
-.modal-service .close {
+.modal-custom .close {
     float: right;
     font-size: 36px;
     font-weight: bold;
@@ -380,8 +387,8 @@ footer {
     opacity: 1;
 }
 
-.modal-service .close:hover,
-.modal-service .close:focus {
+.modal-custom .close:hover,
+.modal-custom .close:focus {
     color: #fff;
     text-decoration: none;
     cursor: pointer;
@@ -440,7 +447,7 @@ footer {
         font-size: 18px;
     }
 
-    .modal-service .close {
+    .modal-custom .close {
         font-size: 30px;
         line-height: 24px;
     }
@@ -485,10 +492,10 @@ footer {
 }
 
 .owl-theme .owl-dots .owl-dot span {
-    width: 10px;
-    height: 10px;
+    width: 18px;
+    height: 18px;
     margin: 5px 7px;
-    background: #d6d6d6;
+    background: #ccc;
     display: block;
     -webkit-backface-visibility: visible;
     -webkit-transition: opacity 200ms ease;

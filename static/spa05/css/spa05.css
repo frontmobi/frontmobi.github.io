@@ -232,7 +232,7 @@ img {
 
 .navbar-brand {
     color: #fff !important;
-    font-size: 35px;
+    font-size: 24px;
     font-weight: bolder;
 }
 
@@ -1282,7 +1282,7 @@ div[data-dimension] {
         padding: 10px 6px;
     }
     .navbar-brand {
-        font-size: 28px;
+        font-size: 20px;
     }
     #slides {
         height: 600px !important;

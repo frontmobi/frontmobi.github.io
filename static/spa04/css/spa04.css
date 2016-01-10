@@ -20,7 +20,7 @@ textarea {
 }
 
 body {
-    padding-top: 100px;
+    padding-top: 60px;
     background: #fff;
     font-weight: 400;
     color: #64686d;
@@ -159,6 +159,20 @@ hr {
     background: #fff;
 }
 
+.btn-close {
+    color: #fff;
+    background-color: #5b5b5b;
+    border-color: #5b5b5b;
+}
+.btn-close:hover,
+.btn-close:focus,
+.btn-close:active,
+.btn-close.active {
+    color: #fff;
+    background-color: #4e4e4e;
+    border-color: #424242;
+}
+
 .column-title {
     margin-top: 15px;
     padding-bottom: 15px;
@@ -256,7 +270,7 @@ ul.nostyle i {
 }
 
 .navbar.navbar-default .navbar-toggle {
-    margin-top: 26px;
+    margin-top: 10px;
     float: left;
     margin-left: 10px;
 }
@@ -267,7 +281,9 @@ ul.nostyle i {
 
 .navbar.navbar-default .navbar-brand {
     height: auto;
-    padding: 22px 15px 21px;
+    padding: 20px 18px 0px 18px;
+    font-size: 20px;
+    color: #ed7d31;
 }
 
 .navbar.navbar-default .navbar-brand img {
@@ -277,6 +293,7 @@ ul.nostyle i {
 
 #main-menu.navbar-default .navbar-nav > li > a {
     font-size: 15px;
+    color: #666;
 }
 
 @media only screen and (min-width: 768px) {
@@ -286,14 +303,14 @@ ul.nostyle i {
         box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
     }
     #main-menu.navbar-default .navbar-nav > li > a {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     #main-menu.navbar-default .navbar-nav > li.active > a,
     #main-menu.navbar-default .navbar-nav > li.open > a,
     #main-menu.navbar-default .navbar-nav > li:hover > a {
         background: transparent;
-        padding-top: 37px;
+        padding-top: 17px;
         border-top: 3px solid #ed7d31;
     }
     #main-menu.navbar-default .dropdown-menu {
@@ -339,7 +356,7 @@ ul.nostyle i {
 }
 
 #main-slider .item {
-    height: 558px;
+    height: 600px;
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
@@ -356,18 +373,21 @@ ul.nostyle i {
 
 #main-slider .slider-inner h2 {
     margin-top: 180px;
-    font-size: 36px;
+    font-size: 42px;
     line-height: 1;
     text-transform: uppercase;
     color: #fff;
+    text-shadow: 1px 1px 1px #666;
 }
 
 #main-slider .slider-inner h2 > span {
     color: #ed7d31;
+    text-shadow: 1px 1px 1px #666;
 }
 
 #main-slider .slider-inner p {
-    font-size: 18px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #888;
 }
 
 #main-slider .slider-inner .btn {
@@ -467,13 +487,16 @@ ul.nostyle i {
     background-color: #f0f0f0;
 }
 
-.features-area .media.service-box:first-child {
-    margin-top: 80px;
+.features-area .service-box:first-child {
+    margin-top: 10px;
 }
 
-.features-area .media img {
-    width: 50px;
-    height: 50px;
+.features-area .img-feature {
+    width: 400px;
+    height: 300px;
+    -webkit-box-shadow: 2px 2px 10px #999;
+    -moz-box-shadow: 2px 2px 10px #999;
+    box-shadow: 2px 2px 10px #999;
 }
 
 .services-area {
@@ -484,8 +507,17 @@ ul.nostyle i {
     margin: 25px 0;
 }
 
+.service-box p,
 .media.service-box p {
     font-size: 16px;
+}
+
+.media.service-box img {
+    width: 100px;
+    height: 100px
+    -webkit-box-shadow: 2px 2px 10px #999;
+    -moz-box-shadow: 2px 2px 10px #999;
+    box-shadow: 2px 2px 10px #999;
 }
 
 .media.service-box .pull-left {
@@ -781,6 +813,11 @@ ul.nostyle i {
     margin-bottom: 10px;
 }
 
+.team-info span {
+    font-size: 16px;
+    color: #2f75b5;
+}
+
 .team-area .team-member:hover {
     border-color: transparent;
 }
@@ -989,6 +1026,7 @@ a.contact-link:focus {
 .news-area .news-post {
     border: 1px solid #eee;
     padding: 15px;
+    background-color: #fff;
 }
 
 .news-area .news-post .post-format {
@@ -1152,6 +1190,10 @@ a.contact-link:focus {
 }
 
 @media only screen and (max-width: 767px) {
+    body {
+        padding-top: 50px;
+    }
+
     /* preloader */   
     #status {
         background-size: 32px 32px;
@@ -1159,6 +1201,10 @@ a.contact-link:focus {
     }
 
     /* mobile font size */
+    .navbar.navbar-default .navbar-brand {
+        padding-top: 16px;
+    }
+    
     #main-menu.navbar-default .navbar-nav > li > a {
         font-size: 18px;
     }
@@ -1168,6 +1214,10 @@ a.contact-link:focus {
     }
     #main-slider .slider-inner p {
         font-size: 16px;
+    }
+    
+    .features-area .service-box:first-child {
+        margin-top: 25px;
     }
 
     .portfolio-area .portfolio-item {
