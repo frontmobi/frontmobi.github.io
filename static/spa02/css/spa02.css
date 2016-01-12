@@ -776,19 +776,19 @@ nav ul a {
 .portfolio .label-text,
 .portfolio .label-text a {
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: normal;
     position: relative;
     text-align: center;
     z-index: 500;
-    padding: 4px 0px;
+    padding: 12px 0px;
 }
 
 .portfolio .text-category {
     color: #fde49d;
     display: block;
-    font-size: 20px;
-    padding: 3px 0px;
+    font-size: 14px;
+    padding: 5px 0px;
 }
 
 
@@ -1137,7 +1137,7 @@ nav ul a {
 }
 
 .contact_info li {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .contact_info a {
