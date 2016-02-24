@@ -28,7 +28,7 @@ $("#menu-toggle").click(function(e) {
 
 // scrolls to the selected menu item on the page
 $(function() {
-    $('a[id^="mn-"][href*=#]:not([href=#])').click(function() {
+    $('a[id^="mn-"][href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
             var target = $(this.hash);

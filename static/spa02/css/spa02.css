@@ -399,6 +399,10 @@ a.logo:active{
     color: #ed7d31;
 }
 
+.main_menu {
+    padding-top: 20px;
+}
+
 .main_menu li a:hover {
     color: #ed7d31;
 }

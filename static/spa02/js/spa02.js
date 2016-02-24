@@ -98,14 +98,15 @@ $(function() {
             // Simple parallax effect
             $("#portfoliolist .portfolio").hover(function() {
                 $(this).find(".label").stop().animate({
-                    bottom: 0
+                    bottom: 0,
+                    left: 0
                 }, 200, "easeOutQuad");
                 $(this).find("img").stop().animate({
                     top: -30
                 }, 500, "easeOutQuad");
             }, function() {
                 $(this).find(".label").stop().animate({
-                    bottom: -60
+                    bottom: -60,
                 }, 200, "easeInQuad");
                 $(this).find("img").stop().animate({
                     top: 0
