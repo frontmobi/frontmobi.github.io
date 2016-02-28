@@ -1165,20 +1165,20 @@ nav ul a {
     color: #ed7d31;
 }
 
-.fb:hover {
+.fh-facebook:hover {
     color: #3B5998;
 }
 
-.tw:hover {
+.fh-twitter:hover {
     color: #55acee;
 }
 
-.rss:hover {
-    color: #f26522;
+.fh-google-plus:hover {
+    color: #dd4b39;
 }
 
-.gp:hover {
-    color: #dd4b39;
+.fh-youtube:hover {
+    color: #cc181e;
 }
 
 .contact_social {
