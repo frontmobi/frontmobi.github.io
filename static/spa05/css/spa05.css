@@ -213,7 +213,7 @@ img {
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 12px 0px;
 }
 
@@ -244,7 +244,7 @@ img {
 
 .navbar-default .navbar-nav > li > a {
     color: #fff;
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
 }
 
@@ -1273,8 +1273,8 @@ div[data-dimension] {
 
 @media(max-width:991px) {
     .navbar-default .navbar-nav > li > a {
-        font-size: 18px;
-        padding: 10px 6px;
+        font-size: 16px;
+        padding: 16px 6px;
     }
     .navbar-brand {
         font-size: 20px;
@@ -1495,10 +1495,10 @@ div[data-dimension] {
     .testimonials-area {
         padding: 50px 0;
     }
-.   #cli-sectionents {
+    #clients {
         padding: 50px 0 100px;
     }
-.   #con-sectiontact {
+    #contact {
         padding: 50px 0 0;
     }
     #subscribe {
