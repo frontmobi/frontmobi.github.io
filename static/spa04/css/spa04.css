@@ -1008,12 +1008,12 @@ ul.nostyle i {
     color: #fff;
 }
 
-a.contact-link {
+.contact-area a {
     color: #fff;
 }
 
-a.contact-link:hover,
-a.contact-link:focus {
+.contact-area a:hover,
+.contact-area a:focus {
     text-decoration: underline;
 }
 
