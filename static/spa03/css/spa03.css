@@ -86,27 +86,27 @@ main > section {
 
 
 /* custom modal */
-.modal-service .modal-header,
-.modal-service .modal-body,
-.modal-service .modal-footer {
+.modal-custom .modal-header,
+.modal-custom .modal-body,
+.modal-custom .modal-footer {
     background-color: #fff;
 }
 
-.modal-service .modal-header {
+.modal-custom .modal-header {
     color: #fff;
     padding:9px 15px;
     background-color: #2f75b5;
 }
 
-.modal-service .modal-header .modal-title {
+.modal-custom .modal-header .modal-title {
     color: #fff;
 }
 
-.modal-service .modal-footer {
+.modal-custom .modal-footer {
     border: 1px solid transparent;
 }
 
-.modal-service .close {
+.modal-custom .close {
     float: right;
     font-size: 36px;
     font-weight: bold;
@@ -117,8 +117,8 @@ main > section {
     opacity: 1;
 }
 
-.modal-service .close:hover,
-.modal-service .close:focus {
+.modal-custom .close:hover,
+.modal-custom .close:focus {
     color: #fff;
     text-decoration: none;
     cursor: pointer;
@@ -651,6 +651,10 @@ h1.navbar-brand a {
     margin-bottom: 70px;
 }
 
+.work-item {
+    margin-bottom: 20px;
+}
+
 .work-item h4 {
     color: #fff;
 }
@@ -663,6 +667,7 @@ h1.navbar-brand a {
 
 .owl-buttons {
     border: 2px solid #fff;
+    font-size: 20px;
     display: inline-block;
     float: right;
     padding: 1px 8px 5px;
@@ -693,6 +698,15 @@ h1.navbar-brand a {
 /*=================================================================
     Services
 ==================================================================*/
+#services .owl-buttons {
+    border: 2px solid #666;
+    color: #2f75b5;
+    float: right;
+}
+
+.service-item {
+    margin-bottom: 40px;
+}
 
 .service-icon {
     border: 3px solid transparent;
@@ -700,30 +714,12 @@ h1.navbar-brand a {
     height: 85px;
     width: 85px;
     line-height: 101px;
-    -webkit-transform: rotate(47deg);
-    -moz-transform: rotate(47deg);
-    -ms-transform: rotate(47deg);
-    -o-transform: rotate(47deg);
-    transform: rotate(47deg);
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -ms-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
 }
 
 .service-item:hover .service-icon {
     border: 3px solid #ed7d31;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
     color: #ed7d31;
-}
-
-.service-icon i {
-    -webkit-transform: rotate(-48deg);
-    -moz-transform: rotate(-48deg);
-    -ms-transform: rotate(-48deg);
-    -o-transform: rotate(-48deg);
-    transform: rotate(-48deg);
 }
 
 .service-item h3 {
@@ -881,7 +877,7 @@ ul.external li a:hover {
 
 .testimonial-item {
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     width: 64%;
 }
 
@@ -1313,7 +1309,7 @@ ul.external li a:hover {
     .footer-social ul li {
         margin: 0 7px;
     }
-    .modal-service .close {
+    .modal-custom .close {
         font-size: 30px;
         line-height: 24px;
     }
@@ -1378,7 +1374,7 @@ ul.external li a:hover {
     .footer-content {
         width: 380px;
     }
-    .modal-service .close {
+    .modal-custom .close {
         font-size: 30px;
         line-height: 24px;
     }

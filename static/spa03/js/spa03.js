@@ -97,6 +97,24 @@ $(document).ready(function() {
         singleItem: true,
         navigationText: [ "<i class='fa fa-angle-left fa-lg'></i>", "<i class='fa fa-angle-right fa-lg'></i>" ]
     });
+
+    $('#services-list').owlCarousel({
+        items : 4,
+        itemsCustom : false,
+        itemsDesktop : [1199, 4],
+        itemsDesktopSmall : [979, 3],
+        itemsTablet : [768, 2],
+        itemsTabletSmall : false,
+        itemsMobile : [479, 1],
+        singleItem : false,
+        itemsScaleUp : false,
+        navigation: true,
+        pagination: false,
+        slideSpeed: 700,
+        paginationSpeed: 400,
+        navigationText: [ "<i class='fa fa-angle-left fa-lg'></i>", "<i class='fa fa-angle-right fa-lg'></i>" ],
+    });
+
     /* ========================================================================= */
     /*	Featured Project Lightbox
 	/* ========================================================================= */
