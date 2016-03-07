@@ -71,20 +71,6 @@ main > section {
     padding: 70px 0;
 }
 
-/* custom bg-img */
-.bg-img-1 {
-    /*background-image: url(/static/spa03/images/slider-01.jpg);*/
-}
-
-.bg-img-2 {
-    /*background-image: url(/static/spa03/images/slider-02.jpg);*/
-}
-
-.bg-img-3 {
-    /*background-image: url(/static/spa03/images/slider-03.jpg);*/
-}
-
-
 /* custom modal */
 .modal-custom .modal-header,
 .modal-custom .modal-body,
@@ -621,34 +607,44 @@ h1.navbar-brand a {
 
 
 /*=================================================================
-    News
+    News & Welcome
 ==================================================================*/
 
 .news-area {
+    background-color: #fff;
+    color: #333;
+}
+
+.news-area h3 {
+    color: #333;
+    margin: 0 0 35px;
+}
+
+.news-area .message-body,
+.welcome-area .message-body {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 70px;
+}
+
+.welcome-area {
     background-color: #2f75b5;
     color: #fff;
 }
 
-.news-area h3 {
+.welcome-area h3 {
     color: #fff;
     margin: 0 0 35px;
-    text-transform: uppercase;
 }
 
-.news-area .welcome-block h3 {
+.welcome-area .welcome-block h3 {
     margin: 0 0 65px;
 }
 
-.news-area .welcome-block img {
+.welcome-area .welcome-block img {
     border: 2px solid #fff;
     margin-right: 35px;
     max-width: 100px;
-}
-
-.news-area .message-body {
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 70px;
 }
 
 .work-item {
@@ -665,15 +661,17 @@ h1.navbar-brand a {
     border: solid 2px #fff;
 }
 
-.owl-buttons {
-    border: 2px solid #fff;
+.news-area .owl-buttons {
+    border: 2px solid #666;
+    color: #2f75b5;
     font-size: 20px;
     display: inline-block;
     float: right;
     padding: 1px 8px 5px;
+    margin-right: 100px;
 }
 
-.owl-buttons > div {
+.news-area .owl-buttons > div {
     display: inline-block;
     padding: 0 5px;
 }
@@ -698,10 +696,19 @@ h1.navbar-brand a {
 /*=================================================================
     Services
 ==================================================================*/
-#services .owl-buttons {
+.services-area .owl-buttons {
     border: 2px solid #666;
     color: #2f75b5;
+    font-size: 20px;
+    display: inline-block;
     float: right;
+    padding: 1px 8px 5px;
+    margin-right: 100px;
+}
+
+.services-area .owl-buttons > div {
+    display: inline-block;
+    padding: 0 5px;
 }
 
 .service-item {
@@ -858,17 +865,17 @@ ul.external li a:hover {
     Testimonials
 ==================================================================*/
 
-#testimonials {
+.testimonials-area {
     /*background-image: url(/static/spa03/images/testimonial.jpg);*/
     padding: 0;
     color: #fff;
 }
 
-#testimonials .sec-title h2:after {
+.testimonials-area .sec-title h2:after {
     border-bottom: 1px solid #fff;
 }
 
-#testimonials .overlay {
+.testimonials-area .overlay {
     /*background-color: rgba(15, 155, 224, 0.78);*/
     /*background-color: rgba(0, 0, 0, 0.65);*/
     background-color: #2f75b5;
@@ -922,18 +929,29 @@ ul.external li a:hover {
     text-transform: uppercase;
 }
 
-#testimonials .owl-controls.clickable {
+.testimonials-area .owl-controls.clickable {
     margin-top: 20px;
     text-align: center;
 }
 
-#testimonials .owl-buttons {
+
+.testimonials-area .owl-buttons {
     border: 2px solid #fff;
-    float: inherit;
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    float: right;
+    padding: 1px 8px 5px;
+    margin-right: 100px;
 }
 
-#testimonials .owl-prev:hover,
-#testimonials .owl-next:hover {
+.testimonials-area .owl-buttons > div {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.testimonials-area .owl-prev:hover,
+.testimonials-area .owl-next:hover {
     color: #fff;
 }
 
@@ -1136,7 +1154,7 @@ ul.external li a:hover {
 
 @media (min-width: 980px) and (max-width: 1150px) {
     /*news*/
-    .news-area .welcome-block img {
+    .welcome-area .welcome-block img {
         margin-bottom: 30px;
     }
     /* portfolio */
@@ -1243,19 +1261,26 @@ ul.external li a:hover {
     .recent-works {
         margin-bottom: 85px;
     }
-    .news-area h3 {
+
+    .news-area h3,
+    .welcome-area h3 {
         font-size: 18px;
         margin: 0 0 35px !important;
     }
+
     .news-area .owl-buttons {
         margin-top: 20px;
     }
-    .news-area .message-body {
+
+    .news-area .message-body,
+    .welcome-area .message-body {
         margin-bottom: 45px;
     }
-    .news-area .welcome-block img {
+
+    .welcome-area .welcome-block img {
         margin: 0 25px 15px 0;
     }
+
     /* service */
     .service-item {
         width: 100%;
@@ -1335,7 +1360,7 @@ ul.external li a:hover {
         font-size: 35px;
     }
     /*news*/
-    .news-area .welcome-block h3 {
+    .welcome-area .welcome-block h3 {
         margin: 0 0 35px;
     }
     /* service */
