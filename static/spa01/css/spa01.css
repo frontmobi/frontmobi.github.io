@@ -119,6 +119,20 @@ a:hover {
     background-color: rgba(0,0,0,0.8);
 }
 
+.btn-close {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-close:hover,
+.btn-close:focus,
+.btn-close:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.8);
+}
+
+
 .btn-light {
     border-radius: 0;
     color: #ed7d31;
