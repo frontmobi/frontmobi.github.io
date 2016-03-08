@@ -794,13 +794,14 @@ ul.nostyle i {
     padding-bottom: 50px;
 }
 
-.team-area {
+.team-area, 
+.milestone-area {
     padding: 100px 0;
     background-color: #ed7d31;
 }
 
 .team-area .section-header h2,
-.team-area h3.column-title {
+.milestone-area .section-header h2 {
     color: #fff;
 }
 
