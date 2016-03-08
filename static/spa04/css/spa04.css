@@ -443,24 +443,24 @@ ul.nostyle i {
     background: rgba(0, 0, 0, 0.1);
 }
 
-#cta {
+.callout-1 {
     padding: 50px 0;
     background-color: #eeeeee;
 }
 
-#cta h2 {
+.callout-1 h2 {
     margin-top: 0;
 }
 
-#cta p {
+.callout-1 p {
     color: #333;
 }
 
-#cta .btn {
+.callout-1 .btn {
     margin-top: 40px;
 }
 
-#cta2 {
+.linkout-1 {
     /*background: #242a33 url(../images/cta2-bg.jpg) no-repeat 50% 50%; 1600x500*/
     background-color: #2f75b5;
     background-size: cover;
@@ -468,17 +468,17 @@ ul.nostyle i {
     padding-top: 70px;
 }
 
-#cta2 .btn {
+.linkout-1 .btn {
     margin-top: 10px;
 }
 
-#cta2 h2 {
+.linkout-1 h2 {
     color: #fff;
     font-size: 44px;
     line-height: 1;
 }
 
-#cta2 h2 > span {
+.linkout-1 h2 > span {
     color: #ed7d31;
 }
 
