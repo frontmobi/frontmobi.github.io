@@ -110,6 +110,10 @@ hr {
     background-color: #2f75b5;
 }
 
+.service-item {
+    padding-bottom: 50px;
+}
+
 .section-header {
     margin-bottom: 50px;
 }
@@ -466,6 +470,7 @@ ul.nostyle i {
     background-size: cover;
     color: #fff;
     padding-top: 70px;
+    padding-bottom: 50px;
 }
 
 .linkout-1 .btn {
