@@ -457,14 +457,14 @@ img {
     height: 350px;
 }
 
-.single_iteam {
+.single_item {
     float: left;
     display: inline;
     width: 100%;
     height: 100%;
 }
 
-.single_iteam img {
+.single_item img {
     max-width: 100%;
 }
 
@@ -1295,10 +1295,10 @@ div[data-dimension] {
     .about_slider {
         margin-top: 30px;
     }
-    .single_iteam {
+    .single_item {
         text-align: center;
     }
-    .single_iteam img {
+    .single_item img {
         display: inline-block;
     }
     .single_service .service_title {
