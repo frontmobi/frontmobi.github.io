@@ -57,27 +57,27 @@ a:focus {
 }
 
 /* custom modal */
-.modal-portfolio .modal-header,
-.modal-portfolio .modal-body,
-.modal-portfolio .modal-footer {
+.modal-custom .modal-header,
+.modal-custom .modal-body,
+.modal-custom .modal-footer {
     background-color: #fff;
 }
 
-.modal-portfolio .modal-header {
+.modal-custom .modal-header {
     color: #333;
     padding:9px 15px;
     background-color: #333;
 }
 
-.modal-portfolio .modal-header .modal-title {
+.modal-custom .modal-header .modal-title {
     color: #fff;
 }
 
-.modal-portfolio .modal-footer {
+.modal-custom .modal-footer {
     border: 1px solid transparent;
 }
 
-.modal-portfolio .close {
+.modal-custom .close {
     float: right;
     font-size: 36px;
     font-weight: 400;
@@ -88,8 +88,8 @@ a:focus {
     opacity: 1;
 }
 
-.modal-portfolio .close:hover,
-.modal-portfolio .close:focus {
+.modal-custom .close:hover,
+.modal-custom .close:focus {
     color: #fff;
     text-decoration: none;
     cursor: pointer;
@@ -828,7 +828,7 @@ nav#footer p {
     .navbar-collapse .navbar-nav > li>a {
         font-size: 18px !important;
     }
-    .modal-portfolio .close {
+    .modal-custom .close {
         font-size: 30px;
         line-height: 24px;
     }
