@@ -37,19 +37,19 @@ body {
 }
 
 .text-header {
-    font-weight: bold;
+    font-weight: 400;
     text-align: center;
     text-shadow: 1 1 0px #aaa;
 }
 
 .text-front {
     color: #ed7e32;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .text-mobi {
     color: #262626;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .service-item p {
@@ -119,6 +119,17 @@ body {
     border-top: solid 0px #999 !important;
 }
 
+.btn-qrcode {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+    font-size: 16px;
+}
+
+.btn-open:hover {
+    background-color: transparent;
+}
+
 .img-center .img-responsive {
     margin: 0 auto;
 }
@@ -132,8 +143,9 @@ ul li {
 }
 
 footer p {
-    color: #262626;
-    font-weight: bold;
+    color: #222;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 /* custom modal */
@@ -145,7 +157,7 @@ footer p {
 }
 
 .modal-main .modal-header {
-    color: #f9df66;
+    color: #fff;
     padding: 9px 15px;
     background-color: #262626;
 }
@@ -157,7 +169,7 @@ footer p {
 .modal-main .close {
     float: right;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 400;
     line-height: 30px;
     color: #fff;
     text-shadow: 0 0 0 transparent;
@@ -167,7 +179,7 @@ footer p {
 
 .modal-main .close:hover,
 .modal-main .close:focus {
-    color: #f9df66;
+    color: #fff;
     text-decoration: none;
     cursor: pointer;
     filter: alpha(opacity=100);
@@ -194,7 +206,7 @@ footer p {
 
     .btn-open {
         font-size: 18px;
-        font-weight: bold;
+        font-weight: 400;
     }
 
     .text-cpright {

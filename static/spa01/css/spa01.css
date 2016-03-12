@@ -95,7 +95,7 @@ a:hover {
     padding: 0;
     color: #fff;
     font-size: 4.5em;
-    font-weight: 700;
+    font-weight: 400;
     text-shadow: 2px 2px 4px #333;
 }
 
@@ -219,7 +219,7 @@ hr.small {
 .sidebar-nav > .sidebar-brand {
     height: 55px;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 400;
     line-height: 55px;
 }
 
@@ -393,7 +393,7 @@ footer {
 .modal-custom .close {
     float: right;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 400;
     line-height: 30px;
     color: #fff;
     text-shadow: 0 0 0 transparent;
@@ -506,8 +506,8 @@ footer {
 }
 
 .owl-theme .owl-dots .owl-dot span {
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
     margin: 5px 7px;
     background: #ccc;
     display: block;

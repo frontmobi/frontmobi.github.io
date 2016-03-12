@@ -95,7 +95,7 @@ main > section {
 .modal-custom .close {
     float: right;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 400;
     line-height: 30px;
     color: #fff;
     text-shadow: 0 0 0 transparent;
@@ -362,7 +362,7 @@ main > section {
 
 h1.navbar-brand {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     margin: 0;
     text-transform: uppercase;
 }
@@ -924,7 +924,7 @@ ul.external li a:hover {
 
 .testimonial-item > div > span {
     display: inline-block;
-    font-weight: 700;
+    font-weight: 400;
     margin: 40px 0 30px;
     text-transform: uppercase;
     font-size: 18px;
@@ -1008,8 +1008,8 @@ ul.external li a:hover {
 }
 
 .price-table .value span:nth-child(2) {
-    font-size: 65px;
-    line-height: 65px;
+    font-size: 48px;
+    line-height: 48px;
     margin-bottom: 25px;
 }
 
@@ -1067,12 +1067,14 @@ ul.external li a:hover {
     background-color: #2f75b5;
 }
 
-.contact-details a {
-    color: #333;
+.contact-details *,
+.contact-details a,
+.contact-details a:hover {
+    color: #fff;
 }
 
 .contact-details a:hover {
-    color: #ed7d31;
+    text-decoration: underline;
 }
 
 .contact-details p {
@@ -1189,6 +1191,7 @@ ul.external li a:hover {
     }
     /* news */
     .recent-works {
+        margin-left: 5%;
         margin-bottom: 50px;
     }
     .service-item {
@@ -1264,6 +1267,7 @@ ul.external li a:hover {
     }
     /* news */
     .recent-works {
+        margin-left: 5%;
         margin-bottom: 85px;
     }
 
