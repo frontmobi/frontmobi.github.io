@@ -732,6 +732,20 @@ button.btn.tf-btn.btn-default {
     outline-offset: none;
 }
 
+.btn-close {
+    color: #fff;
+    background-color: #5b5b5b;
+    border-color: #5b5b5b;
+}
+.btn-close:hover,
+.btn-close:focus,
+.btn-close:active,
+.btn-close.active {
+    color: #fff;
+    background-color: #4e4e4e;
+    border-color: #424242;
+}
+
 
 /* Footer */
 
