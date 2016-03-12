@@ -683,9 +683,9 @@ div[data-dimension] {
     font-size: 20px;
     display: inline-block;
     background: #ccc;
-    width: 42px;
-    height: 42px;
-    line-height: 42px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
     border-radius: 50%;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
