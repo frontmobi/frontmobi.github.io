@@ -1,22 +1,4 @@
-/**
-*
-* ---------------------------------------------------------------------------
-*
-* Template : Blue - A One-Page HTML Portfolio/Business Template
-* Author : Muhammad Morshd
-* Author URI : http://morsheds.com
-*
-* --------------------------------------------------------------------------- 
-*
-*/
-
-
-/* =================================== */
-
-
-/*  Basic Style 
-/* =================================== */
-
+/*  basic style */
 body, html, input, button, select, textarea {
     font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft JhengHei", "Microsoft YaHei", "Meiryo UI", "Meiryo", sans-serif;
 }
@@ -137,7 +119,7 @@ main > section {
 }
 
 
-/* Sweep To Right */
+/* sweep to right */
 
 .btn-effect {
     vertical-align: middle;
@@ -262,9 +244,7 @@ main > section {
     text-decoration: underline;
 }
 
-/**
-/*  Preloader
-/* ==========================================*/
+/* preloader */
 
 #preloader {
     background-color: #fff;
@@ -275,7 +255,7 @@ main > section {
 }
 
 
-/*Battery*/
+/* battery */
 
 .loder-box {
     background-color: rgba(0, 0, 0, 0.02);
@@ -341,9 +321,7 @@ main > section {
 }
 
 
-/**
-/*  Header
-/* ==========================================*/
+/*  header */
 
 #navigation {
     -webkit-transition: all 0.8s ease 0s;
@@ -378,9 +356,7 @@ h1.navbar-brand a {
 }
 
 
-/*=================================================================
-    Home Slider
-==================================================================*/
+/* home slider */
 
 #home-slider {
     position: relative;
@@ -401,7 +377,7 @@ h1.navbar-brand a {
 }
 
 
-/* Slide wrapper and slides */
+/* slide wrapper and slides */
 
 .sl-slide,
 .sl-slides-wrapper,
@@ -458,7 +434,7 @@ h1.navbar-brand a {
 }
 
 
-/* The duplicate parts/slices */
+/* the duplicate parts/slices */
 
 .sl-content-slice {
     overflow: hidden;
@@ -476,7 +452,7 @@ h1.navbar-brand a {
 }
 
 
-/* Horizontal slice */
+/* horizontal slice */
 
 .sl-slide-horizontal .sl-content-slice {
     width: 100%;
@@ -500,7 +476,7 @@ h1.navbar-brand a {
 }
 
 
-/* Vertical slice */
+/* vertical slice */
 
 .sl-slide-vertical .sl-content-slice {
     width: 50%;
@@ -524,10 +500,9 @@ h1.navbar-brand a {
 }
 
 
-/* Content wrapper */
+/* content wrapper */
 
-
-/* Width and height is set dynamically */
+/* width and height is set dynamically */
 
 .sl-content-wrapper {
     position: absolute;
@@ -539,37 +514,7 @@ h1.navbar-brand a {
 }
 
 
-/* Default styles for background colors
-
-.btn-effect:after {
-    width: 0%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: #fff;
-    content: "";
-    position: absolute;
-    z-index: -1;
-
-    -webkit-transition: all 0.3s ease-out 0s;
-       -moz-transition: all 0.3s ease-out 0s;
-        -ms-transition: all 0.3s ease-out 0s;
-         -o-transition: all 0.3s ease-out 0s;
-            transition: all 0.3s ease-out 0s;
-}
-
-.btn-effect:hover,
-.btn-effect:active {
-    color: #0e83cd;
-}
-
-.btn-effect:hover:after,
-.btn-effect:active:after {
-    width: 100%;
-} */
-
-
-/* Project laughtbox setup */
+/* project laughtbox setup */
 
 #nav-arrows > a.sl-prev:hover,
 #nav-arrows > a.sl-next:hover {
@@ -601,9 +546,7 @@ h1.navbar-brand a {
 }
 
 
-/*=================================================================
-    News & Welcome
-==================================================================*/
+/* news & welcome */
 
 .news-area {
     background-color: #fff;
@@ -696,9 +639,8 @@ h1.navbar-brand a {
 }
 
 
-/*=================================================================
-    Services
-==================================================================*/
+/* services */
+
 .services-area .owl-buttons {
     border: 2px solid #666;
     color: #2f75b5;
@@ -752,9 +694,7 @@ h1.navbar-brand a {
 }
 
 
-/*=================================================================
-    Portfolio
-==================================================================*/
+/* portfolio */
 
 .project-wrapper {
     margin: 0;
@@ -865,18 +805,14 @@ ul.external li a:hover {
 }
 
 
-/*=================================================================
-    Testimonials
-==================================================================*/
+/* testimonials */
 
 .testimonials-area {
-    /*background-image: url(/static/spa03/images/testimonial.jpg);*/
     padding: 0;
     color: #fff;
 }
 
 .testimonials-area .overlay {
-    /*background-color: rgba(15, 155, 224, 0.78);*/
     /*background-color: rgba(0, 0, 0, 0.65);*/
     background-color: #2f75b5;
     padding: 70px 0 40px;
@@ -902,7 +838,6 @@ ul.external li a:hover {
 }
 
 .testimonial-item > div:before {
-    /*background-image: url(/static/spa03/images/quotes.png);*/
     background-repeat: no-repeat;
     bottom: 127px;
     height: 33px;
@@ -912,7 +847,6 @@ ul.external li a:hover {
 }
 
 .testimonial-item > div:after {
-    /*background-image: url(/static/spa03/images/quotes.png);*/
     background-position: -58px 0;
     background-repeat: no-repeat;
     bottom: -50px;
@@ -960,9 +894,7 @@ ul.external li a:hover {
     color: #fff;
 }
 
-/*=================================================================
-    Price
-==================================================================*/
+/* price */
 
 .price-table {
     border: 1px solid #e3e3e3;
@@ -1055,9 +987,8 @@ ul.external li a:hover {
     color: #fff;
 }
 
-/*============================================================
-    Footer
-==============================================================*/
+/* footer */
+
 .img-contact {
     width: 400px;
     height: 300px;
@@ -1150,17 +1081,12 @@ ul.external li a:hover {
 }
 
 
-/*============================================================ 
-    Responsive Styles
- ============================================================*/
+/* responsive styles */
 
-
-/*============================================================
-    For Small Desktop
-==============================================================*/
+/* for small desktop */
 
 @media (min-width: 980px) and (max-width: 1150px) {
-    /*news*/
+    /* news */
     .welcome-area .welcome-block img {
         margin-bottom: 30px;
     }
@@ -1174,9 +1100,7 @@ ul.external li a:hover {
 }
 
 
-/*============================================================
-    Tablet (Portrait) Design for a width of 768px
-==============================================================*/
+/* tablet (portrait) design for a width of 768px */
 
 @media (min-width: 768px) and (max-width: 979px) {
     /* home slider  */
@@ -1218,9 +1142,7 @@ ul.external li a:hover {
 }
 
 
-/*============================================================
-    Mobile (Portrait) Design for a width of 320px
-==============================================================*/
+/* mobile (portrait) design for a width of 320px */
 
 @media only screen and (max-width: 767px) {
     body {
@@ -1240,7 +1162,7 @@ ul.external li a:hover {
         font-size: 18px;
     }
 
-    /*navigation*/
+    /* navigation */
     .navbar-inverse .navbar-toggle {
         float: left;
         border-color: #fff;
@@ -1295,7 +1217,8 @@ ul.external li a:hover {
     	padding: 5px 20px;
         width: 100%;
     }
-    /*portfolio*/
+
+    /* portfolio */
     .portfolio-item {
         margin: 0 auto 10px;
         font-size: 14px;
@@ -1306,6 +1229,7 @@ ul.external li a:hover {
         color: #fff;
         padding: 15px;
     }
+
     /* lightbox */
     .fancybox-title h3 {
         font-size: 20px;
@@ -1313,6 +1237,7 @@ ul.external li a:hover {
     .fancybox-title p {
         font-size: 14px;
     }
+
     /* testimonial */
     .testimonial-item {
         width: 95%;
@@ -1324,10 +1249,12 @@ ul.external li a:hover {
     .testimonial-item > div > span {
         margin: 30px 0 20px;
     }
+
     /* price */
     .price-table {
         margin-bottom: 50px;
     }
+
     /* follow us */
     .social-button li:nth-child(2) {
         margin: 0 25px;
@@ -1337,6 +1264,7 @@ ul.external li a:hover {
         line-height: 71px;
         width: 65px;
     }
+
     /* footer */
     .footer-content {
         width: 100%;
@@ -1351,14 +1279,13 @@ ul.external li a:hover {
 }
 
 
-/*============================================================
-    Mobile (Landscape) Design for a width of 480px
-==============================================================*/
+/* mobile (landscape) design for a width of 480px */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .sec-title h2:after {
         left: 38%;
     }
+
     /* home slider */
     .caption-content h2 {
         font-size: 35px;
@@ -1369,16 +1296,19 @@ ul.external li a:hover {
     .caption-content strong {
         font-size: 35px;
     }
+
     /*news*/
     .welcome-area .welcome-block h3 {
         margin: 0 0 35px;
     }
+
     /* service */
     .service-item {
     	padding: 5px 20px;
         margin: 0 auto 50px;
         width: 55%;
     }
+
     /* portfolio */
     .portfolio-item {
         width: 48%;
@@ -1386,6 +1316,7 @@ ul.external li a:hover {
     figcaption.mask {
         bottom: -132px;
     }
+
     /* testimonial */
     .testimonial-item {
         width: 80%;
@@ -1393,6 +1324,7 @@ ul.external li a:hover {
     .testimonial-item > div:before {
         bottom: 160px;
     }
+
     /* social */
     .social-button li:nth-child(2) {
         margin: 0 50px;
@@ -1402,10 +1334,12 @@ ul.external li a:hover {
         line-height: 96px;
         width: 90px;
     }
+
     /* price */
     .price-table {
         margin-bottom: 50px;
     }
+    
     /* footer */
     .footer-content {
         width: 380px;

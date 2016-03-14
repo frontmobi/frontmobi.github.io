@@ -13,7 +13,7 @@ $(window).load(function() {
 
 jQuery(function($) {
     "use strict";
-    // Navigation Scroll
+    // navigation scroll
     $(window).scroll(function(event) {
         Scroll();
     });
@@ -23,7 +23,7 @@ jQuery(function($) {
         }, 1e3);
         return false;
     });
-    // User define function
+    // user define function
     function Scroll() {
         var contentTop = [];
         var contentBottom = [];
@@ -53,18 +53,19 @@ jQuery(function($) {
         });
         $(this).closest(".panel-heading").toggleClass("active");
     });
-    //Slider
+    // slider
     $(document).ready(function() {
         var time = 7;
         // time in seconds
         var $progressBar, $bar, $elem, isPause, tick, percentTime;
 
-        // 點選後收合
+        // collapse after click
         $('.nav a').on('click', function(){
-            $('.navbar-toggle').click() //bootstrap 3.x by Richard
+            //bootstrap 3.x by Richard
+            $('.navbar-toggle').click() 
         });
     
-        //Init the carousel
+        // init the carousel
         $("#main-slider").find(".owl-carousel").owlCarousel({
             slideSpeed: 500,
             paginationSpeed: 500,
@@ -77,7 +78,8 @@ jQuery(function($) {
             //autoHeight : true,
             transitionStyle: "fadeUp"
         });
-        //Init progressBar where elem is $("#owl-demo")
+
+        // init progressbar where elem is $("#owl-demo")
         function progressBar(elem) {
             $elem = elem;
             //build progress bar elements
@@ -85,7 +87,8 @@ jQuery(function($) {
             //start counting
             start();
         }
-        //create div#progressBar and div#bar then append to $(".owl-carousel")
+
+        // create div#progressBar and div#bar then append to $(".owl-carousel")
         function buildProgressBar() {
             $progressBar = $("<div>", {
                 id: "progressBar"
@@ -96,10 +99,10 @@ jQuery(function($) {
             $progressBar.append($bar).appendTo($elem);
         }
         function start() {
-            //reset timer
+            // reset timer
             percentTime = 0;
             isPause = false;
-            //run interval every 0.01 second
+            // run interval every 0.01 second
             tick = setInterval(interval, 10);
         }
         function interval() {
@@ -108,33 +111,36 @@ jQuery(function($) {
                 $bar.css({
                     width: percentTime + "%"
                 });
-                //if percentTime is equal or greater than 100
+                // if percentTime is equal or greater than 100
                 if (percentTime >= 100) {
-                    //slide to next item 
+                    // slide to next item 
                     $elem.trigger("owl.next");
                 }
             }
         }
-        //pause while dragging 
+
+        // pause while dragging 
         function pauseOnDragging() {
             isPause = true;
         }
-        //moved callback
+
+        // moved callback
         function moved() {
-            //clear interval
+            // clear interval
             clearTimeout(tick);
-            //start again
+            // start again
             start();
         }
     });
-    //Initiat WOW JS
+
+    // initiat wow js
     new WOW({
         animateClass: "animated",
         mobile:       false,
         offset: 100
     }).init();
 
-    //smoothScroll
+    // smoothScroll
     smoothScroll.init();
     // portfolio filter
     $(window).load(function() {
@@ -155,46 +161,8 @@ jQuery(function($) {
             return false;
         });
     });
-    $(document).ready(function() {
-        //Animated Number
-        $.fn.animateNumbers = function(stop, commas, duration, ease) {
-            return this.each(function() {
-                var $this = $(this);
-                var start = parseInt($this.text().replace(/,/g, ""));
-                commas = commas === undefined ? true : commas;
-                $({
-                    value: start
-                }).animate({
-                    value: stop
-                }, {
-                    duration: duration == undefined ? 1e3 : duration,
-                    easing: ease == undefined ? "swing" : ease,
-                    step: function() {
-                        $this.text(Math.floor(this.value));
-                        if (commas) {
-                            $this.text($this.text().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
-                        }
-                    },
-                    complete: function() {
-                        if (parseInt($this.text()) !== stop) {
-                            $this.text(stop);
-                            if (commas) {
-                                $this.text($this.text().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
-                            }
-                        }
-                    }
-                });
-            });
-        };
-        $(".animated-number").bind("inview", function(event, visible, visiblePartX, visiblePartY) {
-            var $this = $(this);
-            if (visible) {
-                $this.animateNumbers($this.data("digit"), false, $this.data("duration"));
-                $this.unbind("inview");
-            }
-        });
-    });
-    //Pretty Photo
+
+    // pretty photo
     $("a[rel^='prettyPhoto']").prettyPhoto({
         social_tools: false
     });

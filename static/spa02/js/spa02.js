@@ -10,7 +10,7 @@ $(window).load(function() {
     });
 });
 
-// Sticky Header
+// sticky header
 $(window).scroll(function() {
     if ($(window).scrollTop() > 100) {
         $(".main_header").addClass("sticky");
@@ -19,7 +19,7 @@ $(window).scroll(function() {
     }
 });
 
-// Mobile Navigation
+// mobile navigation
 $(".mobile-toggle").click(function() {
     if ($(".main_header").hasClass("open-nav")) {
         $(".main_header").removeClass("open-nav");
@@ -83,7 +83,6 @@ $(function() {
 $(function() {
     var filterList = {
         init: function() {
-            // MixItUp plugin
             // http://mixitup.io
             $("#portfoliolist").mixitup({
                 targetSelector: ".portfolio",
@@ -95,7 +94,7 @@ $(function() {
             });
         },
         hoverEffect: function() {
-            // Simple parallax effect
+            // simple parallax effect
             $("#portfoliolist .portfolio").hover(function() {
                 $(this).find(".label").stop().animate({
                     bottom: 0,
@@ -114,6 +113,6 @@ $(function() {
             });
         }
     };
-    // Run the show!
+    // run the show
     filterList.init();
 });

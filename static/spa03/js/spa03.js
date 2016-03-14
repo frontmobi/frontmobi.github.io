@@ -1,13 +1,9 @@
-/* ========================================================================= */
-/*	Preloader
-/* ========================================================================= */
+/*  preloader */
 jQuery(window).load(function() {
     $("#preloader").fadeOut("slow");
 });
 
-/* ========================================================================= */
-/*  Welcome Section Slider
-/* ========================================================================= */
+/*  welcome section slider */
 $(function() {
     var Page = function() {
         var $navArrows = $("#nav-arrows"), $nav = $("#nav-dots > span"), slitslider = $("#slider").slitslider({
@@ -47,9 +43,7 @@ $(function() {
 });
 
 $(document).ready(function() {
-    /* ========================================================================= */
-    /*	Menu item highlighting
-	/* ========================================================================= */
+    /*  menu item highlighting */
     jQuery("#nav").singlePageNav({
         offset: jQuery("#nav").outerHeight(),
         filter: ":not(.external)",
@@ -65,9 +59,10 @@ $(document).ready(function() {
         }
     });
 
-    // 點選後收合
+    // collapse after click
     $('.nav a').on('click', function(){
-        $('.navbar-toggle').click() //bootstrap 3.x by Richard
+        //bootstrap 3.x by Richard
+        $('.navbar-toggle').click() 
     });
 
     $(window).scroll(function() {
@@ -80,15 +75,13 @@ $(document).ready(function() {
             $("#navigation").addClass("animated-header");
         }
     });
-    /* ========================================================================= */
-    /*	Fix Slider Height
-	/* ========================================================================= */
-    // Slider Height
+    /*  fix slider height */
     var slideHeight = $(window).height();
     $("#home-slider, #slider, .sl-slider, .sl-content-wrapper").css("height", slideHeight);
     $(window).resize(function() {
         "use strict", $("#home-slider, #slider, .sl-slider, .sl-content-wrapper").css("height", slideHeight);
     });
+
     $("#works, #testimonial").owlCarousel({
         navigation: true,
         pagination: false,
@@ -115,9 +108,7 @@ $(document).ready(function() {
         navigationText: [ "<i class='fa fa-angle-left fa-lg'></i>", "<i class='fa fa-angle-right fa-lg'></i>" ],
     });
 
-    /* ========================================================================= */
-    /*	Featured Project Lightbox
-	/* ========================================================================= */
+    /* featured project lightbox */
     $(".fancybox").fancybox({
         padding: 0,
         openEffect: "elastic",
@@ -141,11 +132,3 @@ $(document).ready(function() {
         }
     });
 });
-
-// var wow = new WOW({
-//     offset: 75,
-//     // distance to the element when triggering the animation (default is 0)
-//     mobile: false
-// });
-
-// wow.init();

@@ -1,34 +1,4 @@
-/*
-Template Name: SinglePro - Multipurpose Bootstrap HTML5/CSS3 One Page Template
-Template URI:http://www.wpfreeware.com/themes/premium/singlepro/
-Author: WpFreeware Team
-Author URI: https://wrapbootstrap.com/user/wpfreeware
-Description: SinglePro - Multipurpose Bootstrap HTML5/CSS3 One Page Template.
-Version: 1.0
-Tags: light, white, landing page,single page,Multipurpose,custom-colors,Bootstrap,responsive, html5, css3
-*/
-
-
-/* Table of Content
-==================================================
-    #BASIC TYPOGRAPHY
-    #HEADER
-    #ABOUT SECTION
-    #SERVICE SECTION
-    #Works SECTION
-    #TEAM SECTION
-    #PRICING SECTION
-    #BLOG SECTION
-    #TESTIMONIAL SECTION
-    #CLIENTS SECTION
-    #CONTACT US SECTION
-    #FOOTER
-*/
-
-
-/*--------------------*/
-/* BASIC TYPOGRAPHY   */
-/*--------------------*/
+/* basic typography */
 
 body,
 html,
@@ -75,7 +45,7 @@ img {
 }
 
 
-/* Preloader */
+/* preloader */
 
 #preloader {
     position: fixed;
@@ -104,35 +74,6 @@ img {
     background-position: center;
     margin: -100px 0 0 -100px;
     /* is width and height divided by two */
-}
-
-
-/*scrol to top*/
-
-.scrollToTop {
-    bottom: 5px;
-    display: none;
-    font-size: 32px;
-    font-weight: 400;
-    height: 50px;
-    position: fixed;
-    right: 5px;
-    text-align: center;
-    text-decoration: none;
-    width: 50px;
-    z-index: 9999;
-    color: #fff;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
-.scrollToTop:hover,
-.scrollToTop:focus {
-    text-decoration: none;
-    outline: none;
 }
 
 
@@ -201,7 +142,7 @@ img {
 }
 
 
-/*--------.menu-area-------- */
+/* menu-area */
 
 .menu-area {
     position: absolute;
@@ -259,8 +200,6 @@ img {
 }
 
 
-/*--------/menu-area-------- */
-
 .slider_list {
     float: left;
     display: inline;
@@ -269,7 +208,6 @@ img {
 }
 
 .slider_overlay {
-    /*background: none repeat scroll 0 0 #242434;*/
     background: none repeat scroll 0 0 #333;
     height: 100%;
     opacity: 0.5;
@@ -280,7 +218,7 @@ img {
     z-index: 9;
 }
 
-/*===SLIDER CAPTION===*/
+/* slider caption */
 
 .slider_caption {
     margin-top: 12%;
@@ -326,9 +264,7 @@ img {
 }
 
 
-/*--------------------*/
-/* ABOUT SECTION      */
-/*--------------------*/
+/* about section */
 
 .about-area {
     background-color: #eee;
@@ -416,9 +352,6 @@ img {
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
-    /*-webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;*/
 }
 
 .panel-title a {
@@ -431,9 +364,6 @@ img {
     padding-left: 10px;
     margin-left: 20px;
     border-left: 5px solid #ed7d31;
-    /*-webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;*/
 }
 
 .panel-title a span {
@@ -513,9 +443,7 @@ div[data-dimension] {
 }
 
 
-/*--------------------*/
-/* SERVICE SECTION    */
-/*--------------------*/
+/* service section */
 
 .services-area {
     background-color: #eee;
@@ -590,7 +518,6 @@ div[data-dimension] {
     content: "";
     height: 3px;
     left: 40%;
-    /*position: absolute;*/
     position: relative;
     width: 100px;
 }
@@ -599,9 +526,8 @@ div[data-dimension] {
     font-size: 16px;
 }
 
-/*--------------------*/
-/* TEAM SECTION       */
-/*--------------------*/
+
+/* team section */
 
 .team-area {
     float: left;
@@ -693,9 +619,7 @@ div[data-dimension] {
 }
 
 
-/*--------------------*/
-/* PRICING SECTION    */
-/*--------------------*/
+/* pricing section */
 
 .pricing-area {
     background: none repeat scroll 0 0 #f8f8f8;
@@ -805,9 +729,7 @@ div[data-dimension] {
 }
 
 
-/*--------------------*/
-/* BLOG SECTION       */
-/*--------------------*/
+/* news section */
 
 .news-area {
     float: left;
@@ -930,9 +852,7 @@ div[data-dimension] {
 }
 
 
-/*---------------------*/
-/* TESTIMONIAL SECTION */
-/*---------------------*/
+/* testimonials section */
 
 .testimonials-area {
     background: none repeat scroll 0 0 #eee;
@@ -967,7 +887,6 @@ div[data-dimension] {
 
 .testi_media {
     margin: 0 auto !important;
-    /*width: 250px;*/
 }
 
 .testi_media .media-body {
@@ -1009,7 +928,6 @@ div[data-dimension] {
 }
 
 .testi_content:before {
-    /*background-image: url(../images/testimonial-arrow.png);*/
     background-position: center center;
     background-repeat: no-repeat;
     content: "";
@@ -1028,7 +946,7 @@ div[data-dimension] {
     height: 20px;
     line-height: 102px;
     margin: 0 5px;
-    padding: 7px 5px;
+    padding: 5px 5px;
     position: relative;
     width: 34px;
 }
@@ -1038,16 +956,14 @@ div[data-dimension] {
 }
 
 .testimonial_slider .slick-dots li button {
-    background: none repeat scroll 0 0 #e6e6e6;
-    height: 4px;
+    background: none repeat scroll 0 0 #ccc;
+    height: 8px;
     padding: 0px;
-    width: 20px;
+    width: 22px;
 }
 
 
-/*--------------------*/
-/* CLIENTS SECTION    */
-/*--------------------*/
+/* portfolio section */
 
 .portfolio-area {
     display: inline;
@@ -1101,9 +1017,7 @@ div[data-dimension] {
 }
 
 
-/*--------------------*/
-/* CONTACT US SECTION */
-/*--------------------*/
+/* contact section */
 
 .contact-area {
     background: none repeat scroll 0 0 #fff;
@@ -1169,7 +1083,6 @@ div[data-dimension] {
 }
 
 .contactFeature-section {
-    /*background-image: url(../images/contact-feature-bg.jpg);*/
     background-color: #2f75b5;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -1182,13 +1095,7 @@ div[data-dimension] {
 }
 
 
-/*--------------------*/
-
-
-/* FOOTER */
-
-
-/*--------------------*/
+/* footer */
 
 #footer {
     float: left;
@@ -1244,9 +1151,7 @@ div[data-dimension] {
 }
 
 
-/*======================///////////////
-      start responsive style
-=====================///////////////////////*/
+/* start responsive style */
 
 @media(max-width:1199px) {
     .slider_caption > h2 {
@@ -1258,6 +1163,7 @@ div[data-dimension] {
     #map_canvas {
         height: 404px;
     }
+
     /*only firefox browser*/
     @-moz-document url-prefix() {
         #map_canvas {
@@ -1686,18 +1592,7 @@ div[data-dimension] {
     }
 }
 
-/* ---------- color theme ---------- */
-
-.scrollToTop {
-    background-color: #ed7d31;
-}
-
-.scrollToTop:hover,
-.scrollToTop:focus {
-    background-color: #fff;
-    color: #ed7d31;
-    border: 1px solid #ed7d31;
-}
+/* color theme */
 
 .navbar-brand > span {
     color: #ed7d31;

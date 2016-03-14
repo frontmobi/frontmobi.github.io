@@ -1,36 +1,11 @@
-/**	
-	* SinglePro HTML 1.0	
-	* Template Scripts
-	* Created by WpFreeware Team
-
-	Custom JS
-	
-	1. Superslides Slider
-	2. Fixed Top Menubar
-	3. Featured Slider
-	5. Wow animation
-	7. TEAM SLIDER
-	8. BLOG SLIDER
-	9. TESTIMONIAL SLIDER
-	10. CLIENTS SLIDER
-	12. SCROLL TOP BUTTON
-	13. PRELOADER 
-	14. MENU SCROLL 
-	15. MOBILE MENU CLOSE 	
-	
-**/
 jQuery(function($) {
-    /* ----------------------------------------------------------- */
-    /*  1. Superslides Slider
-	/* ----------------------------------------------------------- */
+    // superslides slider
     jQuery("#slides").superslides({
         animation: "slide",
         play: "5000"
     });
-    /* ----------------------------------------------------------- */
-    /*  2. Fixed Top Menubar
-	/* ----------------------------------------------------------- */
-    // For fixed top bar
+
+    // fixed top menubar
     $(window).scroll(function() {
         if ($(window).scrollTop() > 100) {
             $(".navbar-fixed-top").addClass("past-main");
@@ -38,9 +13,8 @@ jQuery(function($) {
             $(".navbar-fixed-top").removeClass("past-main");
         }
     });
-    /* ----------------------------------------------------------- */
-    /*  3. Featured Slider
-	/* ----------------------------------------------------------- */
+
+    // featured slider
     $(".featured_slider").slick({
         dots: true,
         infinite: true,
@@ -53,18 +27,16 @@ jQuery(function($) {
         autoplaySpeed: 5e3,
         cssEase: "linear"
     });
-    /* ----------------------------------------------------------- */
-    /*  5. Wow smooth animation
-	/* ----------------------------------------------------------- */
+
+    // wow smooth animation
     wow = new WOW({
         animateClass: "animated",
         mobile:       false,
         offset: 100
     });
     wow.init();
-    /* ----------------------------------------------------------- */
-    /*  7. TEAM SLIDER
-	/* ----------------------------------------------------------- */
+
+    // team slider
     $(".team_slider").slick({
         dots: false,
         infinite: true,
@@ -93,9 +65,8 @@ jQuery(function($) {
             }
         } ]
     });
-    /* ----------------------------------------------------------- */
-    /*  8. BLOG SLIDER
-	/* ----------------------------------------------------------- */
+
+    // blog slider
     $(".blog_slider").slick({
         dots: false,
         infinite: true,
@@ -124,9 +95,8 @@ jQuery(function($) {
             }
         } ]
     });
-    /* ----------------------------------------------------------- */
-    /*  9. TESTIMONIAL SLIDER
-	/* ----------------------------------------------------------- */
+
+    // testimonial slider
     $(".testimonial_slider").slick({
         dots: true,
         infinite: true,
@@ -139,9 +109,8 @@ jQuery(function($) {
         autoplaySpeed: 3e3,
         cssEase: "linear"
     });
-    /* ----------------------------------------------------------- */
-    /*  10. PORTFOLIO SLIDER
-	/* ----------------------------------------------------------- */
+
+    // portfolio slider
     $(".portfolio_slider").slick({
         dots: false,
         infinite: true,
@@ -170,27 +139,8 @@ jQuery(function($) {
             }
         } ]
     });
-    /* ----------------------------------------------------------- */
-    /*  12. SCROLL TOP BUTTON
-	/* ----------------------------------------------------------- */
-    //Check to see if the window is top if not then display button
-    // $(window).scroll(function() {
-    //     if ($(this).scrollTop() > 300) {
-    //         $(".scrollToTop").fadeIn();
-    //     } else {
-    //         $(".scrollToTop").fadeOut();
-    //     }
-    // });
-    // //Click event to scroll to top
-    // $(".scrollToTop").click(function() {
-    //     $("html, body").animate({
-    //         scrollTop: 0
-    //     }, 800);
-    //     return false;
-    // });
-    /* ----------------------------------------------------------- */
-    /*  13. PRELOADER 
-	/* ----------------------------------------------------------- */
+
+    // preloader 
     jQuery(window).load(function() {
         // makes sure the whole site is loaded
         $("#status").fadeOut();
@@ -201,11 +151,9 @@ jQuery(function($) {
             overflow: "visible"
         });
     });
-    /* ----------------------------------------------------------- */
-    /*  14. MENU SCROLL 
-	/* ----------------------------------------------------------- */
-    //MENU SCROLLING WITH ACTIVE ITEM SELECTED
-    // Cache selectors
+
+    // menu scrolling with active item selected
+    // cache selectors
     var lastId, topMenu = $("#top-menu"), topMenuHeight = topMenu.outerHeight() + 13, // All list items
     menuItems = topMenu.find("a"), // Anchors corresponding to menu items
     scrollItems = menuItems.map(function() {
@@ -214,7 +162,7 @@ jQuery(function($) {
             return item;
         }
     });
-    // Bind click handler to menu items
+    // bind click handler to menu items
     // so we can get a fancy scroll animation
     menuItems.click(function(e) {
         var href = $(this).attr("href"), offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 1;
@@ -223,26 +171,25 @@ jQuery(function($) {
         }, 900);
         e.preventDefault();
     });
-    // Bind to scroll
+    // bind to scroll
     $(window).scroll(function() {
-        // Get container scroll position
+        // get container scroll position
         var fromTop = $(this).scrollTop() + topMenuHeight;
-        // Get id of current scroll item
+        // get id of current scroll item
         var cur = scrollItems.map(function() {
             if ($(this).offset().top < fromTop) return this;
         });
-        // Get the id of the current element
+        // get the id of the current element
         cur = cur[cur.length - 1];
         var id = cur && cur.length ? cur[0].id : "";
         if (lastId !== id) {
             lastId = id;
-            // Set/remove active class
+            // set/remove active class
             menuItems.parent().removeClass("active").end().filter('a[href="#' + id + '"]').parent().addClass("active");
         }
     });
-    /* ----------------------------------------------------------- */
-    /*  15. MOBILE MENU ACTIVE CLOSE 
-	/* ----------------------------------------------------------- */
+
+    // mobile menu active close 
     $(".navbar-nav").on("click", "li a", function() {
         $(".navbar-collapse").collapse("hide");
     });

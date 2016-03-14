@@ -14,7 +14,7 @@ function main() {
     (function() {
         "use strict";
         
-        // Testimonial Slider
+        // testimonial slider
         $("a.page-scroll").click(function() {
             if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname) {
                 var target = $(this.hash);
@@ -28,7 +28,7 @@ function main() {
             }
         });
 
-        // Show Menu on Book
+        // show menu on book
         $(window).bind("scroll", function() {
             var navHeight = $(window).height() - 100;
             if ($(window).scrollTop() > navHeight) {
@@ -42,14 +42,15 @@ function main() {
             offset: 80
         });
         $(document).ready(function() {
-            // 點選後收合
+            // collapse after click
             $('.nav a').on('click', function(){
-                $('.navbar-toggle').click() //bootstrap 3.x by Richard
+                //bootstrap 3.x by Richard
+                $('.navbar-toggle').click() 
             });
                     
             $("#team-list").owlCarousel({
                 navigation: false,
-                // Show next and prev buttons
+                // show next and prev buttons
                 slideSpeed: 300,
                 paginationSpeed: 400,
                 autoHeight: true,
@@ -57,7 +58,7 @@ function main() {
             });
             $("#client-list").owlCarousel({
                 navigation: false,
-                // Show next and prev buttons
+                // show next and prev buttons
                 slideSpeed: 300,
                 paginationSpeed: 400,
                 autoHeight: true,
@@ -67,13 +68,12 @@ function main() {
                 navigation: false,
                 // Show next and prev buttons
                 slideSpeed: 300,
-                paginationSpeed: 400,
+                paginationspeed: 400,
                 singleItem: true
             });
         });
-        /*====================================
-    Portfolio Isotope Filter
-    ======================================*/
+
+        // portfolio isotope filter
         $(window).load(function() {
             var $container = $("#lightbox");
             $container.isotope({

@@ -39,11 +39,7 @@ a:hover {
     transition: all .5s ease-in-out;
 }
 
-
-/*============== Preloader ==============*/
-
-
-/* Preloader */
+/* preloader */
 
 #preloader {
     position: fixed;
@@ -74,8 +70,7 @@ a:hover {
     /* is width and height divided by two */
 }
 
-
-/*============== Scroll up to  ==============*/
+/* scroll up to */
 
 #toTop {
     display: none;
@@ -88,11 +83,9 @@ a:hover {
     height: 51px;
     border: none;
     text-indent: 100%;
-    /*background: url(../images/ui.totop.png) no-repeat left top;*/
 }
 
 #toTopHover {
-    /*background: url(../images/ui.totop.png) no-repeat left -51px;*/
     width: 51px;
     height: 51px;
     display: block;
@@ -108,8 +101,6 @@ a:hover {
     outline: none;
 }
 
-
-/*============== Scroll up to  ==============*/
 
 .row {
     width: 100%;
@@ -133,51 +124,7 @@ a:hover {
     background: #333;
 }
 
-
-/*
-Fade content bs-carousel with hero headers
-Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
-Image credits: unsplash.com
-*/
-
-
-/********************************/
-
-
-/*       Fade Bs-carousel       */
-
-
-/********************************/
-
-.fade-carousel {
-    position: relative;
-    height: 100vh;
-}
-
-.fade-carousel .carousel-inner .item {
-    height: 100vh;
-}
-
-.fade-carousel .carousel-indicators > li {
-    margin: 0 6px;
-    padding: 8px;
-    background-color: #f39c12;
-    border-color: #f39c12;
-    opacity: .5;
-}
-
-.fade-carousel .carousel-indicators > li.active {
-    opacity: 1;
-}
-
-
-/********************************/
-
-
-/*          Hero Headers        */
-
-
-/********************************/
+/* hero styles */
 
 .hero {
     color: #fff;
@@ -212,6 +159,29 @@ Image credits: unsplash.com
     color: #fff;
 }
 
+/* fade-carousel styles */
+
+.fade-carousel {
+    position: relative;
+    height: 100vh;
+}
+
+.fade-carousel .carousel-inner .item {
+    height: 100vh;
+}
+
+.fade-carousel .carousel-indicators > li {
+    margin: 0 6px;
+    padding: 8px;
+    background-color: #f39c12;
+    border-color: #f39c12;
+    opacity: .5;
+}
+
+.fade-carousel .carousel-indicators > li.active {
+    opacity: 1;
+}
+
 .fade-carousel .carousel-inner .item .hero {
     opacity: 0;
     -webkit-transition: 2s all ease-in-out .1s;
@@ -230,14 +200,7 @@ Image credits: unsplash.com
     transition: 2s all ease-in-out .1s;
 }
 
-
-/********************************/
-
-
-/*            Overlay           */
-
-
-/********************************/
+/* overlay */
 
 .overlay {
     position: absolute;
@@ -249,13 +212,7 @@ Image credits: unsplash.com
 }
 
 
-/********************************/
-
-
-/*          Custom Buttons      */
-
-
-/********************************/
+/* custom buttons */
 
 .btn.btn-lg {
     padding: 10px 40px;
@@ -286,13 +243,7 @@ Image credits: unsplash.com
     border-color: #424242;
 }
 
-/********************************/
-
-
-/*       Slides backgrounds     */
-
-
-/********************************/
+/* slides backgrounds */
 
 .fade-carousel .slides .slide-1,
 .fade-carousel .slides .slide-2,
@@ -303,29 +254,8 @@ Image credits: unsplash.com
     background-repeat: no-repeat;
 }
 
-.fade-carousel .slides .slide-1 {
-    /*background-image: url(../images/slider-01.jpg);*/
-    /*background-image: url('http://placehold.it/1920x1280/9957A0/522057');*/
-}
 
-.fade-carousel .slides .slide-2 {
-    /*background-image: url(../images/slider-02.jpg);*/
-    /*background-image: url('http://placehold.it/1920x1280/D1E27E/2E3703');*/
-}
-
-.fade-carousel .slides .slide-3 {
-    /*background-image: url(../images/slider-03.jpg);*/
-    /*background-image: url('http://placehold.it/1920x1280/DF8D90/6A090C');*/
-}
-
-
-/********************************/
-
-
-/*          Media Queries       */
-
-
-/********************************/
+/* media queries */
 
 @media screen and (min-width: 980px) {
     .hero {
@@ -354,12 +284,7 @@ Image credits: unsplash.com
     padding-bottom: 6px;
 }
 
-@media only screen and (min-width: 320px) {}
-
-
-/* Extra Small Devices, Phones */
-
-@media only screen and (min-width: 480px) {}
+/* extra small devices, phones */
 
 @media only screen and (max-width: 600px) {
     .cd-headline b {}
@@ -367,11 +292,6 @@ Image credits: unsplash.com
 
 .open-nav {
     max-height: 400px !important;
-}
-
-.open-nav .mobile-toggle {
-    /*transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);*/
 }
 
 .sticky {
@@ -387,7 +307,6 @@ Image credits: unsplash.com
     font-size: 18px;
     font-weight: 400;
     color: #ed7d31;
-    /*text-transform: uppercase;*/
     float: left;
     display: block;
     margin-top: 0;
@@ -433,7 +352,6 @@ a.logo:active{
 }
 
 nav {
-    /*menu width*/
     float: right;
     width: 80%;
 }
@@ -476,7 +394,7 @@ nav ul li {
 }
 
 
-/*menu item color and font*/
+/* menu item color and font */
 
 nav ul a {
     color: #262626;
@@ -503,7 +421,8 @@ nav ul a {
     }
 }
 
-/*menu button*/
+/* menu button */
+
 .mobile-toggle span {
     width: 25px;
     height: 3px;
@@ -573,7 +492,7 @@ nav ul a {
 }
 
 
-/*============== Service style ==============*/
+/* service styles */
 
 .service_section h1 {
     text-transform: uppercase;
@@ -603,7 +522,6 @@ nav ul a {
     background: rgba(195, 185, 185, 0.21);
     width: 120px;
     height: 120px;
-    /*text-align: center;*/
     border: solid 4px #fff;
     outline: 1px solid #ddd;
 }
@@ -628,9 +546,6 @@ nav ul a {
     transition: ease-out .5s;
 }
 
-.single_service .ico i {
-}
-
 .single_service h3 {
     font-size: 20px;
     padding: 20px 0 10px 0;
@@ -649,7 +564,7 @@ nav ul a {
     box-shadow: 2px 2px 10px #999;
 }
 
-/* ===========getit style===========*/
+/* getit styles */
 
 .getit-area {
     background: #2f75b5;
@@ -665,24 +580,18 @@ nav ul a {
 }
 
 
-/* ===========Portfolio style===========*/
+/* portfolio styles */
 
 .portfolio-area {
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.portfolio_section {}
-
 .portfolio_section h1 {
     color: #ed7d31;
     text-transform: uppercase;
     font-weight: 400;
 }
-
-.portfolio_top {}
-
-.portfolio {}
 
 #info {
     -webkit-border-radius: 5px;
@@ -797,7 +706,7 @@ nav ul a {
 }
 
 
-/*============== Q&A style ==============*/
+/* questions styles */
 
 .questions-area {
     background-color: #eee;
@@ -812,14 +721,12 @@ nav ul a {
     color: #ed7d31;
 }
 
-/*============== News style ==============*/
+/* news styles */
 
 .news-area {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-
-.news_section {}
 
 .news_section h1 {
     text-transform: uppercase;
@@ -841,10 +748,6 @@ nav ul a {
 .single_news a:hover {
     color: #282a2e;
 }
-
-.dates {}
-
-.expect {}
 
 .slider-content {
     position: relative;
@@ -923,7 +826,7 @@ nav ul a {
 }
 
 
-/*============== Price style ==============*/
+/* pricing styles */
 
 .pricing-area {
     background: #f8f8f8;
@@ -1071,10 +974,9 @@ nav ul a {
 }
 
 
-/*============== Contact style ==============*/
+/* contact styles */
 
 .contact-area {
-    /*background: url(../images/photography.png);*/
     background-color: #fff;
 }
 
@@ -1320,7 +1222,7 @@ blockquote p {
 }
 
 
-/* #Tablet (Portrait) */
+/* tablet (portrait) */
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     .container {
@@ -1329,7 +1231,7 @@ blockquote p {
 }
 
 
-/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+/* mobile (portrait) - note: design for a width of 320px */
 
 @media only screen and (max-width: 767px) {
     /* preloader */   
@@ -1397,7 +1299,7 @@ blockquote p {
 }
 
 
-/* #Mobile (Landscape) - Note: Design for a width of 480px */
+/* mobile (landscape) - note: design for a width of 480px */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .container {

@@ -138,7 +138,7 @@ ol {
 }
 
 
-/* Preloader */
+/* preloader */
 
 #preloader {
     position: fixed;
@@ -170,7 +170,7 @@ ol {
 }
 
 
-/* Navigation */
+/* navigation */
 
 #tf-menu {
     padding: 20px;
@@ -231,14 +231,7 @@ ol {
 
 /* Home Style */
 
-#home {
-/*    background: url(images/cover.jpg);
-    background: url('http://placehold.it/1600x900/1A2A3A/EEE');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-*/}
+#home {}
 
 #home .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
@@ -294,7 +287,7 @@ a.fa.fa-angle-down:hover {
 }
 
 
-/* About Section */
+/* about section */
 
 .about-area {
     background-color: #fff;
@@ -316,14 +309,9 @@ ul.about-list li span {
 }
 
 
-/* Team Section */
+/* team section */
 
 .team-area {
-    /*background: url(http://placehold.it/1300x800/2A2A2A/EEE);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;*/
     background-color: #eee;
 }
 
@@ -418,7 +406,7 @@ img.img-circle.team-img {
 }
 
 
-/* Services Section */
+/* services section */
 
 .services-area {
     padding: 80px 0;
@@ -448,12 +436,6 @@ img.img-circle.team-img {
     transition: all 0.5s;
 }
 
-/*.services-area i.fa.fa-mobile {
-    font-size: 50px;
-    padding: 20px 25px;
-}
-*/
-
 .services-area .service i.fa {
     /*background: #ed7d31;*/
     color: #666;
@@ -465,14 +447,9 @@ img.img-circle.team-img {
 }
 
 
-/* Clients Section */
+/* clients section */
 
 .clients-area {
-    /*background: url(../images/clients.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;*/
     background-color: #eee;
 }
 
@@ -496,8 +473,7 @@ img.img-circle.team-img {
     color: #333;
 }
 
-/* Gallery Section 
-==============================*/
+/* portfolio section */
 
 .portfolio-area {
     padding: 80px 0;
@@ -648,14 +624,9 @@ ol.type li a.active {
 }
 
 
-/* Testimonials Section */
+/* testimonials section */
 
 .testimonials-area {
-    /*background: url(../images/testimonials.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;*/
     background-color: #eee;
 }
 
@@ -687,7 +658,7 @@ ol.type li a.active {
 }
 
 
-/* Contact Section */
+/* contact section */
 
 .contact-area {
     padding: 80px 0;
@@ -747,7 +718,7 @@ button.btn.tf-btn.btn-default {
 }
 
 
-/* Footer */
+/* footer */
 
 nav#footer {
     background: #222222;
