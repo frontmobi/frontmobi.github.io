@@ -583,6 +583,7 @@
 						</ul>
 					</div>
 					<p>&copy; 2016 <a href="#somelink">宇器商務</a> 版權所有</p>
+					<div id="qrcode" class="img-qrcode"></div>
 				</div>
 			</div>
 		</div>
@@ -590,6 +591,7 @@
 	
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/jquery.qrcode.min.js"></script>
     <script src="/static/spa03/js/jquery.singlePageNav.min.js"></script>
     <script src="/static/spa03/js/jquery.fancybox.min.js"></script>
     <script src="/static/spa03/js/owl.carousel.min.js"></script>
@@ -597,5 +599,6 @@
     <script src="/static/spa03/js/jquery.slitslider.min.js"></script>
     <script src="/static/spa03/js/jquery.ba-cond.min.js"></script>
     <script src="/static/spa03/js/spa03.min.js"></script>
+    <script> $("#qrcode").qrcode({"render": "image", "size": 200, "fill": "#f4f4f4", "text": "http://demo.frontmobi.com/", }); </script>
 </body>
 </html>

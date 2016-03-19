@@ -70,6 +70,20 @@ a:hover {
     /* is width and height divided by two */
 }
 
+.cpright {
+    text-align: left;
+}
+
+.img-qrcode {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.img-qrcode img {
+    width: 100px;
+    height: 100px;
+}
+
 /* scroll up to */
 
 #toTop {
@@ -1238,6 +1252,10 @@ blockquote p {
     #status {
         background-size: 32px 32px;
         background-repeat: no-repeat;
+    }
+
+    .cpright {
+        text-align: center;
     }
 
     .container {

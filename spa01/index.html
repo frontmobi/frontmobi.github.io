@@ -437,6 +437,7 @@
                     </ul>
                     <hr class="small">
                     <p class="text-muted">&copy; 2016 <a href="#somelink">依曲婚禮</a> 版權所有</p>
+                    <div id="qrcode" class="img-qrcode"></div>
                 </div>
             </div>
         </div>
@@ -445,7 +446,9 @@
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
     <script src="/static/js/owl.carousel.min.js"></script>
+    <script src="/static/js/jquery.qrcode.min.js"></script>
     <script src="/static/spa01/js/spa01.min.js"></script>
+    <script> $("#qrcode").qrcode({"render": "image", "size": 200, "fill": "#222", "text": "http://demo.frontmobi.com/", }); </script>
 
 </body>
 </html>

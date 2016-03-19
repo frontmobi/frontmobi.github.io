@@ -76,6 +76,15 @@ img {
     /* is width and height divided by two */
 }
 
+.img-qrcode {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.img-qrcode img {
+    width: 100px;
+    height: 100px;
+}
 
 /* custom modal */
 .modal-custom .modal-header,
@@ -1112,6 +1121,7 @@ div[data-dimension] {
 }
 
 .footer_left > p {
+    font-size: 16px;
     color: #fff;
     margin-bottom: 0;
     margin-top: 5px;

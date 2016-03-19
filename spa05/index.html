@@ -895,11 +895,13 @@
                     </div>
                 </div>
             </div>
+            <div id="qrcode" class="visible-xs img-qrcode"></div>
         </div>
     </footer>
 
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/jquery.qrcode.min.js"></script>
     <script src="/static/spa05/js/jquery.circliful.min.js"></script>
     <script src="/static/spa05/js/wow.min.js"></script>
     <script src="/static/spa05/js/jquery.superslides.min.js"></script>
@@ -907,6 +909,7 @@
     <script src="/static/spa05/js/modernizr.custom.js"></script>
     <script src="/static/spa05/js/classie.js"></script>
     <script src="/static/spa05/js/spa05.min.js"></script>
+    <script> $("#qrcode").qrcode({"render": "image", "size": 200, "fill": "#f4f4f4", "text": "http://demo.frontmobi.com/", }); </script>
 </body>
 
 </html>

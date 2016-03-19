@@ -679,7 +679,7 @@
                     <div class="col-md-6">
                         <img src="images/contactus.jpg" alt="" class="img-responsive img-contact" />
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <div class="contact_text">
                             <h3>聯絡資訊</h3>
                             <ul class="contact_info">
@@ -704,8 +704,11 @@
                                     <li><i class="fh-youtube fa fa-youtube-square"></i></li>
                                 </a>
                             </ul>
-                            <p>&copy; 2016 <a href="#somelink" class="cpright-link">意奇時尚</a> 版權所有</p>
+                            <p class="cpright">&copy; 2016 <a href="#somelink" class="cpright-link">意奇時尚</a> 版權所有</p>
                         </div>
+                    </div>
+                    <div class="col-md-1">
+                        <div id="qrcode" class="img-qrcode"></div>
                     </div>
                 </div>
             </div>
@@ -714,13 +717,15 @@
 
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/owl.carousel.min.js"></script>
+    <script src="/static/js/jquery.qrcode.min.js"></script>
     <script src="/static/spa02/js/jquery.nicescroll.min.js"></script>
     <script src="/static/spa02/js/jquery.easing.min.js"></script>
     <script src="/static/spa02/js/jquery.mixitup.min.js"></script>
     <script src="/static/spa02/js/imagesloaded.pkgd.min.js"></script>
-    <script src="/static/js/owl.carousel.min.js"></script>
     <script src="/static/spa02/js/wow.min.js"></script>
     <script src="/static/spa02/js/spa02.min.js"></script>
+    <script> $("#qrcode").qrcode({"render": "image", "size": 200, "fill": "#222", "text": "http://demo.frontmobi.com/", }); </script>
 </body>
 
 </html>

@@ -625,21 +625,24 @@
     <div id="contact" class="contact-area text-center">
         <div class="container">
             <div class="row">
-                <div class="col-md-offset-3 col-md-6">
-                    <div class="section-title center">
-                        <h2>聯絡我們</h2>
-                        <div class="line">
-                            <hr>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="contact-info text-left">
-                            <p><i class="fa fa-phone fa-fw"></i> <a href="tel:0951168168">0951-168-168</a></p>
-                            <p><i class="fa fa-clock-o fa-fw"></i> 週一至週五 08:30 ~ 17:30</p>
-                            <p><i class="fa fa-envelope fa-fw"></i> <a href="mailto:contact@eacharch.com">contact@eacharch.com</a></p>
-                            <p><i class="fa fa-street-view fa-fw"></i> 802 高雄市苓雅區自強三路3號</p>
-                            <p><i class="fa fa-map-marker fa-fw"></i> <a href="https://www.google.com.tw/maps/place/802高雄市苓雅區自強三路3號/@22.6117755,120.3002614,18z" target="_blank">檢視地圖</a></p>
-                        </div>
+                <div class="section-title center">
+                    <h2>聯絡我們</h2>
+                    <div class="line">
+                        <hr>
                     </div>
+                </div>
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="clearfix"></div>
+                    <div class="contact-info text-left">
+                        <p><i class="fa fa-phone fa-fw"></i> <a href="tel:0951168168">0951-168-168</a></p>
+                        <p><i class="fa fa-clock-o fa-fw"></i> 週一至週五 08:30 ~ 17:30</p>
+                        <p><i class="fa fa-envelope fa-fw"></i> <a href="mailto:contact@eacharch.com">contact@eacharch.com</a></p>
+                        <p><i class="fa fa-street-view fa-fw"></i> 802 高雄市苓雅區自強三路3號</p>
+                        <p><i class="fa fa-map-marker fa-fw"></i> <a href="https://www.google.com.tw/maps/place/802高雄市苓雅區自強三路3號/@22.6117755,120.3002614,18z" target="_blank">檢視地圖</a></p>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <div id="qrcode" class="img-qrcode"></div>
                 </div>
             </div>
         </div>
@@ -662,10 +665,12 @@
 
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/jquery.qrcode.min.js"></script>
     <script src="/static/spa06/js/SmoothScroll.min.js"></script>
     <script src="/static/spa06/js/jquery.isotope.min.js"></script>
     <script src="/static/spa06/js/owl.carousel.min.js"></script>
     <script src="/static/spa06/js/spa06.min.js"></script>
+    <script> $("#qrcode").qrcode({"render": "image", "size": 200, "fill": "#222", "text": "http://demo.frontmobi.com/", }); </script>
 
 </body>
 </html>

@@ -65,6 +65,16 @@ a:hover {
     /* is width and height divided by two */
 }
 
+.img-qrcode {
+    text-align: center !important;
+    padding: 20px 0px;
+}
+
+.img-qrcode img {
+    width: 100px;
+    height: 100px;
+}
+
 .bg-primary {
     background-color: #ed7d31;
 }

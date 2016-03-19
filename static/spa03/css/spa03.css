@@ -53,6 +53,15 @@ main > section {
     padding: 70px 0;
 }
 
+.img-qrcode {
+    padding: 20px 0px;
+}
+
+.img-qrcode img {
+    width: 100px;
+    height: 100px;
+}
+
 /* custom modal */
 .modal-custom .modal-header,
 .modal-custom .modal-body,

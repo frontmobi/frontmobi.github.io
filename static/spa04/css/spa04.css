@@ -240,6 +240,14 @@ ul.nostyle i {
     /* is width and height divided by two */
 }
 
+.img-qrcode {
+    padding: 20px 0px;
+}
+
+.img-qrcode img {
+    width: 100px;
+    height: 100px;
+}
 
 /* header */
 
