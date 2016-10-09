@@ -39,6 +39,11 @@ a:hover {
     transition: all .5s ease-in-out;
 }
 
+.container-wider {
+    padding: 0px;
+    width: 100%;
+}
+
 /* preloader */
 
 #preloader {
