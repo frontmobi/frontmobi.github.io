@@ -40,6 +40,11 @@ h5 {
     line-height: 20px;
 }
 
+.container-wider {
+    padding: 0px;
+    width: 96%;
+}
+
 p.intro {
     font-size: 16px;
     margin: 12px 0 0;
@@ -589,18 +594,25 @@ ol.type li a.active {
     transition: all 0.5s;
 }
 
-.hover-bg .hover-text>h4 {
+.hover-bg .hover-text>h4,
+.hover-bg .hover-text>p {
     opacity: 0;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     transition: all 0.3s;
 }
 
-.hover-bg:hover .hover-text>h4 {
+.hover-bg:hover .hover-text>h4,
+.hover-bg:hover .hover-text>p {
+    font-size: 24px;
     opacity: 1;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateY(0);
     transform: translateY(0);
+}
+
+.hover-bg:hover .hover-text>p {
+    font-size: 16px;
 }
 
 .hover-bg .hover-text>i {
@@ -649,7 +661,7 @@ ol.type li a.active {
 }
 
 #testimonial-list .item h5 {
-    color: #333;
+    color: #000;
 	font-size: 20px;
 }
 
@@ -657,7 +669,7 @@ ol.type li a.active {
     font-weight: 400;
     font-size: 16px;
     margin: 10px 0;
-    color: #333;
+    color: #222;
 }
 
 #testimonial-list .item img {
@@ -673,6 +685,7 @@ ol.type li a.active {
 }
 
 .contact-info {
+    color: #222;
     font-size: 16px;
 }
 
