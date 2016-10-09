@@ -393,6 +393,14 @@ footer {
     opacity: 1;
 }
 
+.padding-horz-4 {
+    padding: 0 4%;
+}
+
+.padding-horz-5 {
+    padding: 0 5%;
+}
+
 .nav-pills > li > a,
 .nav-pills > li > a:hover,
 .nav-pills > li > a:focus {
