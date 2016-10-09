@@ -17,7 +17,7 @@ textarea {
 
 .container-wider {
     padding: 0px;
-    width: 100%;
+    width: 96%;
 }
 
 p.text-note,
@@ -280,6 +280,10 @@ hr.small {
 
 .about-area {
     padding: 50px 0;
+}
+
+.about-item {
+    padding-bottom: 40px;
 }
 
 /* services */
