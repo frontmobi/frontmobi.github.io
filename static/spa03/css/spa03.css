@@ -53,6 +53,11 @@ main > section {
     padding: 70px 0;
 }
 
+.container-wider {
+    padding: 0px;
+    width: 100%;
+}
+
 .img-qrcode {
     padding: 20px 0px;
 }
@@ -1019,6 +1024,10 @@ ul.external li a:hover {
 
 .contact-details p {
     font-size: 16px;
+}
+
+.contact-form {
+    color: #fff;
 }
 
 .contact-form img {
