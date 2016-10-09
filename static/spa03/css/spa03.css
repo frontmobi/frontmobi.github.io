@@ -671,7 +671,7 @@ h1.navbar-brand a {
 }
 
 .service-item {
-	padding: 5px 20px;
+	padding: 5px 40px;
     margin-bottom: 40px;
 }
 
@@ -1232,7 +1232,7 @@ ul.external li a:hover {
 
     /* service */
     .service-item {
-    	padding: 5px 20px;
+    	padding: 5px 40px;
         width: 100%;
     }
 
@@ -1322,7 +1322,7 @@ ul.external li a:hover {
 
     /* service */
     .service-item {
-    	padding: 5px 20px;
+    	padding: 5px 40px;
         margin: 0 auto 50px;
         width: 55%;
     }
