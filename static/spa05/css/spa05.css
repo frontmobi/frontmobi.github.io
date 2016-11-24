@@ -276,7 +276,7 @@ img {
 /* about section */
 
 .about-area {
-    background-color: #eee;
+    background-color: #fff;
     display: inline;
     float: left;
     width: 100%;
@@ -329,7 +329,7 @@ img {
 }
 
 .panel-group .panel {
-    background-color: #eee;
+    background-color: #fff;
     border-radius: 0;
     margin-bottom: 0px;
     box-shadow: none;
@@ -455,7 +455,7 @@ div[data-dimension] {
 /* service section */
 
 .services-area {
-    background-color: #eee;
+    background-color: #fff;
     display: inline;
     float: left;
     padding: 80px 0 70px;
@@ -631,13 +631,13 @@ div[data-dimension] {
 /* pricing section */
 
 .pricing-area {
-    background: none repeat scroll 0 0 #f8f8f8;
+    background: none repeat scroll 0 0 #fff;
     display: inline;
     float: left;
     padding: 80px 0;
     width: 100%;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    /*border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;*/
 }
 
 .pricing_list {
@@ -864,13 +864,13 @@ div[data-dimension] {
 /* testimonials section */
 
 .testimonials-area {
-    background: none repeat scroll 0 0 #eee;
+    background: none repeat scroll 0 0 #fff;
     display: inline;
     float: left;
     padding: 80px 0;
     width: 100%;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    /*border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;*/
 }
 
 .testimonials-area .heading {
@@ -1034,8 +1034,8 @@ div[data-dimension] {
     float: left;
     padding: 80px 0px 0px;
     width: 100%;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    /*border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;*/
 }
 
 .contact-area .heading h2 {

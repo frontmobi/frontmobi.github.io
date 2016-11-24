@@ -325,7 +325,7 @@ ul.about-list li span {
 /* team section */
 
 .team-area {
-    background-color: #eee;
+    background-color: #fff;
 }
 
 .section-title.center {
@@ -463,7 +463,7 @@ img.img-circle.team-img {
 /* clients section */
 
 .clients-area {
-    background-color: #eee;
+    background-color: #fff;
 }
 
 #client-list .item {
@@ -647,7 +647,7 @@ ol.type li a.active {
 /* testimonials section */
 
 .testimonials-area {
-    background-color: #eee;
+    background-color: #fff;
 }
 
 #testimonial-list {
