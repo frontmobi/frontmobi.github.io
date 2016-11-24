@@ -576,7 +576,7 @@ ol.type li a.active {
 }
 
 .portfolio-item .hover-bg {
-    height: 260px;
+    /*height: 260px;*/
     overflow: hidden;
     position: relative;
 }
