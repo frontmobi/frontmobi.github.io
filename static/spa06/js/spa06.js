@@ -48,7 +48,7 @@ function main() {
                 $('.navbar-toggle').click() 
             });
                     
-            $("#team-list").owlCarousel({
+            $('div[id^="team-list"]').owlCarousel({
                 navigation: false,
                 // show next and prev buttons
                 slideSpeed: 300,
@@ -56,7 +56,7 @@ function main() {
                 autoHeight: true,
                 itemsCustom: [ [ 0, 1 ], [ 450, 2 ], [ 600, 2 ], [ 700, 2 ], [ 1e3, 4 ], [ 1200, 4 ], [ 1400, 4 ], [ 1600, 4 ] ]
             });
-            $("#client-list").owlCarousel({
+            $('div[id^="client-list"]').owlCarousel({
                 navigation: false,
                 // show next and prev buttons
                 slideSpeed: 300,
@@ -64,7 +64,7 @@ function main() {
                 autoHeight: true,
                 itemsCustom: [ [ 0, 1 ], [ 450, 2 ], [ 600, 2 ], [ 700, 2 ], [ 1e3, 4 ], [ 1200, 5 ], [ 1400, 5 ], [ 1600, 5 ] ]
             });
-            $("#testimonial-list").owlCarousel({
+            $('div[id^="testimonial-list"]').owlCarousel({
                 navigation: false,
                 // Show next and prev buttons
                 slideSpeed: 300,
