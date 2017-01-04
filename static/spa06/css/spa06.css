@@ -356,11 +356,11 @@ ul.about-list li span {
     left: 17%;
 }
 
-#team-list {
+.team-list {
     margin: 0 auto
 }
 
-#team-list .item {
+.team-list .item {
     padding: 0;
     margin: 15px;
     color: #333;
@@ -466,23 +466,23 @@ img.img-circle.team-img {
     background-color: #fff;
 }
 
-#client-list .item {
+.client-list .item {
     padding: 0;
     margin: 35px;
     color: #FFF;
     text-align: center;
 }
 
-#client-list .item a {
+.client-list .item a {
     outline: none;
     border-style: none;
 }
 
-#client-list .item img {
+.client-list .item img {
     width: 120px;
 }
 
-#client-list .item h4 {
+.client-list .item h4 {
     color: #333;
 }
 
@@ -650,29 +650,29 @@ ol.type li a.active {
     background-color: #fff;
 }
 
-#testimonial-list {
+.testimonial-list {
     padding: 30px 0;
 }
 
-#testimonial-list .item {
+.testimonial-list .item {
     display: block;
     width: 100%;
     height: auto;
 }
 
-#testimonial-list .item h5 {
+.testimonial-list .item h5 {
     color: #000;
 	font-size: 20px;
 }
 
-#testimonial-list .item p {
+.testimonial-list .item p {
     font-weight: 400;
     font-size: 16px;
     margin: 10px 0;
     color: #222;
 }
 
-#testimonial-list .item img {
+.testimonial-list .item img {
     width: 150px;
     padding: 0px 20px;
 }
