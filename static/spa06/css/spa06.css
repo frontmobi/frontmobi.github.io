@@ -393,6 +393,10 @@ img.img-circle.team-img {
     color: #222;
 }
 
+.team-area .thumbnail .caption p{
+	font-size: 15px;
+}
+
 .owl-theme .owl-controls .owl-page span {
     display: block;
     width: 10px;
