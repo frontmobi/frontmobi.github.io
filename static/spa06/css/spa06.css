@@ -174,10 +174,6 @@ ol {
     /* is width and height divided by two */
 }
 
-.img-half {
-    zoom: 50%;
-}
-
 .img-qrcode {
     padding: 20px 0px;
 }
@@ -487,7 +483,7 @@ img.img-circle.team-img {
 }
 
 .client-list .item img {
-    zoom: 50%;
+    width: 120px;
 }
 
 .client-list .item h4 {
@@ -685,7 +681,7 @@ ol.type li a.active {
 }
 
 .testimonial-list .item img {
-    zoom: 50%;
+    width: 150px;
     padding: 0px 20px;
 }
 
