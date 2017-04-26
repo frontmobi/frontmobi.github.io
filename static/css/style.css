@@ -24,6 +24,10 @@ body {
     font-size: 36px;
 }
 
+.home small {
+    color: #eee;
+}
+
 .home h1,
 .home h3 {
     color: #fff;
