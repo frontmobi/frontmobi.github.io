@@ -71,7 +71,7 @@ $(document).ready(function() {
             $("#navigation").removeClass("animated-header");
         } else {
             // $(".navbar-brand a").css("color","inherit");
-            $(".navbar-brand a").css("color", "#FE8F44");
+            $(".navbar-brand a").css("color", "#ffffff");
             $("#navigation").addClass("animated-header");
         }
     });

@@ -116,7 +116,7 @@ main > section {
 }
 
 .btn-blue {
-    background-color: rgba(242, 145, 63, 0.78);
+    background-color: #ed7d31;
     box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
     padding: 15px 55px;
     color: #fff;
@@ -360,7 +360,7 @@ h1.navbar-brand {
 }
 
 h1.navbar-brand a {
-    color: #FE8F44;
+    color: #ffffff;
 }
 
 .navbar-inverse .navbar-nav > li > a {
