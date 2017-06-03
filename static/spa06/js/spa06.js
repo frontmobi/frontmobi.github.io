@@ -30,7 +30,8 @@ function main() {
 
         // show menu on book
         $(window).bind("scroll", function() {
-            var navHeight = $(window).height() - 300;
+            // var navHeight = $(window).height() - 100;
+            var navHeight = 700;
             if ($(window).scrollTop() > navHeight) {
                 $(".navbar-default").addClass("on");
             } else {
