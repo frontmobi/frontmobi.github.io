@@ -261,7 +261,7 @@ ol {
     /* W3C */
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000', GradientType=0);
     /* IE6-9 */
-    height: 58vw;
+    height: 100vh;
     background-attachment: fixed;
 }
 
