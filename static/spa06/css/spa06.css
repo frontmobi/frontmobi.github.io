@@ -261,7 +261,7 @@ ol {
     /* W3C */
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000', GradientType=0);
     /* IE6-9 */
-    height: 750px;
+    height: 58vw;
     background-attachment: fixed;
 }
 
@@ -789,7 +789,7 @@ nav#footer p {
 
 @media (max-width: 768px) {
     .content {
-        padding: 40% 0 0;
+        padding: 30% 0 0;
     }
 }
 
@@ -831,7 +831,7 @@ nav#footer p {
     }
 
     #home-area h1 {
-        font-size: 26px;
+        font-size: 20px;
     }
 
     .contact-area p,
