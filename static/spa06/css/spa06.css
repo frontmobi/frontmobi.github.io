@@ -594,13 +594,13 @@ ol.type li a.active {
     padding: 25% 0;
     height: 100%;
     width: 100%;
-    opacity: 0;
+    opacity: 0.4;
     transition: all 0.5s;
 }
 
 .hover-bg .hover-text>h4,
 .hover-bg .hover-text>p {
-    opacity: 0;
+    opacity: 1;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     transition: all 0.3s;
