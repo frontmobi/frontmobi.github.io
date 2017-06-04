@@ -795,7 +795,7 @@ nav#footer p {
 
 @media (max-width: 603px) {
     #tf-menu.navbar-default {
-        background-color: rgba(0, 0, 0, 0.79);
+        background-color: rgba(0, 0, 0, 0.2);
     }
     .portfolio-area li.pull-right,
     .portfolio-area li.pull-left {
