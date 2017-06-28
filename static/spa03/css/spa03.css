@@ -269,42 +269,35 @@ main > section {
 }
 
 
-/* battery */
+/* preloader */
 
-.loder-box {
-    background-color: rgba(0, 0, 0, 0.02);
-    border-radius: 1px;
-    height: 100px;
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    /* change if the mask should have another color then white */
+    z-index: 9999;
+    /* makes sure it stays on top */
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
     left: 50%;
-    margin-left: -64px;
-    margin-top: -50px;
-    position: absolute;
+    /* centers the loading animation horizontally one the screen */
     top: 50%;
-    width: 128px;
-}
-
-.battery {
-    width: 60px;
-    height: 25px;
-    top: 35%;
-    border: 1px #2E2E2E solid;
-    border-radius: 2px;
-    position: relative;
-    -webkit-animation: charge 5s linear infinite;
-    -moz-animation: charge 5s linear infinite;
-    animation: charge 5s linear infinite;
-    margin: 0 auto;
-}
-
-.battery:after {
-    background-color: #2E2E2E;
-    border-radius: 0 1px 1px 0;
-    content: "";
-    height: 10px;
-    position: absolute;
-    right: -5px;
-    top: 7px;
-    width: 3px;
+    /* centers the loading animation vertically one the screen */
+    background-image: url(http://demo.frontmobi.com/static/images/preloader.gif);
+    /* path to your loading animation */
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+    /* is width and height divided by two */
 }
 
 @-webkit-keyframes charge {
@@ -684,9 +677,10 @@ h1.navbar-brand a {
 }
 
 .service-item:hover .service-icon {
-    border: 3px solid #ed7d31;
+    /*border: 3px solid #ed7d31;*/
     /*margin-bottom: 20px;*/
     color: #ed7d31;
+    /*border-radius: 50%;*/
 }
 
 .service-item h3 {
@@ -1005,11 +999,6 @@ ul.external li a:hover {
 }
 
 /* footer */
-
-.img-contact {
-    width: 400px;
-    height: 300px;
-}
 
 #contact {
     background-color: #2f75b5;
