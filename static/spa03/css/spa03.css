@@ -54,8 +54,8 @@ main > section {
 }
 
 .container-wider {
-    padding: 0px;
-    width: 100%;
+    margin: 0 auto;
+    width: 96%;
 }
 
 .img-qrcode {
@@ -617,11 +617,11 @@ h1.navbar-brand a {
 .news-area .owl-buttons {
     border: 2px solid #666;
     color: #2f75b5;
-    font-size: 20px;
+    font-size: 28px;
     display: inline-block;
     float: right;
     padding: 1px 8px 5px;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 
 .news-area .owl-buttons > div {
@@ -651,11 +651,11 @@ h1.navbar-brand a {
 .services-area .owl-buttons {
     border: 2px solid #666;
     color: #2f75b5;
-    font-size: 20px;
+    font-size: 28px;
     display: inline-block;
     float: right;
     padding: 1px 8px 5px;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 
 .services-area .owl-buttons > div {
@@ -722,7 +722,7 @@ h1.navbar-brand a {
 
 .portfolio-item {
     cursor: pointer;
-    margin: 0 1% 1% 0;
+    margin: 0.5%;
     overflow: hidden;
     position: relative;
     width: 32%;
@@ -886,11 +886,11 @@ ul.external li a:hover {
 .testimonials-area .owl-buttons {
     border: 2px solid #fff;
     color: #fff;
-    font-size: 20px;
+    font-size: 28px;
     display: inline-block;
     float: right;
     padding: 1px 8px 5px;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 
 .testimonials-area .owl-buttons > div {
