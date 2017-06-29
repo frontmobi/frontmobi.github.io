@@ -95,7 +95,7 @@ $(document).ready(function() {
         slideSpeed: 700,
         paginationSpeed: 400,
         singleItem: true,
-        navigationText: [ "<i class='fa fa-angle-left fa-lg'></i>", "<i class='fa fa-angle-right fa-lg'></i>" ]
+        navigationText: [ "<i class='fa fa-chevron-circle-left fa-2x'></i>", "<i class='fa fa-chevron-circle-right fa-2x'></i>" ]
     });
 
     $('#services-list').owlCarousel({
@@ -112,7 +112,7 @@ $(document).ready(function() {
         pagination: false,
         slideSpeed: 700,
         paginationSpeed: 400,
-        navigationText: [ "<i class='fa fa-angle-left fa-lg'></i>", "<i class='fa fa-angle-right fa-lg'></i>" ],
+        navigationText: [ "<i class='fa fa-chevron-circle-left fa-2x'></i>", "<i class='fa fa-chevron-circle-right fa-2x'></i>" ],
     });
 
     /* featured project lightbox */

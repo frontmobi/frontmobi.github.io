@@ -615,9 +615,9 @@ h1.navbar-brand a {
 }
 
 .news-area .owl-buttons {
-    border: 2px solid #666;
+    /*border: 2px solid #666;*/
     color: #2f75b5;
-    font-size: 28px;
+    font-size: 20px;
     display: inline-block;
     float: right;
     padding: 1px 8px 5px;
@@ -626,7 +626,7 @@ h1.navbar-brand a {
 
 .news-area .owl-buttons > div {
     display: inline-block;
-    padding: 0 5px;
+    padding: 0 12px;
 }
 
 .welcome-message {
@@ -649,9 +649,9 @@ h1.navbar-brand a {
 /* services */
 
 .services-area .owl-buttons {
-    border: 2px solid #666;
+    /*border: 2px solid #666;*/
     color: #2f75b5;
-    font-size: 28px;
+    font-size: 20px;
     display: inline-block;
     float: right;
     padding: 1px 8px 5px;
@@ -660,7 +660,7 @@ h1.navbar-brand a {
 
 .services-area .owl-buttons > div {
     display: inline-block;
-    padding: 0 5px;
+    padding: 0 12px;
 }
 
 .service-item {
@@ -884,9 +884,9 @@ ul.external li a:hover {
 
 
 .testimonials-area .owl-buttons {
-    border: 2px solid #fff;
+    /*border: 2px solid #fff;*/
     color: #fff;
-    font-size: 28px;
+    font-size: 20px;
     display: inline-block;
     float: right;
     padding: 1px 8px 5px;
@@ -895,7 +895,7 @@ ul.external li a:hover {
 
 .testimonials-area .owl-buttons > div {
     display: inline-block;
-    padding: 0 5px;
+    padding: 0 12px;
 }
 
 .testimonials-area .owl-prev:hover,
