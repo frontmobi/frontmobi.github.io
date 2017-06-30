@@ -560,8 +560,9 @@ h1.navbar-brand a {
     color: #333;
 }
 
-.news-area h3 {
-    color: #333;
+.news-area h3,
+.news-area h4 {
+    color: #2f75b5;
     margin: 0 0 35px;
 }
 
@@ -604,29 +605,23 @@ h1.navbar-brand a {
 	font-size: 16px;
 }
 
-.work-item h4 {
-    color: #fff;
-}
-
 .work-item img {
-    width: 200px;
-    height: 150px;
+    /*width: 400px;*/
+    /*height: 300px;*/
     border: solid 2px #fff;
 }
 
 .news-area .owl-buttons {
     /*border: 2px solid #666;*/
     color: #2f75b5;
-    font-size: 20px;
+    font-size: 1.2em;
     display: inline-block;
-    float: right;
-    padding: 1px 8px 5px;
-    margin-right: 10%;
+    padding: 30px 8px;
 }
 
 .news-area .owl-buttons > div {
     display: inline-block;
-    padding: 0 12px;
+    padding: 0 8px;
 }
 
 .welcome-message {
@@ -651,16 +646,16 @@ h1.navbar-brand a {
 .services-area .owl-buttons {
     /*border: 2px solid #666;*/
     color: #2f75b5;
-    font-size: 20px;
+    font-size: 1.2em;
     display: inline-block;
-    float: right;
-    padding: 1px 8px 5px;
-    margin-right: 10%;
+    /*float: right;*/
+    padding: 1px 8px;
+    /*margin-right: 10%;*/
 }
 
 .services-area .owl-buttons > div {
     display: inline-block;
-    padding: 0 12px;
+    padding: 0 8px;
 }
 
 .service-item {
@@ -886,16 +881,16 @@ ul.external li a:hover {
 .testimonials-area .owl-buttons {
     /*border: 2px solid #fff;*/
     color: #fff;
-    font-size: 20px;
+    font-size: 1.2em;
     display: inline-block;
-    float: right;
-    padding: 1px 8px 5px;
-    margin-right: 10%;
+    /*float: right;*/
+    padding: 1px 8px;
+    /*margin-right: 10%;*/
 }
 
 .testimonials-area .owl-buttons > div {
     display: inline-block;
-    padding: 0 12px;
+    padding: 0 8px;
 }
 
 .testimonials-area .owl-prev:hover,
@@ -1206,10 +1201,6 @@ ul.external li a:hover {
     .welcome-area h3 {
         font-size: 18px;
         margin: 0 0 35px !important;
-    }
-
-    .news-area .owl-buttons {
-        margin-top: 20px;
     }
 
     .news-area .message-body,

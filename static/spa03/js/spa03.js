@@ -89,7 +89,7 @@ $(document).ready(function() {
         "use strict", $("#home-slider, #slider, .sl-slider, .sl-content-wrapper").css("height", slideHeight);
     });
 
-    $("#works, #testimonial").owlCarousel({
+    $(".works, .testimonial").owlCarousel({
         navigation: true,
         pagination: false,
         slideSpeed: 700,
@@ -98,7 +98,7 @@ $(document).ready(function() {
         navigationText: [ "<i class='fa fa-chevron-circle-left fa-2x'></i>", "<i class='fa fa-chevron-circle-right fa-2x'></i>" ]
     });
 
-    $('#services-list').owlCarousel({
+    $('.services-list').owlCarousel({
         items : 4,
         itemsCustom : false,
         itemsDesktop : [1199, 4],
