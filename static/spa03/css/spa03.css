@@ -1084,6 +1084,28 @@ ul.external li a:hover {
     font-size: 12px;
 }
 
+.line-area {
+    margin: 20px;
+    text-align: center;
+}
+
+.line-id {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #00bb00;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+.line-id span {
+    color: #00bb00;
+    font-size: 8px !important;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 3px;
+}
+
 .fa-facebook-official:hover {
     color: #3b5998;
 }
