@@ -429,6 +429,39 @@ footer {
     background-color: #fff;
 }
 
+.list-inline a {
+    color: #666;
+}
+
+.fa-facebook-official:hover {
+    color: #3b5998;
+}
+
+.fa-google-plus-official:hover {
+    color: #dd4b39;
+}
+
+.fa-youtube-square:hover {
+    color: #cc181e;
+}
+
+.fa-youtube-play:hover {
+    color: #cc181e;
+}
+
+.fa-weibo:hover {
+    color: #df2029;
+}
+
+.fa-twitter-square:hover {
+    color: #55acee;
+}
+
+.fa-linkedin-square:hover {
+    color: #0077b5;
+}
+
+
 @media (max-width: 979px) {
     .header {
         height: 40%;

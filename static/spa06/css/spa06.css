@@ -750,8 +750,8 @@ button.btn.tf-btn.btn-default {
 /* footer */
 
 nav#footer {
-    background: #222222;
-    color: #ffffff;
+    background: #2e2e2e;
+    color: #fff;
     padding: 20px 0 15px 0;
 }
 
@@ -772,18 +772,48 @@ nav#footer p {
 #footer i.fa {
     height: 40px;
     width: 40px;
-    border: 2px solid #8c8c8c;
-    font-size: 20px;
+    /*border: 2px solid #8c8c8c;*/
+    /*font-size: 20px;*/
     padding: 8px 10px;
-    border-radius: 50%;
-    color: #8c8c8c;
-    transition: all 0.5s;
+    /*border-radius: 50%;*/
+    color: #7f7f7f;
+    /*transition: all 0.5s;*/
 }
 
+/*
 #footer i.fa:hover {
     background: #ed7d31;
     border-color: #ed7d31;
     color: #ffffff;
+}
+*/
+
+#footer i.fa-facebook-official:hover {
+    color: #3b5998;
+}
+
+#footer i.fa-google-plus-official:hover {
+    color: #dd4b39;
+}
+
+#footer i.fa-youtube-square:hover {
+    color: #cc181e;
+}
+
+#footer i.fa-youtube-play:hover {
+    color: #cc181e;
+}
+
+#footer i.fa-weibo:hover {
+    color: #df2029;
+}
+
+#footer i.fa-twitter-square:hover {
+    color: #55acee;
+}
+
+#footer i.fa-linkedin-square:hover {
+    color: #0077b5;
 }
 
 
