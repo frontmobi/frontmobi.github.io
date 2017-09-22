@@ -62,7 +62,7 @@ a:focus {
 }
 
 /* custom modal */
-.modal-body{
+.modal-body {
     height: 100vh;
     overflow-y: auto;
 }
