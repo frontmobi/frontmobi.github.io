@@ -917,7 +917,7 @@ nav ul a {
 }
 
 .pricing-box li.subscription-price .price {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 400;
     line-height: 106px;
 }
@@ -971,7 +971,7 @@ nav ul a {
 
 .pricing-box.featured li.subscription-price .price {
     line-height: 130px;
-    font-size: 64px;
+    font-size: 56px;
 }
 
 .pricing-box.featured li.subscription-price .currency {
