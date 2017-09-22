@@ -62,6 +62,19 @@ a:focus {
 }
 
 /* custom modal */
+.modal{
+    display: block !important; /* I added this to see the modal, you don't need this */
+}
+
+/* Important part */
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 250px;
+    overflow-y: auto;
+}
+
 .modal-custom .modal-header,
 .modal-custom .modal-body,
 .modal-custom .modal-footer {
