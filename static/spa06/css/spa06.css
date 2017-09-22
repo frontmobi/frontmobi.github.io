@@ -62,6 +62,10 @@ a:focus {
 }
 
 /* custom modal */
+body.modal-open {
+    position: fixed;
+}
+
 .modal-custom .modal-header,
 .modal-custom .modal-body,
 .modal-custom .modal-footer {
