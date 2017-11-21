@@ -445,12 +445,6 @@ footer {
 }
 
 
-@media (max-width: 979px) {
-    .header {
-        height: 40%;
-    }
-}
-
 @media (max-width: 767px) {
     /* preloader */   
     #status {

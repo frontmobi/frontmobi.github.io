@@ -29,7 +29,7 @@ $(function() {
     });
 
     // collapse after click
-    $('.nav a').on('click', function(){
+    $('#nav a').on('click', function(){
         //bootstrap 3.x by Richard
         $('.navbar-toggle').click() 
     });
