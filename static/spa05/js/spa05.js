@@ -28,14 +28,6 @@ jQuery(function($) {
         cssEase: "linear"
     });
 
-    // wow smooth animation
-    wow = new WOW({
-        animateClass: "animated",
-        mobile:       false,
-        offset: 100
-    });
-    wow.init();
-
     // team slider
     $(".team_slider").slick({
         dots: false,

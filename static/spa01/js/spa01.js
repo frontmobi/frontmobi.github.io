@@ -10,52 +10,50 @@ $(window).load(function() {
     });
 });
 
-function closeNav() {
-    $("#menu-close").click();
-}
-
-// closes the sidebar menu
-$("#menu-close").click(function(e) {
-    e.preventDefault();
-    $("#sidebar-wrapper").toggleClass("active");
-});
-
-// opens the sidebar menu
-$("#menu-toggle").click(function(e) {
-    e.preventDefault();
-    $("#sidebar-wrapper").toggleClass("active");
-});
-
 // scrolls to the selected menu item on the page
 $(function() {
-    $('a[id^="mn-"][href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+    /*  menu item highlighting */
+    jQuery("#nav").singlePageNav({
+        offset: jQuery("#nav").outerHeight(),
+        filter: ":not(.external)",
+        speed: 2e3,
+        currentClass: "current",
+        easing: "easeInOutExpo",
+        updateHash: true,
+        beforeStart: function() {
+            // console.log("begin scrolling");
+        },
+        onComplete: function() {
+            // console.log("done scrolling");
+        }
+    });
 
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html,body').animate({
-                    scrollTop: target.offset().top
-                }, 1000);
-                return false;
-            }
+    // collapse after click
+    $('.nav a').on('click', function(){
+        //bootstrap 3.x by Richard
+        $('.navbar-toggle').click() 
+    });
+
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 400) {
+            $(".navbar-brand a").css("color", "#fff");
+            $("#navigation").removeClass("animated-header");
+        } else {
+            // $(".navbar-brand a").css("color","inherit");
+            $(".navbar-brand a").css("color", "#ffffff");
+            $("#navigation").addClass("animated-header");
         }
     });
 
     // activate owl-carousel
-    $('#services-list').owlCarousel({
+    $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
         responsiveClass: true,
-        responsive:{
-            0:{
-                items:1,
-                nav:false
-            },
-            767:{
-                items:4,
-                nav:false
-            }
+        nav: false,
+        responsive: {
+            0: {items: 1}, 
+            767: {items: 4}
         }
     });
 });

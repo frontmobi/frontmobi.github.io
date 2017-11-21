@@ -1729,8 +1729,7 @@ div[data-dimension] {
     border-color: transparent;
 }
 
-.post_commentbox a:hover,
-.post_commentbox span:hover {
+.post_commentbox a:hover {
     color: #ed7d31;
 }
 

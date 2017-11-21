@@ -133,13 +133,6 @@ jQuery(function($) {
         }
     });
 
-    // initiat wow js
-    new WOW({
-        animateClass: "animated",
-        mobile:       false,
-        offset: 100
-    }).init();
-
     // smoothScroll
     smoothScroll.init();
     // portfolio filter

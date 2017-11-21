@@ -46,9 +46,6 @@ $("nav a").click(function(event) {
     event.preventDefault();
 });
 
-// wow js
-new WOW().init();
-
 // nice scroll
 $(document).ready(function() {
     $("html").niceScroll({
@@ -62,19 +59,14 @@ $(document).ready(function() {
 
 $(function() {
     // activate owl-carousel
-    $('#services-list').owlCarousel({
+    $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
+        nav:false,
         responsiveClass: true,
         responsive:{
-            0:{
-                items:1,
-                nav:false
-            },
-            767:{
-                items:4,
-                nav:false
-            }
+            0: {items:1},
+            767: {items:4}
         }
     });
 });
