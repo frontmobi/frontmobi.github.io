@@ -261,9 +261,11 @@ h1.navbar-brand a {
     margin-bottom: 30px;
 }
 
+.team-item img,
 .service-item img {
-    width: 128px !important;
-    height: 128px !important;
+    width: 150px !important;
+    height: 150px !important;
+    margin: 0 auto;
 }
 
 /* remove border from image link */
@@ -271,12 +273,6 @@ a:focus {
     outline:0; 
     text-decoration: none;
 }
-
-.img-team {
-    width: 128px;
-    height: 128px;
-}
-
 
 /* callout */
 
