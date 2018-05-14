@@ -886,9 +886,17 @@ nav#footer p {
         font-size: 20px;
     }
 
-    .contact-area p,
-    .contact-area a {
+    .contact-area p {
         color: #333;
+    }
+    .contact-info p a {
+        color: #ed7d31;
+    }
+
+    .contact-info p a:hover,
+    .contact-info p a:focus {
+        text-decoration: none;
+        color: #ed7d31;
     }
 
     .navbar-collapse .navbar-nav > li>a {
