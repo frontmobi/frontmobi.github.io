@@ -501,7 +501,7 @@ div[data-dimension] {
     transition: all 0.5s;
 }
 
-.single_service>h2 {
+.single_service > h2 {
     text-align: center;
 }
 
@@ -529,6 +529,15 @@ div[data-dimension] {
     left: 40%;
     position: relative;
     width: 100px;
+}
+
+.single_service .service_title a {
+    color: #333;
+
+}
+.single_service .service_title a:hover {
+    color: #ed7d31;
+    text-decoration: none;
 }
 
 .single_service > p {
