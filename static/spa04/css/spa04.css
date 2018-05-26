@@ -236,7 +236,7 @@ ul.nostyle i {
     /* centers the loading animation horizontally one the screen */
     top: 50%;
     /* centers the loading animation vertically one the screen */
-    background-image: url(http://demo.frontmobi.com/static/images/preloader.gif);
+    background-image: url(/static/images/preloader.gif);
     /* path to your loading animation */
     background-size: 32px 32px;
     background-repeat: no-repeat;
