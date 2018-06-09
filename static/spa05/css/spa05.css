@@ -1224,6 +1224,9 @@ div[data-dimension] {
 /* start responsive style */
 
 @media(max-width:1199px) {
+    #slides {
+        height: 56.25vw !important;
+    }
     .slider_caption > h2 {
         width: 100%;
     }
@@ -1258,9 +1261,6 @@ div[data-dimension] {
     }
     .navbar-brand {
         font-size: 20px;
-    }
-    #slides {
-        height: 600px !important;
     }
     .slider_caption > h2 {
         font-size: 36px;
@@ -1359,9 +1359,6 @@ div[data-dimension] {
     .navbar-default .navbar-toggle:focus {
         background-color: #222;
         opacity: 0.9;
-    }
-    #slides {
-        height: 360px !important;
     }
     .slider_caption {
         margin-top: 15%;
@@ -1511,9 +1508,6 @@ div[data-dimension] {
 }
 
 @media(max-width:480px) {
-    #slides {
-        height: 320px !important;
-    }
     .slider_caption {
         margin-top: 20%;
     }
