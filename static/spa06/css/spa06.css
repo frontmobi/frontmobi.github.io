@@ -11,7 +11,7 @@ body,
 html {
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
-    color: #5a5a5a;
+    color: #333;
     overflow-x: hidden !important;
 }
 
@@ -357,7 +357,7 @@ ul.about-list li span {
 }
 
 .team-list {
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .team-list .item {
