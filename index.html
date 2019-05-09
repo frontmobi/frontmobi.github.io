@@ -1,124 +1,216 @@
 <!DOCTYPE html>
-<html lang="zh-Hant-TW" prefix="og: http://ogp.me/ns#">
+<html lang="zh-Hant-TW">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
-    <title>frontmobi 行動前台設計範例 - frontmobi</title>
-    <meta name="description" content="frontmobi 行動前台設計範例展示首頁：總共六種樣版，各種樣版均經各式桌機、筆電、平板電腦、智慧手機測試瀏覽及調校，以求符合響應式網站設計。">
-	<meta property="og:site_name" content="frontmobi 行動前台設計範例"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:image" content="https://demo.frontmobi.com/static/images/logo.png"/>
-    <meta property="og:url" content="https://demo.frontmobi.com/"/>
-    <meta property="og:description" content="frontmobi 行動前台設計範例展示首頁：總共六種樣版，各種樣版均經各式桌機、筆電、平板電腦、智慧手機測試瀏覽及調校，以求符合響應式網站設計。"/>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/static/images/apple-touch-icon.png">
-    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/static/css/style.min.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1, maximum-scale=1">
+  <meta name="description" content="frontmobi 行動前台，提供形象資訊網站快速建置方案，採用 RWD 響應式網站設計，並具備內容管理後台系統，使用者可自行維護網站內容。">
+  <meta name="author" content="EachMobi">
+  <meta property="og:site_name" content="frontmobi 行動前台">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.frontmobi.com/img/logo.png">
+  <meta property="og:url" content="https://www.frontmobi.com/">
+  <meta property="og:description" content="frontmobi 行動前台，提供形象資訊網站快速建置方案，採用 RWD 響應式網站設計，並具備內容管理後台系統，使用者可自行維護網站內容。">
+  <title>frontmobi 行動前台</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Quicksand'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Questrial">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/fontawesome5.min.css">
+  <link rel="stylesheet" href="/css/main.css?190510">
+  <link rel="canonical" href="https://www.frontmobi.com/">
 </head>
 
 <body>
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>
+  
+  <nav class="navbar navbar-expand-md fixed-top navbar-main">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#home-menu" aria-controls="home-menu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/"><img src="/img/logo.png" class="img-logo"> <span>frontmobi 行動前台</span></a>
 
-    <div class="container">
-        <div class="header clearfix text-header">
-            <h2><span class="text-front">frontmobi</span></h2>
+    <div class="collapse navbar-collapse" id="home-menu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#services">服務項目</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <h1 class="d-none">frontmobi 行動前台</h1>
+  <div id="my-carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      
+      <ol class="carousel-indicators">
+        <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#my-carousel" data-slide-to="1"></li>
+      </ol>
+      
+      <div class="carousel-item active">
+        <div class="slide-1">
+          <div class="overlay"></div>
         </div>
-
-        <div class="home">
-            <div class="overlay">
-                <div class="row">
-                    <h1 class="fixed-padding text-header">行動前台<br><small>設計範例</small></h1>
-                </div>
-                <hr class="invisible">
-                <div class="row service-item">
-                    <div class="item-area">
-                        <p>手機瀏覽優先設計</p>
-                        <p>同時適用桌機筆電</p>
-                        <p>提供六種樣版選用</p>
-                        <p>允許調整版面配置</p>
-                    </div>
-                </div>
-            </div>
+        <img class="first-slide" src="/img/slide1.jpg" alt="Slide 1">
+        <div class="container">
+          <div class="carousel-caption">
+            <h2>frontmobi 行動前台</h2>
+            <h3>響應式網站設計</h3>
+          </div>
         </div>
-
-        <div id="demo-sites" class="row no-radius">
-            <div class="spa-item col-md-4 col-xs-6">
-            	<a href="spa01/" target="_blank">
-            		<img class="img-responsive img-fmspa" src="/static/images/spa01.jpg">
-            	</a>
-                <a href="spa01/" target="_blank" class="btn btn-open btn-block btn-default text-front">開啟瀏覽</a>
-            </div>
-            <div class="spa-item col-md-4 col-xs-6">
-            	<a href="spa02/" target="_blank">
-            		<img class="img-responsive img-fmspa" src="/static/images/spa02.jpg">
-            	</a>
-                <a href="spa02/" target="_blank" class="btn btn-open btn-block btn-default text-front">開啟瀏覽</a>
-            </div>
-            <div class="spa-item col-md-4 col-xs-6">
-            	<a href="spa03/" target="_blank">
-            		<img class="img-responsive img-fmspa" src="/static/images/spa03.jpg">
-            	</a>
-                <a href="spa03/" target="_blank" class="btn btn-open btn-block btn-default text-front">開啟瀏覽</a>
-            </div>
-            <div class="spa-item col-md-4 col-xs-6">
-            	<a href="spa04/" target="_blank">
-            		<img class="img-responsive img-fmspa" src="/static/images/spa04.jpg">
-            	</a>
-                <a href="spa04/" target="_blank" class="btn btn-open btn-block btn-default text-front">開啟瀏覽</a>
-            </div>
-            <div class="spa-item col-md-4 col-xs-6">
-            	<a href="spa05/" target="_blank">
-            		<img class="img-responsive img-fmspa" src="/static/images/spa05.jpg">
-            	</a>
-                <a href="spa05/" target="_blank" class="btn btn-open btn-block btn-default text-front">開啟瀏覽</a>
-            </div>
-            <div class="spa-item col-md-4 col-xs-6">
-            	<a href="spa06/" target="_blank">
-            		<img class="img-responsive img-fmspa" src="/static/images/spa06.jpg">
-            	</a>
-                <a href="spa06/" target="_blank" class="btn btn-open btn-block btn-default text-front">開啟瀏覽</a>
-            </div>
+      </div>
+      <div class="carousel-item">
+        <div class="slide-2">
+          <div class="overlay"></div>
         </div>
-        
-        <div class="line-divider"></div>
+        <img class="second-slide" src="/img/slide2.jpg" alt="Slide 2">
+        <div class="container">
+          <div class="carousel-caption">
+            <h2>響應式網站設計</h2>
+            <h3>企業展現網路形象必備</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#my-carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Prev</span>
+    </a>
+    <a class="carousel-control-next" href="#my-carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 
-        <footer class="footer">
-            <div class="row">
-                <div class="col-sm-6 text-cpright">
-                    <p>&copy; 2018 <strong>frontmobi</strong> 行動前台 版權所有</p>        
-                </div>
-                <div class="col-sm-6 text-qrcode">
-                    <a href="#" data-toggle="modal" data-target="#myModal" class="btn btn-primary btn-qrcode">
-                        <span class="glyphicon glyphicon-qrcode"></span> QR 碼
-                    </a>
-                </div>
-            </div>
-        </footer>
+  <div class="container">
+    <div class="section-id" id="aboutus"></div>
+    <div class="jumbotron jumbotron-section">
+      <h2 class="texti-main">關於行動前台</h2>
+      <hr>
+    </div>
+    <section class="my-section">
+      <div class="row">
+          <div class="col-lg-6">
+            <img src="/img/aboutus.jpg" alt="About us" class="img-fluid">
+          </div>
+          <div class="col-lg-6">
+            <h3 class="text-info">frontmobi 行動前台</h3>
+            <br>
+            <p>行動前台，為形象資訊網站雲端平台系統，可用以快速建置行動網站。使用行動前台系統建置的網站，符合響應式網站設計的特性，因此無論使用桌機、筆電、智慧手機或平板，都能順暢瀏覽網站內容</p>
+            <p>具備行動化設計的形象資訊網站，可使您想提供給目標客群的最新資訊、產品或服務內容，在各式行動裝置螢幕上面友善呈現。進一步可連結粉絲專頁、媒體通路、平面文宣或其它平台，以便滿足您的目標客群，在智慧行動生活方面的隨搜即用需求</p>
+          </div>
+      </div>
+    </section>
+  </div>
 
-        <div class="line-divider"></div>
+  <div class="container">
+    <div class="section-id" id="aboutrwd"></div>
+    <div class="jumbotron jumbotron-section">
+      <h2 class="texti-main">關於響應式網站</h2>
+      <hr>
+    </div>
+    <section class="my-section">
+      <div class="row">
+          <div class="col-lg-6">
+            <img src="/img/aboutrwd.jpg" alt="About RWD" class="img-fluid">
+          </div>
+          <div class="col-lg-6">
+            <h3 class="text-info">響應式網站設計</h3>
+            <br>
+            <p>響應式網站設計，原文為 Responsive Web Design，縮寫為 RWD，是一種用於網站介面設計的概念及技術</p>
+            <p>以 RWD 設計技術所建置的網站，即可稱為「響應式網站」</p>
+            <p>響應式網站介面的特色，即為同時適於桌機、筆電、智慧手機及平板電腦瀏覽，設計良好的響應式網站在各式電腦及行動裝置螢幕，都會擁有友善且一致的操作體驗</span></p>
+          </div>
+      </div>
+    </section>
+  </div>
 
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog modal-main" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">QR 碼</h4>
+  <div class="container">
+    <div class="section-id" id="services"></div>
+    <div class="jumbotron jumbotron-section">
+      <h2 class="texti-main">服務項目</h2>
+      <hr>
+    </div>
+    <section class="my-section">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <div class="card-deck">
+            <div class="card text-white bg-success mb-3">
+              <div class="card-header-icon"><i class="fas fa-globe fa-5x"></i></div>
+              <div class="card-body">
+                <h3 class="card-title text-white">精省專案</h3>
+                <br>
+                <ul class="list-group list-group-flush text-dark">
+                  <li class="list-group-item">快速建置</li>
+                  <li class="list-group-item">隨搜即用</li>
+                  <li class="list-group-item"><h4 class="texti-price"><span class="font-sm">NTD</span> <span class="font-loud">20,000</span> <small>起</small></h4></li>
+                </ul>
+                <br>
               </div>
-              <div class="modal-body">
-                <div class="img-center">
-                    <img src="/static/images/qrcode.png" class="img-responsive img-qrcode">
-                </div>
+            </div>
+            <div class="card text-white bg-primary mb-3">
+              <div class="card-header-icon"><i class="fas fa-globe fa-5x"></i></div>
+              <div class="card-body">
+                <h3 class="card-title text-white">特級專案</h3>
+                <br>
+                <ul class="list-group list-group-flush text-dark">
+                  <li class="list-group-item">客製設計</li>
+                  <li class="list-group-item">專業加值</li>
+                  <li class="list-group-item"><h4 class="texti-price"><span class="font-sm">NTD</span> <span class="font-loud">60,000</span> <small>起</small></h4></li>
+                </ul>
+              </div>
+            </div>
+            <div class="card text-white bg-dark mb-3">
+              <div class="card-header-icon"><i class="fas fa-globe fa-5x"></i></div>
+              <div class="card-body">
+                <h3 class="card-title text-white">經銷專案</h3>
+                <br>
+                <ul class="list-group list-group-flush text-dark">
+                  <li class="list-group-item">服務升級</li>
+                  <li class="list-group-item">整合行銷</li>
+                  <li class="list-group-item"><h4 class="texti-price"><span class="font-sm">NTD</span> <span class="font-loud">80,000</span> <small>起</small></h4></li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+  </div>
 
+  <br>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="links col-md-4">
+          <h4>技術資源</h4>
+          <p><a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap 4</a></p>
+          <p><a href="https://getbootstrap.com/docs/3.3/" target="_blank" rel="noopener noreferrer">Bootstrap 3</a></p>
+        </div>
+        <div class="links col-md-4">
+          <h4>空間資源</h4>
+          <p><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+        </div>
+        <div class="links col-md-4">
+          <h4>設計資源</h4>
+          <p><a href="https://www.freepik.com/" target="_blank" rel="noopener noreferrer">Freepik</a></p>
+          <p><a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer">Flaticon</a></p>
+          <p><a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">Font Awesome</a></p>
+        </div>
+      </div>
+      <div class="copy-right text-center">
+        <hr>
+        <p>&copy; 2019 frontmobi 行動前台</p>
+      </div>      
     </div>
-    <!-- /container -->
+  </footer>
 
-    <script src="static/js/jquery.min.js"></script>
-    <script src="static/js/bootstrap.min.js"></script>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/jquery.touchSwipe.min.js"></script>
+  <script src="/js/main.js?190510"></script>
+  
 </body>
-
 </html>
