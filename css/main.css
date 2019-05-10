@@ -94,7 +94,7 @@ footer .copy-right {
 
 .navbar-main .navbar-toggler {
     padding: 3px 8px 2px 8px;
-    background-color: #632600;
+    background-color: #ed7d31;
 }
 
 .navbar-main .navbar-brand {
@@ -103,7 +103,7 @@ footer .copy-right {
 }
 
 .navbar-main .navbar-toggler {
-    border: solid 1px #632600 !important;
+    border: solid 1px #ed7d31 !important;
     border-radius: 0px;
 }
 
