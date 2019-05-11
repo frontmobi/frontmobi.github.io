@@ -694,6 +694,7 @@ ul.outline {
         /*background-color: #632600;*/
         background-color: #363636;
     }
+
     .navbar-main .nav-item .nav-link,
     .navbar-main .nav-item .nav-link:hover {
         text-align: center;
@@ -702,13 +703,17 @@ ul.outline {
         margin: 6px 40px 0px 40px;
     }
 
+    .navbar-main .nav-item:first-child {
+        margin-top: 18px;
+    }
+
     .navbar-main .nav-item .nav-link.btn {
         margin-top: 20px;
     }
 
     .navbar-main li.nav-item:last-child .nav-link.btn,
     .navbar-main li.nav-item:last-child .nav-link {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     #my-carousel {
