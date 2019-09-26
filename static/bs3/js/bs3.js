@@ -146,12 +146,15 @@ jQuery(function($) {
 
     // menu scrolling with active item selected
     // cache selectors
-    var lastId, topMenu = $("#top-menu"), topMenuHeight = topMenu.outerHeight() + 13, // All list items
+    var lastId, topMenu = $("#top-menu"), topMenuHeight = topMenu.outerHeight() + 16, // All list items
     menuItems = topMenu.find("a"), // Anchors corresponding to menu items
     scrollItems = menuItems.map(function() {
-        var item = $($(this).attr("href"));
-        if (item.length) {
-            return item;
+        var href = $(this).attr("href");
+        if (href[0]=='#') {
+            var item = $(href);
+            if (item.length) {
+                return item;
+            }    
         }
     });
     // bind click handler to menu items
