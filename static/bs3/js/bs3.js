@@ -5,14 +5,14 @@ jQuery(function($) {
         play: "5000"
     });
 
-    // fixed top menubar
-    $(window).scroll(function() {
-        if ($(window).scrollTop() > 100) {
-            $(".navbar-fixed-top").addClass("past-main");
-        } else {
-            $(".navbar-fixed-top").removeClass("past-main");
-        }
-    });
+    // fixed top menubar (background color)
+    // $(window).scroll(function() {
+    //     if ($(window).scrollTop() > 100) {
+    //         $(".navbar-fixed-top").addClass("past-main");
+    //     } else {
+    //         $(".navbar-fixed-top").removeClass("past-main");
+    //     }
+    // });
 
     // featured slider
     $(".featured_slider").slick({

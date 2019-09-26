@@ -44,6 +44,9 @@ img {
     border: none;
 }
 
+.no-display {
+    display: none;
+}
 
 /* preloader */
 
@@ -168,7 +171,7 @@ img {
 }
 
 .past-main {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
     margin-top: 0px;
     padding: 6px 0px;
     -webkit-transition: all 0.5s ease 0s;
@@ -207,7 +210,6 @@ img {
     background-color: transparent;
     color: #fff;
 }
-
 
 .slider_list {
     float: left;
@@ -272,6 +274,23 @@ img {
     text-decoration: none;
 }
 
+
+
+/* jumbotron-second */
+.jumbotron-second {
+    background-color: #2f75b5;
+    height:40vh;
+}
+
+.jumbotron-second h1,
+.jumbotron-second h2,
+.jumbotron-second p {
+    color: #fff;
+}
+
+.jumbotron-second h1 {
+    margin-top: 100px;
+}
 
 /* about section */
 
@@ -635,7 +654,6 @@ div[data-dimension] {
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
-
 
 /* pricing section */
 
