@@ -4,16 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
-    <title>Each Diner</title>
+    <title>Each Arch</title>
     <meta name="description" content="FMSPA標準版05">
     <link rel="icon" type="image/x-icon" href="/spa05/images/favicon.png">
     <link rel="apple-touch-icon" href="/spa05/images/apple-touch-icon.png">
     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/static/spa05/css/jquery.circliful.css">
-    <link rel="stylesheet" href="/static/spa05/css/superslides.css">
-    <link rel="stylesheet" href="/static/spa05/css/slick.css">
-    <link rel="stylesheet" href="/static/spa05/css/animate.min.css">
+    <link rel="stylesheet" href="/static/spa05/css/owl.carousel.min.css" media="screen">
     <link rel="stylesheet" href="/static/spa05/css/spa05.min.css">
 </head>
 
@@ -22,904 +19,674 @@
         <div id="status">&nbsp;</div>
     </div>
 
-    <!-- <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a> -->
+    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tf-main-menu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home">EACH ARCH</a>
+            </div>
 
-    <header id="header">
-        <div class="menu-area">
-            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-
-                        <a class="navbar-brand" href="#home">Each Diner</a>
-                        <!--  <a class="navbar-brand" href="#home"><img src="images/logo.png" alt="logo"></a> -->
-
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul id="top-menu" class="nav navbar-nav navbar-right main_nav">
-                            <li class="active"><a href="#home">首頁</a></li>
-                            <li><a href="#about">關於我們</a></li>
-                            <li><a href="#services">服務項目</a></li>
-                            <li><a href="#news">最新消息</a></li>
-                            <li><a href="#pricing">優惠專案</a></li>
-                            <li><a href="#portfolio">特約客戶</a></li>
-                            <li><a href="#contact">聯絡我們</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <section id="home" class="home">
-        <div class="slider_list">
-            <div id="slides">
-                <ul class="slides-container">
-                    <li>
-                        <div class="slider_overlay"></div>
-                        <img src="images/slider-01.jpg" alt="">
-                        <div class="slider_caption">
-                            <h2>品牌意涵</h2>
-                            <p>用一句話敘述品牌意涵的精要</p>
-                            <a href="#contact" class="slider_btn hidden-xs">聯絡我們</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="slider_overlay"></div>
-                        <img src="images/slider-02.jpg" alt="">
-                        <div class="slider_caption">
-                            <h2>經營理念經營理念　十二字</h2>
-                            <p>用一句話敘述經營理念的精要</p>
-                            <a href="#contact" class="slider_btn hidden-xs">聯絡我們</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="slider_overlay"></div>
-                        <img src="images/slider-03.jpg" alt="">
-                        <div class="slider_caption">
-                            <h2>發展願景</h2>
-                            <p>用一句話敘述發展願景的精要</p>
-                            <a href="#contact" class="slider_btn hidden-xs">聯絡我們</a>
-                        </div>
-                    </li>
+            <div id="tf-main-menu" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home" class="page-scroll">首頁</a></li>
+                    <li><a href="#team" class="page-scroll">經營團隊</a></li>
+                    <li><a href="#services" class="page-scroll">服務項目</a></li>
+                    <li><a href="#clients" class="page-scroll">知名客戶</a></li>
+                    <li><a href="#portfolio" class="page-scroll">客戶案例</a></li>
+                    <li><a href="#testimonials" class="page-scroll">服務流程</a></li>
+                    <li><a href="#contact" class="page-scroll">聯絡我們</a></li>
                 </ul>
             </div>
         </div>
-    </section>
+    </nav>
 
-    <section id="about" class="about-area">
+    <div id="home"></div>
+    <div id="home-area" class="text-center" style="background: url(images/cover.jpg) no-repeat center center scroll; background-size: cover;">
+        <div class="overlay">
+            <div class="content">
+                <h1>歡迎來到 <span class="site-title">EACH ARCH</span></h1>
+                <p class="lead">用一句話描述品牌經營理念</p>
+                <a href="#services" class="fa fa-angle-down page-scroll"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="about-area">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <div class="about_list">
-                        <div class="heading">
+                <div class="col-md-6">
+                    <img src="images/about.jpg" class="img-responsive">
+                </div>
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <div class="section-title">
                             <h2>關於我們</h2>
+                            <hr>
+                            <div class="clearfix"></div>
                         </div>
-                        <div class="about_content">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <div class="about_featured">
-                                        <div class="panel-group" id="accordion">
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading">
-                                                    <h4 class="panel-title">
-                                                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                                         <span class="fa fa-check-square-o"></span>創業緣起
-                                                      </a>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapseOne" class="panel-collapse collapse in">
-                                                    <div class="panel-body body-text">
-                                                        創業緣起的故事．創業緣起的故事．創業緣起的故事．創業緣起的故事．創業緣起的故事．創業緣起的故事
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading">
-                                                    <h4 class="panel-title">
-                                                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                                         <span class="fa fa-check-square-o"></span>經營理念
-                                                      </a>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapseTwo" class="panel-collapse collapse">
-                                                    <div class="panel-body body-text">
-                                                        經營理念的主軸．經營理念的主軸．經營理念的主軸．經營理念的主軸．經營理念的主軸．經營理念的主軸
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading">
-                                                    <h4 class="panel-title">
-                                                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                                        <span class="fa fa-check-square-o"></span>品牌形象
-                                                      </a>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapseThree" class="panel-collapse collapse">
-                                                    <div class="panel-body body-text">
-                                                        品牌的塑造、意涵及精神．品牌的塑造、意涵及精神．品牌的塑造、意涵及精神．品牌的塑造、意涵及精神
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading">
-                                                    <h4 class="panel-title">
-                                                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                                                        <span class="fa fa-check-square-o"></span>發展願景
-                                                      </a>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapseFour" class="panel-collapse collapse">
-                                                    <div class="panel-body body-text">
-                                                        企業發展的願景、使命與社會責任．企業發展的願景、使命與社會責任．企業發展的願景、使命與社會責任
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <div class="about_slider">
-                                        <div class="featured_slider">
-                                            <div class="single_item">
-                                                <a href="#"> <img src="images/about-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="single_item">
-                                                <a href="#"> <img src="images/about-2.jpg" alt=""></a>
-                                            </div>
-                                            <div class="single_item">
-                                                <a href="#"> <img src="images/about-3.jpg" alt=""></a>
-                                            </div>
-                                            <div class="single_item">
-                                                <a href="#"> <img src="images/about-4.jpg" alt=""></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="team" class="team-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <div class="heading">
-                        <h2>經營團隊</h2>
-                    </div>
-                    <div class="team_list">
-                        <div class="team_slider">
-                            <div class="col-lg-3 col-md-3 col-sm-4">
-                                <div class="single_team">
-                                    <div class="team_img">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
-                                            <img src="images/team-1.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <h5 class="">Carl</h5>
-                                    <span>執行長</span>
-                                    <div class="text-left">
-                                        <p>主導集團經營策略相關決策暨綜理各部門</p>
-                                    </div>    
-                                    <div class="team_social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-3 col-sm-4">
-                                <div class="single_team">
-                                    <div class="team_img">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
-                                            <img src="images/team-2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <h5>Molly</h5>
-                                    <span>行政主廚</span>
-                                    <div class="text-left">
-                                        <p>綜理集團廚師團隊，主導廚藝創新研發</p>
-                                    </div>
-                                    <div class="team_social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-3 col-sm-4">
-                                <div class="single_team">
-                                    <div class="team_img">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
-                                            <img src="images/team-3.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <h5>Martin</h5>
-                                    <span>營運長</span>
-                                    <div class="text-left">
-                                        <p>綜理市場研究分析、行銷整合、廣告策略</p>
-                                    </div>
-                                    <div class="team_social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-3 col-sm-4">
-                                <div class="single_team">
-                                    <div class="team_img">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
-                                            <img src="images/team-4.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <h5>Inez</h5>
-                                    <span>北區營運總監</span>
-                                    <div class="text-left">
-                                        <p>綜理台北、新竹、新竹、桃園等市場研究分析、行銷整合</p>
-                                    </div>
-                                    <div class="team_social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-3 col-sm-4">
-                                <div class="single_team">
-                                    <div class="team_img">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
-                                            <img src="images/team-5.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <h5>Riva</h5>
-                                    <span>中區營運總監</span>
-                                    <div class="text-left">
-                                        <p>綜理台中、彰化等市場研究分析、行銷整合、廣告策略</p>
-                                    </div>
-                                    <div class="team_social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-3 col-sm-4">
-                                <div class="single_team">
-                                    <div class="team_img">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
-                                            <img src="images/team-6.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <h5>Jen</h5>
-                                    <span>南區營運總監</span>
-                                    <div class="text-left">
-                                        <p>綜理台南、高雄、屏東等市場研究分析、行銷整合</p>
-                                    </div>
-                                    <div class="team_social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-3 col-sm-4">
-                                <div class="single_team">
-                                    <div class="team_img">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
-                                            <img src="images/team-7.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <h5>Tony</h5>
-                                    <span>客服經理</span>
-                                    <div class="text-left">
-                                        <p>綜理售後服務、技術支援與使用問題疑難排解</p>
-                                    </div>
-                                    <div class="team_social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="myModalTeam" tabindex="-1" role="dialog" aria-labelledby="myModalTeamLabel">
-          <div class="modal-dialog modal-custom" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalTeamLabel">經營團隊成員標題</h4>
-              </div>
-              <div class="modal-body">
-                <p class="lead">
-                更多的內容，可彈性配置
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <section id="services" class="services-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <div class="heading">
-                        <h2>服務項目</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <div class="service_list">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <div class="single_service">
-                                    <div class="service_iconarea">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModal">
-                                            <span class="fa fa-mobile service_icon"></span>
-                                        </a>
-                                    </div>
-                                    <h3 class="service_title"><a href="#somelink" data-toggle="modal" data-target="#myModal">服務項目或商品</a></h3>
-                                    <p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <div class="single_service">
-                                    <div class="service_iconarea">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModal">
-                                            <span class="fa fa-laptop service_icon"></span>
-                                        </a>
-                                    </div>
-                                    <h3 class="service_title"><a href="#somelink" data-toggle="modal" data-target="#myModal">服務項目或商品</a></h3>
-                                    <p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <div class="single_service">
-                                    <div class="service_iconarea">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModal">
-                                            <span class="fa fa-tablet service_icon"></span>
-                                        </a>
-                                    </div>
-                                    <h3 class="service_title"><a href="#somelink" data-toggle="modal" data-target="#myModal">服務項目或商品</a></h3>
-                                    <p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <div class="single_service">
-                                    <div class="service_iconarea">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModal">
-                                            <img src="images/service-1.jpg" alt="" class="img-circle">
-                                        </a>
-                                    </div>
-                                    <h3 class="service_title"><a href="#somelink" data-toggle="modal" data-target="#myModal">服務項目或商品</a></h3>
-                                    <p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <div class="single_service">
-                                    <div class="service_iconarea">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModal">
-                                            <img src="images/service-2.jpg" alt="" class="img-circle">
-                                        </a>
-                                    </div>
-                                    <h3 class="service_title"><a href="#somelink" data-toggle="modal" data-target="#myModal">服務項目或商品</a></h3>
-                                    <p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <div class="single_service">
-                                    <div class="service_iconarea">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModal">
-                                            <img src="images/service-3.jpg" alt="" class="img-circle">
-                                        </a>
-                                    </div>
-                                    <h3 class="service_title"><a href="#somelink" data-toggle="modal" data-target="#myModal">服務項目或商品</a></h3>
-                                    <p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog modal-custom" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">標題</h4>
-              </div>
-              <div class="modal-body">
-                <p class="lead">
-                更多的內容，可彈性配置
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <section id="news" class="news-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <div class="heading">
-                        <h2>最新消息</h2>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12">
-                    <div class="news_content">
-                        <div class="news_slider">
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <div class="single_post">
-                                    <div class="news_img">
-                                        <img src="images/news-1.jpg" alt="" class="img-responsive">
-                                    </div>
-                                    <h3>最新消息主題1</h3>
-                                    <div class="post_commentbox">
-                                        <span><i class="fa fa-calendar"></i>2016.01.01</span>
-                                    </div>
-                                    <p>最新消息內容1</p>
-                                    <a href="#somelink" class="more_btn" data-toggle="modal" data-target="#myModal">More</a>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <div class="single_post">
-                                    <div class="news_img">
-                                        <img src="images/news-2.jpg" alt="" class="img-responsive">
-                                    </div>
-                                    <h3>最新消息主題2</h3>
-                                    <div class="post_commentbox">
-                                        <span><i class="fa fa-calendar"></i>2016.01.10</span>
-                                    </div>
-                                    <p>最新消息內容2</p>
-                                    <a href="#somelink" class="more_btn" data-toggle="modal" data-target="#myModal">More</a>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <div class="single_post">
-                                    <div class="news_img">
-                                        <img src="images/news-3.jpg" alt="" class="img-responsive">
-                                    </div>
-                                    <h3>最新消息主題3</h3>
-                                    <div class="post_commentbox">
-                                        <span><i class="fa fa-calendar"></i>2016.01.21</span>
-                                    </div>
-                                    <p>最新消息內容3</p>
-                                    <a href="#somelink" class="more_btn" data-toggle="modal" data-target="#myModal">More</a>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <div class="single_post">
-                                    <div class="news_img">
-                                        <img src="images/news-4.jpg" alt="" class="img-responsive">
-                                    </div>
-                                    <h3>最新消息主題4</h3>
-                                    <div class="post_commentbox">
-                                        <span><i class="fa fa-calendar"></i>2016.01.28</span>
-                                    </div>
-                                    <p>最新消息內容4</p>
-                                    <a href="#somelink" class="more_btn" data-toggle="modal" data-target="#myModal">More</a>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <div class="single_post">
-                                    <div class="news_img">
-                                        <img src="images/news-5.jpg" alt="" class="img-responsive">
-                                    </div>
-                                    <h3>最新消息主題5</h3>
-                                    <div class="post_commentbox">
-                                        <span><i class="fa fa-calendar"></i>2016.01.05</span>
-                                    </div>
-                                    <p>最新消息內容5</p>
-                                    <a href="#somelink" class="more_btn" data-toggle="modal" data-target="#myModal">More</a>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <div class="single_post">
-                                    <div class="news_img">
-                                        <img src="images/news-6.jpg" alt="" class="img-responsive">
-                                    </div>
-                                    <h3>最新消息主題6</h3>
-                                    <div class="post_commentbox">
-                                        <span><i class="fa fa-calendar"></i>2016.01.16</span>
-                                    </div>
-                                    <p>最新消息內容6</p>
-                                    <a href="#somelink" class="more_btn" data-toggle="modal" data-target="#myModal">More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="pricing" class="pricing-area">
-        <div class="container">
-            <div class="row col-lg-12 col-md-12">
-                <div class="heading">
-                    <h2>優惠專案</h2>
-                </div>
-            </div>
-            <div class="row col-lg-12 col-md-12">
-                <div class="pricing_list">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-3">
-                            <div class="single_price">
-                                <h3>單人套餐</h3>
-                                <div class="price">
-                                    <h4><span>$ </span>600</h4>
-                                    <span>份</span>
-                                </div>
-                                <ul class="price_features">
-                                    <li>套餐事項</li>
-                                    <li>套餐規範</li>
-                                    <li>套餐內容</li>
-                                    <li>套餐標準</li>
-                                </ul>
-                                <a href="#somelink" class="price_btn" data-toggle="modal" data-target="#myModal">詳細內容</a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-3">
-                            <div class="single_price">
-                                <h3>情人套餐</h3>
-                                <div class="price">
-                                    <h4><span>$ </span>1,000</h4>
-                                    <span>份</span>
-                                </div>
-                                <ul class="price_features">
-                                    <li>套餐事項</li>
-                                    <li>套餐規範</li>
-                                    <li>套餐內容</li>
-                                    <li>套餐標準</li>
-                                </ul>
-                                <a href="#somelink" class="price_btn" data-toggle="modal" data-target="#myModal">詳細內容</a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-3">
-                            <div class="single_price business_price">
-                                <h3>商務套餐</h3>
-                                <div class="price">
-                                    <h4><span>$ </span>3,600</h4>
-                                    <span>份</span>
-                                </div>
-                                <ul class="price_features">
-                                    <li>套餐事項</li>
-                                    <li>套餐規範</li>
-                                    <li>套餐內容</li>
-                                    <li>套餐標準</li>
-                                </ul>
-                                <a href="#somelink" class="price_btn" data-toggle="modal" data-target="#myModal">詳細內容</a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-3">
-                            <div class="single_price">
-                                <h3>尊榮套餐</h3>
-                                <div class="price">
-                                    <h4><span>$ </span>6,000</h4>
-                                    <span>份</span>
-                                </div>
-                                <ul class="price_features">
-                                    <li>套餐事項</li>
-                                    <li>套餐規範</li>
-                                    <li>套餐內容</li>
-                                    <li>套餐標準</li>
-                                </ul>
-                                <a href="#somelink" class="price_btn" data-toggle="modal" data-target="#myModal">詳細內容</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="portfolio" class="portfolio-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="heading">
-                        <h2>特約客戶</h2>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="portfolio_content">
-                        <div class="row">
-                            <div class="portfolio_slider">
-
-                                <div class="col-lg-3 col-md-3 col-sm-3">
-                                    <div class="single_client">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModal">
-                                            <img src="images/client-1.jpg" alt="portfolio Brand">
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-3 col-sm-3">
-                                    <div class="single_client">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModal">
-                                            <img src="images/client-3.jpg" alt="portfolio Brand">
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-3 col-sm-3">
-                                    <div class="single_client">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModal">
-                                            <img src="images/client-4.jpg" alt="portfolio Brand">
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-3 col-sm-3">
-                                    <div class="single_client">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModal">
-                                            <a href="#somelink" data-toggle="modal" data-target="#myModal">
-                                            <img src="images/client-5.jpg" alt="portfolio Brand">
-                                        </a>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-3 col-sm-3">
-                                    <div class="single_client">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModal">
-                                            <img src="images/client-6.jpg" alt="portfolio Brand">
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-3 col-sm-3">
-                                    <div class="single_client">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModal">
-                                            <img src="images/client-7.jpg" alt="portfolio Brand">
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-3 col-sm-3">
-                                    <div class="single_client">
-                                        <a href="#somelink" data-toggle="modal" data-target="#myModal">
-                                            <img src="images/client-8.jpg" alt="portfolio Brand">
-                                        </a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="testimonials" class="testimonials-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="heading">
-                        <h2>客戶見證</h2>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="testimonial_customer">
-                        <ul class="testimonial_slider">
+                        <p class="intro">可敘述發展起源、品牌意涵、經營理念、企業願景或使命、服務或商品特色…等</p>
+                        <ul class="about-list">
                             <li>
-                                <div class="media testi_media">
-                                    <a href="#somelink" data-toggle="modal" data-target="#myModal" class="media-left testi_img">
-                                        <img src="images/testimonial-1.jpg" alt="">
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Wendy</h4>
-                                        <span>黃金科技執行長</span>
-                                    </div>
-                                </div>
-                                <div class="testi_content">
-                                    <p>客戶的鼓勵與讚美</p>
-                                </div>
+                                <span class="fa fa-dot-circle-o"></span>
+                                發展起源 - <em>發展起源說明</em>
                             </li>
-
                             <li>
-                                <div class="media testi_media">
-                                    <a href="#somelink" data-toggle="modal" data-target="#myModal" class="media-left testi_img">
-                                        <img src="images/testimonial-2.jpg" alt="">
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Nico</h4>
-                                        <span>珍視貿易總經理</span>
-                                    </div>
-                                </div>
-                                <div class="testi_content">
-                                    <p>客戶的鼓勵與讚美</p>
-                                </div>
+                                <span class="fa fa-dot-circle-o"></span>
+                                品牌意涵 - <em>品牌意涵闡述</em>
                             </li>
-
                             <li>
-                                <div class="media testi_media">
-                                    <a href="#somelink" data-toggle="modal" data-target="#myModal" class="media-left testi_img">
-                                        <img src="images/testimonial-3.jpg" alt="">
-                                    </a>
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Lindsay</h4>
-                                        <span>萬宇通路行銷協理</span>
-                                    </div>
-                                </div>
-                                <div class="testi_content">
-                                    <p>客戶的鼓勵與讚美</p>
-                                </div>
+                                <span class="fa fa-dot-circle-o"></span>
+                                經營理念 - <em>經營理念闡述</em>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <section id="googlemap" class="googlemap-area">
+    <div id="team" class="team-area text-center">
+        <div class="container">
+            <div class="section-title center">
+                <h2>經營團隊</h2>
+                <div class="line">
+                    <hr>
+                </div>
+            </div>
+
+            <div id="team-list" class="owl-carousel owl-theme row">
+                <div class="item">
+                    <div class="thumbnail">
+                        <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
+                            <img src="images/team-1.jpg" alt="" class="img-circle team-img">
+                        </a>
+                        <div class="caption">
+                            <h3>Andrew</h3>
+                            <p>執行長</p>
+                            <div class="text-left item-desc">
+                                <p>綜理公司經營戰略</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="thumbnail">
+                        <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
+                            <img src="images/team-2.jpg" alt="" class="img-circle team-img">
+                        </a>
+                        <div class="caption">
+                            <h3>Margaret</h3>
+                            <p>設計長</p>
+                            <div class="text-left item-desc">
+                                <p>綜理公司技術團隊，主導核心技術研發</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="thumbnail">
+                        <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
+                            <img src="images/team-3.jpg" alt="" class="img-circle team-img">
+                        </a>
+                        <div class="caption">
+                            <h3>Joe</h3>
+                            <p>行政長</p>
+                            <div class="text-left item-desc">
+                                <p>綜理公司行政管理、財務相關事務</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="thumbnail">
+                        <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
+                            <img src="images/team-4.jpg" alt="" class="img-circle team-img">
+                        </a>
+                        <div class="caption">
+                            <h3>Grace</h3>
+                            <p>營運長</p>
+                            <div class="text-left item-desc">
+                                <p>綜理公司市場研究分析、行銷整合、廣告策略</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="thumbnail">
+                        <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
+                            <img src="images/team-5.jpg" alt="" class="img-circle team-img">
+                        </a>
+                        <div class="caption">
+                            <h3>Ramone</h3>
+                            <p>北區營運總監</p>
+                            <div class="text-left item-desc">
+                                <p>綜理台北、新竹、新竹、桃園等市場研究分析、行銷整合、廣告策略</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="thumbnail">
+                        <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
+                            <img src="images/team-6.jpg" alt="" class="img-circle team-img">
+                        </a>
+                        <div class="caption">
+                            <h3>Jodie</h3>
+                            <p>中區營運總監</p>
+                            <div class="text-left item-desc">
+                                <p>綜理台中、彰化等市場研究分析、行銷整合、廣告策略</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="thumbnail">
+                        <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
+                            <img src="images/team-7.jpg" alt="" class="img-circle team-img">
+                        </a>
+                        <div class="caption">
+                            <h3>Eric</h3>
+                            <p>南區營運總監</p>
+                            <div class="text-left item-desc">
+                                <p>綜理台南、高雄、屏東等市場研究分析、行銷整合、廣告策略</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="thumbnail">
+                        <a href="#somelink" data-toggle="modal" data-target="#myModalTeam">
+                            <img src="images/team-8.jpg" alt="" class="img-circle team-img">
+                        </a>
+                        <div class="caption">
+                            <h3>Chemi</h3>
+                            <p>客服經理</p>
+                            <div class="text-left item-desc">
+                                <p>綜理售後服務、技術支援與使用問題疑難排解</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModalTeam" tabindex="-1" role="dialog" aria-labelledby="myModalTeamLabel">
+      <div class="modal-dialog modal-custom" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalTeamLabel">經營團隊成員標題</h4>
+          </div>
+          <div class="modal-body">
+            <p class="lead">
+            更多的內容，可彈性配置
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="services" class="services-area text-center">
+        <div class="container">
+            <div class="section-title center">
+                <h2>服務項目</h2>
+                <div class="line">
+                    <hr>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="space"></div>
+            <div class="row">
+                <!-- <div class="col-md-3 col-sm-6 service">
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><i class="fa fa-hospital-o"></i></a>
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><h4>服務項目 (商品)</h4></a>
+                    <div class="text-left service-item">
+                        <p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 service">
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><i class="fa fa-home"></i></a>
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><h4>服務項目 (商品)</h4></a>
+                    <div class="text-left service-item">
+                        <p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 service">
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><i class="fa fa-hotel"></i></a>
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><h4>服務項目 (商品)</h4></a>
+                    <div class="text-left service-item">
+                        <p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 service">
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><i class="fa fa-plane"></i></a>
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><h4>服務項目 (商品)</h4></a>
+                    <div class="text-left service-item">
+                        <p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
+                    </div>
+                </div> -->
+
+                <div class="col-md-3 col-sm-6 service">
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal">
+                        <img src="images/service-1.jpg" alt="" class="img-circle service-img">
+                    </a>
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><h4>服務項目 (商品)</h4></a>
+                    <div class="text-left service-item">
+                        <p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 service">
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal">
+                        <img src="images/service-2.jpg" alt="" class="img-circle service-img">
+                    </a>
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><h4>服務項目 (商品)</h4></a>
+                    <div class="text-left service-item">
+                        <p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 service">
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal">
+                        <img src="images/service-3.jpg" alt="" class="img-circle service-img">
+                    </a>
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><h4>服務項目 (商品)</h4></a>
+                    <div class="text-left service-item">
+                        <p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 service">
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal">
+                        <img src="images/service-4.jpg" alt="" class="img-circle service-img">
+                    </a>
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><h4>服務項目 (商品)</h4></a>
+                    <div class="text-left service-item">
+                        <p>簡要說明服務的主要特色，或是商品的主要功能及用途</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="clients" class="clients-area text-center">
+        <div class="container">
+            <div class="section-title center">
+                <h2>知名客戶</h2>
+                <div class="line">
+                    <hr>
+                </div>
+            </div>
+            <div id="client-list" class="client-list owl-carousel owl-theme">
+                <div class="item">
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><img src="images/client-1.jpg"></a>
+                    <h4>客戶一</h4>
+                </div>
+                <div class="item">
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><img src="images/client-2.jpg"></a>
+                    <h4>客戶二</h4>
+                </div>
+                <div class="item">
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><img src="images/client-3.jpg"></a>
+                    <h4>客戶三</h4>
+                </div>
+                <div class="item">
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><img src="images/client-4.jpg"></a>
+                    <h4>客戶四</h4>
+                </div>
+                <div class="item">
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><img src="images/client-5.jpg"></a>
+                    <h4>客戶五</h4>
+                </div>
+                <div class="item">
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><img src="images/client-6.jpg"></a>
+                    <h4>客戶六</h4>
+                </div>
+                <div class="item">
+                    <a href="#somelink" data-toggle="modal" data-target="#myModal"><img src="images/client-7.jpg"></a>
+                    <h4>客戶七</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio" class="portfolio-area">
+        <div class="container container-wider">
+            <div class="section-title text-center center">
+                <h2>客戶案例</h2>
+                <div class="line">
+                    <hr>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="space"></div>
+
+            <div class="categories">
+
+                <ul class="cat">
+                    <li class="pull-left"></li>
+                    <li class="pull-right">
+                        <ol class="type">
+                            <li><a href="#" data-filter="*" class="active">全部</a></li>
+                            <li><a href="#" data-filter=".類別一">類別一</a></li>
+                            <li><a href="#" data-filter=".類別二">類別二</a></li>
+                            <li><a href="#" data-filter=".類別三">類別三</a></li>
+                            <li><a href="#" data-filter=".類別四">類別四</a></li>
+                        </ol>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="lightbox" class="row">
+
+                <div class="col-sm-6 col-md-3 col-lg-3 類別四">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#somelink" data-toggle="modal" data-target="#myModal">
+                                <div class="hover-text">
+                                    <h4>客戶名稱</h4>
+                                    <p>作品說明</p>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="images/portfolio-1.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 類別二 類別三">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#somelink" data-toggle="modal" data-target="#myModal">
+                                <div class="hover-text">
+                                    <h4>客戶名稱</h4>
+                                    <p>作品說明</p>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="images/portfolio-2.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 類別四">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#somelink" data-toggle="modal" data-target="#myModal">
+                                <div class="hover-text">
+                                    <h4>客戶名稱</h4>
+                                    <p>作品說明</p>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="images/portfolio-3.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 類別四">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#somelink" data-toggle="modal" data-target="#myModal">
+                                <div class="hover-text">
+                                    <h4>客戶名稱</h4>
+                                    <p>作品說明</p>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="images/portfolio-4.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 類別一">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#somelink" data-toggle="modal" data-target="#myModal">
+                                <div class="hover-text">
+                                    <h4>客戶名稱</h4>
+                                    <p>作品說明</p>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="images/portfolio-5.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 類別三">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#somelink" data-toggle="modal" data-target="#myModal">
+                                <div class="hover-text">
+                                    <h4>客戶名稱</h4>
+                                    <p>作品說明</p>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="images/portfolio-6.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 類別二 類別一">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#somelink" data-toggle="modal" data-target="#myModal">
+                                <div class="hover-text">
+                                    <h4>客戶名稱</h4>
+                                    <p>作品說明</p>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="images/portfolio-7.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 類別一">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#somelink" data-toggle="modal" data-target="#myModal">
+                                <div class="hover-text">
+                                    <h4>客戶名稱</h4>
+                                    <p>作品說明</p>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="images/portfolio-8.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-custom" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">標題</h4>
+          </div>
+          <div class="modal-body">
+            <table style="width: 100%">
+                <tr>
+                    <td><img src="images/portfolio-1.jpg" style="max-width: 100%;" alt="..."><p></p></td>
+                </tr>
+                <tr>
+                    <td><img src="images/portfolio-2.jpg" style="max-width: 100%;" alt="..."><p></p></td>
+                </tr>
+                <tr>
+                    <td><img src="images/portfolio-3.jpg" style="max-width: 100%;" alt="..."><p></p></td>
+                </tr>
+                <tr>
+                    <td><img src="images/portfolio-4.jpg" style="max-width: 100%;" alt="..."><p></p></td>
+                </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="testimonials" class="testimonials-area text-center">
+        <div class="container">
+            <div class="section-title center">
+                <h2>服務流程</h2>
+                <div class="line">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div id="testimonial-list" class="testimonial-list owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="pull-left">
+                                <img src="images/process-1.jpg" class="" alt="...">    
+                            </div>
+                            <div class="text-left">
+                                <h5>服務流程一</h5>
+                                <p>服務流程說明：說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="pull-left">
+                                <img src="images/process-2.jpg" class="" alt="...">    
+                            </div>
+                            <div class="text-left">
+                                <h5>服務流程二 </h5>
+                                <p>服務流程說明：說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="pull-left">
+                                <img src="images/process-3.jpg" class="" alt="...">    
+                            </div>
+                            <div class="text-left">
+                                <h5>服務流程三</h5>
+                                <p>服務流程說明：說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="pull-left">
+                                <img src="images/process-4.jpg" class="" alt="...">    
+                            </div>
+                            <div class="text-left">
+                                <h5>服務流程四</h5>
+                                <p>服務流程說明：說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="pull-left">
+                                <img src="images/process-5.jpg" class="" alt="...">    
+                            </div>
+                            <div class="text-left">
+                                <h5>服務流程五</h5>
+                                <p>服務流程說明：說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="contact-area text-center">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="heading">
-                        <h2>地理位置</h2>
+                <div class="section-title center">
+                    <h2>聯絡我們</h2>
+                    <div class="line">
+                        <hr>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h3>義趣小館</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3683.1326037437034!2d120.2981263!3d22.6115229!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e037ed8088abd%3A0xa7d97b773958ebf9!2zODAy6auY6ZuE5biC6IuT6ZuF5Y2A6Ieq5by35LiJ6LevM-iZnw!5e0!3m2!1szh-TW!2stw!4v1528633495104" width="100%" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    <p>802 高雄市苓雅區自強三路3號</p>
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="clearfix"></div>
+                    <div class="contact-info text-left">
+                        <p><i class="fa fa-phone fa-fw"></i> <a href="tel:07-8611688">07-861-1688</a></p>
+                        <p><i class="fa fa-fax fa-fw"></i> 07-861-1680</p>
+                        <p><i class="fa fa-mobile fa-fw"></i> <a href="tel:0968168168">0968-168-168</a></p>
+                        <p><i class="fa fa-clock-o fa-fw"></i> 週一至週五 08:30 ~ 17:30</p>
+                        <p><i class="fa fa-envelope fa-fw"></i> <a href="mailto:contact@eacharch.com">contact@eacharch.com</a></p>
+                        <p><i class="fa fa-street-view fa-fw"></i> 802 高雄市苓雅區自強三路3號</p>
+                        <p><i class="fa fa-map-marker fa-fw"></i> <a href="https://www.google.com.tw/maps/place/802高雄市苓雅區自強三路3號/@22.6117755,120.3002614,18z" target="_blank">檢視地圖</a></p>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <div id="qrcode" class="img-qrcode"></div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <section id="contact" class="contact-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="heading">
-                        <h2>聯絡我們</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contactFeature" class="contactFeature-section">
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="container">
-                    <div class="contact_feature">
-
-                        <div class="col-lg-3 col-md-3 col-sm-6">
-                            <div class="single_contact_feaured">
-                                <i class="fa fa-phone"></i>
-                                <h4>專線</h4>
-                                <p><a href="tel:0920514514">0920-514-514</a></p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-6">
-                            <div class="single_contact_feaured">
-                                <i class="fa fa-envelope-o"></i>
-                                <h4>電子郵件</h4>
-                                <p><a href="mailto:contact@eachdiner.com">contact@eachdiner.com</a></p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-6">
-                            <div class="single_contact_feaured">
-                                <i class="fa fa-map-marker"></i>
-                                <h4>地址</h4>
-                                <p><a href="https://www.google.com.tw/maps/place/802高雄市苓雅區自強三路3號/@22.6117755,120.3002614,18z" target="_blank">802 高雄市苓雅區自強三路3號</a></p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-6">
-                            <div class="single_contact_feaured">
-                                <i class="fa fa-clock-o"></i>
-                                <h4>營業時間</h4>
-                                <p>週一至週五 09:00-18:00</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <div class="row line-area">
-        <div class="text-center">
-            <label class="line-id"><span>LINE ID</span> eachdiner</label>
+    <div class="line-area">
+        <div clas="text-center">
+            <span class="line-id"><small>LINE ID</small> eacharch</span>
             <a href="https://line.me/" target="_blank" rel="noopener noreferrer"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="36" border="0"/></a>   
         </div>
-    </div>    
+    </div>
 
-    <footer id="footer">
+    <nav id="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="footer_left">
-                        <p>
-                            &copy; 2017 <a href="#somelink">義趣小館</a> 版權所有  <br>
-                            Designed by <a href="//www.frontmobi.com" target="_blank">frontmobi</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="footer_right">
-                        <ul class="social_nav">
-                            <li> <a href="#somelink"><i class="fa fa-facebook-official fa-fw fa-2x"></i></a> </li>
-                            <li> <a href="#somelink"><i class="fa fa-google-plus-official fa-fw fa-2x"></i></a> </li>
-                            <li> <a href="#somelink"><i class="fa fa-youtube-square fa-fw fa-2x"></i></a> </li>
-                            <li> <a href="#somelink"><i class="fa fa-youtube-play fa-fw fa-2x"></i></a> </li>
-                            <li> <a href="#somelink"><i class="fa fa-weibo fa-fw fa-2x"></i></a> </li>
-                            <li> <a href="#somelink"><i class="fa fa-twitter-square fa-fw fa-2x"></i></a> </li>
-                            <li> <a href="#somelink"><i class="fa fa-linkedin-square fa-fw fa-2x"></i></a> </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="pull-left fnav">
+                <p>
+                    &copy; 2017 <a href="#somelink">伊渠建設</a> 版權所有 <br>
+                    Designed by <a href="//www.frontmobi.com" target="_blank">frontmobi</a>
+                </p>
             </div>
-            <div id="qrcode" class="visible-xs img-qrcode"></div>
+            <div class="pull-right fnav">
+                <ul class="footer-social">
+                    <li> <a href="#somelink"><i class="fa fa-facebook-official fa-fw fa-2x"></i></a> </li>
+                    <li> <a href="#somelink"><i class="fa fa-google-plus-official fa-fw fa-2x"></i></a> </li>
+                    <li> <a href="#somelink"><i class="fa fa-youtube-square fa-fw fa-2x"></i></a> </li>
+                    <li> <a href="#somelink"><i class="fa fa-youtube-play fa-fw fa-2x"></i></a> </li>
+                    <li> <a href="#somelink"><i class="fa fa-weibo fa-fw fa-2x"></i></a> </li>
+                    <li> <a href="#somelink"><i class="fa fa-twitter-square fa-fw fa-2x"></i></a> </li>
+                    <li> <a href="#somelink"><i class="fa fa-linkedin-square fa-fw fa-2x"></i></a> </li>
+                </ul>
+            </div>
         </div>
-    </footer>
+    </nav>
 
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
     <script src="/static/js/jquery.qrcode.min.js"></script>
-    <script src="/static/spa05/js/jquery.circliful.min.js"></script>
-    <script src="/static/spa05/js/jquery.superslides.min.js"></script>
-    <script src="/static/spa05/js/slick.min.js"></script>
-    <script src="/static/spa05/js/classie.js"></script>
+    <script src="/static/spa05/js/SmoothScroll.min.js"></script>
+    <script src="/static/spa05/js/jquery.isotope.min.js"></script>
+    <script src="/static/spa05/js/owl.carousel.min.js"></script>
     <script src="/static/spa05/js/spa05.min.js"></script>
-    <script> $("#qrcode").qrcode({"render": "image", "size": 200, "fill": "#363636", "text": "http://demo.frontmobi.com/", }); </script>
-</body>
+    <script> $("#qrcode").qrcode({"render": "image", "size": 200, "fill": "#222", "text": "http://demo.frontmobi.com/", }); </script>
 
+</body>
 </html>
